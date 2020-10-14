@@ -1,2 +1,2 @@
 # plant_list
-wholes plant pricing
+simple wholesale plant pricing
