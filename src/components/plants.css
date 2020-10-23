@@ -1,0 +1,118 @@
+/* common */
+.px-1 {
+  padding: 0 .5rem 0 .5rem;
+}
+
+/* legend */
+.availability-legend .legend-scale ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.availability-legend .legend-scale ul li {
+  display: block;
+  margin-bottom: 6px;
+  text-align: center;
+  font-size: 80%;
+  list-style: none;
+}
+
+.availability-legend .legend-labels {
+  display:flex;
+}
+
+.availability-legend .legend-labels li span {
+  display: block;
+  height: 15px;
+}
+.availability-legend a {
+  color: #777;
+}
+
+.availability-legend .available {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.available .now {
+  background: #F1EEF6;
+}
+
+.available .very-soon {
+  background: #BDC9E1;
+}
+
+.available .soon {
+  background:#74A9CF;
+}
+
+.available .awhile {
+  background:#2B8CBE;
+  color: white;
+}
+
+.available .a-long-while {
+  background:#045A8D;
+  color: white;
+}
+
+/*-- details page --*/
+nav {
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+}
+
+article section {
+  margin: 1rem auto;
+}
+
+article h2 {
+  margin-bottom: .5rem;
+}
+
+article h3 {
+  margin-bottom: .5rem;
+}
+
+blockquote {
+  color: gray;
+}
+
+.plant-heading-group {
+  display: flex;
+}
+
+.plant-thumbnail {
+  margin-right: 1rem;
+}
+
+.plant-title {
+  margin-bottom: .5rem;
+}
+
+.plant-attribute {
+  color: gray;
+  margin-bottom: .25rem;
+}
+
+.plant-description-container .gatsby-image-wrapper {
+  float: left;
+  margin: .5rem 1.5rem 1rem 0;
+
+}
+
+.plant-history-container .gatsby-image-wrapper {
+  float: right;
+  margin: .5rem 0 1rem 1.5rem;
+}
+
+.plant-gallery .gatsby-image-wrapper {
+  margin-right: 1rem;
+}
+
+.plant-overview-info {
+  width: 90%;
+}
