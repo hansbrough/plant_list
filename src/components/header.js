@@ -12,21 +12,20 @@ import React from "react"
 //independence: rgba(58, 80, 107, 1);
 //sea serpent: rgba(91, 192, 190, 1);
 //aqua marine: rgba(111, 255, 233, 1);
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, pageName }) => (
   <header
+    className={`${pageName} page-header`}
     style={{
       background: `#457B9D`,
-      marginBottom: `1.45rem`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
         padding: `1.5rem 1rem 1rem 1rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      {(pageName !== 'home') && <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -36,7 +35,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+      </h1>}
       <nav className="page-nav"
         style={{
           margin: `.75rem 0 0 0`,

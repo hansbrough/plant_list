@@ -13,9 +13,8 @@ const IndexPage = ({data}) => {
   const nowDate = new Date();
 
   return (
-    <Layout>
+    <Layout pageName="plant-listing">
       <SEO title="Plant Listing" />
-      <h1>All Plants</h1>
 
       <AvailabilityLegend />
       <table>

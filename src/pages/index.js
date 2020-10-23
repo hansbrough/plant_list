@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
+//import Img from "gatsby-image";
+import BackgroundImage from 'gatsby-background-image'
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -9,31 +10,30 @@ import SEO from "../components/seo";
 export const query = graphql`
   query {
     nurseryHero:file(name: { eq: "backyard-nursery" }) {
-        childImageSharp {
-          fixed(width:800) {
-            ...GatsbyImageSharpFixed
-          }
+      childImageSharp {
+        fluid(maxWidth: 1000, fit: COVER) {
+          ...GatsbyImageSharpFluid
         }
       }
+    }
   }
 `
 
 const IndexPage = ({data}) => {
   return (
-    <Layout>
+    <Layout pageName="home">
       <SEO title="Home" />
-      <h1>Who we are</h1>
-      <p>
-        Brough Plants is a small grower of waterwise landscape plants suitable for California's Mediterranean climate.
-        We specialize in Aloes and Agaves that can still thrive in a low water environment once established.
-      </p>
-      <Img
-          fixed={data.nurseryHero.childImageSharp.fixed}
-          alt="Plants growing in all day sun."
-          className="aloe-regions-map"
-        />
-
-
+      <BackgroundImage
+          Tag="section"
+          className="hero-section"
+          fluid={data.nurseryHero.childImageSharp.fluid}
+          backgroundColor={`#040e18`}
+      >
+        <div className="hero-content">
+          <h1 className="hero-title">Brough Plants</h1>
+          <h2 className="hero-subtitle">Waterwise plants for California's Mediterranean climate.</h2>
+        </div>
+      </BackgroundImage>
     </Layout>
   )
 }

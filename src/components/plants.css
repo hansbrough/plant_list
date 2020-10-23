@@ -55,7 +55,66 @@
   background:#045A8D;
   color: white;
 }
+/*-- layout --*/
+header h1 {
+  font-family: "Krona One", sans-serif;
+}
 
+.home.page-header > div {
+  max-width: none;
+}
+
+.page-header > div {
+  max-width: 960px;
+}
+
+.home.layout-content {
+  padding: 0;
+  max-width: none;
+}
+
+.layout-content {
+  padding: 1rem 0 0 1rem;
+  max-width: 960px;
+}
+
+/*-- index page --*/
+.hero-section {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section:before,
+.hero-section:after {
+  filter: brightness(60%) !important  ;
+}
+
+.hero-content {
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+
+.hero-title {
+  color: #fff;
+  font-family: "Krona One", sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.hero-subtitle {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
 /*-- details page --*/
 nav {
   color: #fff;
