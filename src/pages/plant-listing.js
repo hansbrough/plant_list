@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import Img from "gatsby-image";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -10,6 +11,7 @@ import PlantSizeConstants from "../constants/PlantSizes";
 import "../components/plants.css";
 
 const IndexPage = ({data}) => {
+  console.log("plant-listing data:",data);
   const nowDate = new Date();
 
   return (
@@ -21,10 +23,20 @@ const IndexPage = ({data}) => {
         <PlantTableHeader />
         <tbody className="available">
         {data && data.allPlantsJson.edges.map(edge => {
-          const plant = edge.node;
-
+          const plant = edge.node
+          // find the hero image for the current plant node.
+          const thumbnail = data.plantHeroes && data.plantHeroes.edges.find(thumbnail => thumbnail.node.childImageSharp.fixed.src.includes(plant.slug))
           return (
             <tr key={`${plant.slug}-row`}>
+              <td>
+                {thumbnail && <Img
+                  className="plant-thumbnail"
+                  imgStyle={{borderRadius:`50%`}}
+                  fixed={thumbnail.node.childImageSharp.fixed}
+                  title={plant.title}
+                  alt={plant.title}
+                  />}
+              </td>
               <td><Link to={`/${plant.slug}`}>{plant.title}</Link></td>
               {Object.keys(PlantSizeConstants).map((size) => <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} /> )}
             </tr>
@@ -68,6 +80,17 @@ export const query = graphql`
             seven_ga
             ten_ga
             fifteen_ga
+          }
+        }
+      }
+    }
+    plantHeroes: allFile(filter: {name: {regex: "/-hero/"}}) {
+      edges {
+        node {
+          childImageSharp {
+            fixed(height:50, width:50) {
+              ...GatsbyImageSharpFixed
+            }
           }
         }
       }
