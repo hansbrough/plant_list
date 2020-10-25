@@ -5,6 +5,7 @@ const PlantTableHeader = ({showName=true}) => {
   return (
     <thead>
       <tr>
+        {showName && <th>picture</th>}
         {showName && <th>Botanical Name</th>}
         {Object.values(PlantSizeConstants).map((size) => (<th key={`header-${size}`}>{size}</th>))}
       </tr>

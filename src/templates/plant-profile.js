@@ -49,7 +49,7 @@ export const query = graphql`
       }
     }
 
-    plantThumbnails: allFile(filter: {name: {regex: $image_hero_regex}}) {
+    plantHeroThumbnail: allFile(filter: {name: {regex: $image_hero_regex}}) {
       edges {
         node {
           childImageSharp {
@@ -89,11 +89,11 @@ const Plant = ({ data, pageContext }) => {
 
       <article>
         <section className="plant-heading-group">
-          {data.plantThumbnails.edges && data.plantThumbnails.edges[0] &&
+          {data.plantHeroThumbnail.edges && data.plantHeroThumbnail.edges[0] &&
             <Img
               className="plant-thumbnail"
               imgStyle={{borderRadius:`50%`}}
-              fixed={data.plantThumbnails.edges[0].node.childImageSharp.fixed}
+              fixed={data.plantHeroThumbnail.edges[0].node.childImageSharp.fixed}
               title={plant.title}
               alt={plant.overview.slice(0,100)}
             />
