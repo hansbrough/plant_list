@@ -1,2 +1,2 @@
 # plant_list
-simple wholesale plant pricing
+Simple wholesale plant pricing static site built with Gatsby and GraphQL.

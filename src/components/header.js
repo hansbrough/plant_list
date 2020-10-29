@@ -12,6 +12,10 @@ import React from "react"
 //independence: rgba(58, 80, 107, 1);
 //sea serpent: rgba(91, 192, 190, 1);
 //aqua marine: rgba(111, 255, 233, 1);
+
+// applied the currently active page/link
+const activeStyles = { background: "#397194", color:"#F1EEF6"};
+
 const Header = ({ siteTitle, pageName }) => (
   <header
     className={`${pageName} page-header`}
@@ -38,10 +42,10 @@ const Header = ({ siteTitle, pageName }) => (
       </h1>}
       <nav className="page-nav"
         style={{
-          margin: `.75rem 0 0 0`,
+          margin: `1.25rem 0 0 0`,
         }}
       >
-        <Link to="/plant-listing">Plant Availability</Link> | <Link to="/contact">Contact</Link>
+        <Link to="/plant-listing" activeStyle={activeStyles}>Plant Availability</Link> | <Link to="/contact" activeStyle={activeStyles}>Contact</Link>
       </nav>
     </div>
   </header>
