@@ -86,7 +86,7 @@
     "aka": [],
     "overview": "Similar in appearance to 'Blue Flame,' or 'Blue Glow,' this very attractive species exhibits smooth, lanceolate, toothless, silver-green leaves with red margins.",
     "price": {"two_ga": 12, "five_ga": 18},
-    "availability": {"two_ga": "03/15/2021"},
+    "availability": {"two_ga": "03/15/2021","five_ga": "03/15/2021"},
     "stock": {"two_ga":1,"five_ga":7}
   },
   {
@@ -104,7 +104,7 @@
     "aka": ["Red Aloe"],
     "overview": "Aloe cameronii (Red Aloe) is a medium-sized suckering aloe with many upright stems of open rosettes to 1 to 2 feet with narrow leaves that are medium to dark green and that turn a beautiful coppery red in summer. Regarded as one of the most attractive foliage Aloes and also bears attractive flowers.",
     "price": {"seven_ga": 35},
-    "availability": {"one_ga": "03/15/2021", "two_ga": "03/15/2021"},
+    "availability": {"seven_ga": "03/15/2021"},
     "stock": {"seven_ga":3}
   },
   {
@@ -142,6 +142,42 @@
     "price": {"five_ga": 18},
     "availability": {"five_ga": "03/15/2021"},
     "stock": {"five_ga":2}
+  },
+  {
+    "title": "Aloe broomii",
+    "slug": "aloe-broomii",
+    "aka": ["Mountain Aloe", "Snake Aloe"],
+    "overview": "Aloe broomii (Snake Aloe) is a common and attractive aloe. It is a robust, short-stemmed, evergreen succulent forming a large, dense rosette of light green leaves, 1 ft. long (30 cm) that has the form and shape of an agave.",
+    "price": {"plug": 1.5},
+    "availability": {"plug": "03/15/2021"},
+    "stock": {"plug":0}
+  },
+  {
+    "title": "Aloe pretoriensis",
+    "slug": "aloe-pretoriensis",
+    "aka": ["Pretoria Aloe"],
+    "overview": "Aloe pretoriensis is a medium-sized, rosette-forming, single stem, blue-green aloe from South Africa that unlike most aloes has thin fleshy leaves. Grows slowly on a trunk to as tall as 3 feet. In the late fall into winter a magnificent branching inflorescence with bright red flowers reaches up to 6 feet!",
+    "price": {"plug": 1.5},
+    "availability": {"plug": "03/15/2021"},
+    "stock": {"plug":0}
+  },
+  {
+    "title": "Aloe petricola",
+    "slug": "aloe-petricola",
+    "aka": ["Stone Aloe","Rock Aloe"],
+    "overview": "Aloe petricola is solitary, stemless, growing to 2 feet high (60 cm) and up to 3 feet (90 cm) wide which is native to the east transvaal in South Africa. This Aloe has thick, stiff, non-bending pale blue-green leaves with sharp, widely spaced small reddish marginal teeth  and an overall ball-like, rounded form.",
+    "price": {"plug": 1.5},
+    "availability": {"plug": "03/15/2021"},
+    "stock": {"plug":0}
+  },
+  {
+    "title": "Aloe speciosa",
+    "slug": "aloe-speciosa",
+    "aka": ["Tilt Head Aloe", "Aloe hexapetala"],
+    "overview": "Aloe speciosa is a generally single-stemmed, tall succulent growing up to 10 feet (3 m) that carries its massive rosettes of leaves at a tilt off to one side. The Tilt-head Aloe is a handsome tree-like succulent having decorative blue-green leaves with deep pink to pale red, serrated leaf margins, and dense cylindrical flower heads of red buds, opening greenish white in spring-summer.",
+    "price": {"plug": 1.5},
+    "availability": {"plug": "03/15/2021"},
+    "stock": {"plug":0}
   },
   {
     "title": "Aloe arborescens x ferox 'Tangerine'",
