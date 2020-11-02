@@ -51,7 +51,7 @@
     "overview": "Agave filamentosa (filfera) is a small 'lacy' looking agave which has strings that peel off of the dark green leaf edges as they emerge and unfold from the center. This eye-catching, compact agave will do well in a pot or can be used near borders as an accent plant.",
     "price": {"one_ga": 6.50},
     "availability": {"one_ga": "03/15/2021"},
-    "stock": {}
+    "stock": {"one_ga":0}
   },
   {
     "title": "Agave lopantha",
@@ -60,7 +60,7 @@
     "overview": "This tough native to Mexico and the southwestern United States with deep green stripes makes a nice contrast to some of the silver blue agaves which take similar culture. This agave grows slowly to about 2' – 3' feet high and wide.",
     "price": {"one_ga": 6.50, "two_ga": 12, "five_ga": 18},
     "availability": {"one_ga": "03/15/2021", "two_ga": "03/15/2021", "five_ga": "03/15/2021"},
-    "stock": {"five_ga":4}
+    "stock": {"one_ga":12,"five_ga":4}
   },
   {
     "title": "Agave lopantha 'Quadricolor'",
@@ -69,7 +69,7 @@
     "overview": "Agave lophantha 'Quadricolor' makes a dazzling specimen either in a container or in the ground. This species has a handsome hemispherical form with distinctive, four-color variegation along the leaves - from dark green to pale-yellow-green stripes. Agave lophantha is a tough little agave reaching about 18″ in diameter.",
     "price": {"one_ga": 6.50, "two_ga": 12, "five_ga": 18},
     "availability": {"one_ga": "03/15/2021", "two_ga": "03/15/2021", "five_ga": "03/15/2021"},
-    "stock": {"five_ga":9}
+    "stock": {"one_ga":1,"two_ga":2,"five_ga":9}
   },
   {
     "title": "Agave potatorum var. verschaffeltii",
@@ -220,9 +220,9 @@
     "slug": "agave-pedunculifera",
     "aka": [],
     "overview": "A beautiful, nearly spineless, native of Mexico with wide blue-green, recurved leaves which grows 2-3 feet high by 3-4 feet wide. Agave pedunculifera is similar in appearance to Agave attenuata but with small soft teeth along it's leaf margins.",
-    "price": {"two_ga": 12, "five_ga": 18, "ten_ga": 45},
+    "price": {"one_ga":6.5,"two_ga": 12, "five_ga": 18, "ten_ga": 45},
     "availability": {"two_ga": "11/15/2020", "five_ga": "11/15/2020", "ten_ga": "03/15/2021"},
-    "stock": {"one_ga":24,"two_ga":15,"five_ga":11,"ten_ga":1}
+    "stock": {"one_ga":9,"two_ga":30,"five_ga":11,"ten_ga":1}
   },
   {
     "title": "Manfreda maculosa",
@@ -240,7 +240,7 @@
     "overview": "Hesperaloe parviflora is a hummingbird's favorite that produces tall spikes of reddish-pink flowers that continue to bloom all summer. This yucca-like evergreen perennial succulent is stemless with clumps of arching and spreading grass-like foliage 3 to 4 feet tall.",
     "price": {"plug": 1.50},
     "availability": {"plug": "02/15/2021"},
-    "stock": {}
+    "stock": {"plug":0}
   },
   {
     "title": "Aloe cryptopoda",
