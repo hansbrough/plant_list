@@ -94,6 +94,7 @@
     "slug": "aloe-africana",
     "aka": ["Spiny Aloe", "Uitenhage Aloe"],
     "overview": "Aloe africana is a handsome aloe native to the Eastern Cape of South Africa which adapts to a wide range of conditions. Although branching specimens are not unheard-of, Aloe africana is normally a single-stemmed plant, with a rosette of waxy, blue-green leaves with reddish spines along the edges reaching a height of up to 13 ft. (4 m). Aloe africana's striking yellow flowers attract bees and hummingbirds from all around.",
+    "resource_link": "http://www.gardenaloes.com/aloe-africana",
     "price": {"one_ga": 6.50, "two_ga": 12},
     "availability": {"one_ga": "03/15/2021", "two_ga": "03/15/2021"},
     "stock": {"one_ga":9,"five_ga":1}
@@ -103,6 +104,7 @@
     "slug": "aloe-cameronii",
     "aka": ["Red Aloe"],
     "overview": "Aloe cameronii (Red Aloe) is a medium-sized suckering aloe with many upright stems of open rosettes to 1 to 2 feet with narrow leaves that are medium to dark green and that turn a beautiful coppery red in summer. Regarded as one of the most attractive foliage Aloes and also bears attractive flowers.",
+    "resource_link": "http://www.gardenaloes.com/aloe-cameronii",
     "price": {"seven_ga": 35},
     "availability": {"seven_ga": "03/15/2021"},
     "stock": {"seven_ga":3}
@@ -112,6 +114,7 @@
     "slug": "aloe-dawei",
     "aka": ["Dawe’s Aloe"],
     "overview": "Aloe dawei (Dawe’s Aloe) from Uganda has clumping, upright clusters of elongated succulent stems that elongate to 3-4+ feet tall and green, fleshy leaves form rosettes about 2 feet across with closely-spaced reddish-brown serrated teeth along the margins.",
+    "resource_link": "http://www.gardenaloes.com/aloe-dawei",
     "price": {"plug": 1.50, "two_ga": 12, "five_ga": 18},
     "availability": {"plug": "01/15/2021","two_ga": "03/15/2021", "five_ga": "03/15/2021"},
     "stock": {"plug":59,"five_ga":3}
@@ -121,6 +124,7 @@
     "slug": "aloe-kedongensis",
     "aka": [],
     "overview": "Aloe kedongensis is a medium-large sized, Kenyan aloe with bright green, narrow, toothy, somewhat recurved leaves and multiple tall, thin stems. The Kenyan Aloe is a suckering, spreading shrub up to about six feet tall that is often used in gardens as a low barrier or hedge plant.",
+    "resource_link": "http://www.gardenaloes.com/aloe-kedongensis",
     "price": {"one_ga": 6.50},
     "availability": {"one_ga": "02/15/2021"},
     "stock": {"one_ga":14}
@@ -130,6 +134,7 @@
     "slug": "aloe-mutabilis",
     "aka": [],
     "overview": "A beautiful, medium size, shrubby aloe with bi-color blooms and a trailing stem up to 1 meter long with offshoots. This aloe typically grows 3 to 4 feet tall and topped by 18 to 24 inch wide rosettes of narrow soft-toothed blue-green leaves. A hanging or cliff-dwelling aloe; the plants often grow precariously suspended over steep kloofs in strikingly inaccessible spots.",
+    "resource_link": "http://www.gardenaloes.com/aloe-mutabilis",
     "price": {"one_ga": 6.50, "five_ga": 18},
     "availability": {"one_ga": "02/15/2021", "five_ga": "03/15/2021"},
     "stock": {"one_ga":2,"five_ga":2}
@@ -139,6 +144,7 @@
     "slug": "aloe-pluridens",
     "aka": ["French Aloe","Fransaalwyn","Garaa"],
     "overview": "Aloe pluridens, also known as the French Aloe, is a very attractive, slender tree aloe which bears gracefully backwards-bending leaves in large spiraled rosettes from South Africa. This aloe is well suited to coastal gardens, is usually single-stemmed and tall with specimens in habitat occasionally reaching 15 feet or more.",
+    "resource_link": "http://www.gardenaloes.com/aloe-pluridens",
     "price": {"five_ga": 18},
     "availability": {"five_ga": "03/15/2021"},
     "stock": {"five_ga":2}
@@ -148,6 +154,7 @@
     "slug": "aloe-broomii",
     "aka": ["Mountain Aloe", "Snake Aloe"],
     "overview": "Aloe broomii (Snake Aloe) is a common and attractive aloe. It is a robust, short-stemmed, evergreen succulent forming a large, dense rosette of light green leaves, 1 ft. long (30 cm) that has the form and shape of an agave.",
+    "resource_link": "http://www.gardenaloes.com/aloe-broomii",
     "price": {"plug": 1.5},
     "availability": {"plug": "03/15/2021"},
     "stock": {"plug":0}
@@ -166,6 +173,7 @@
     "slug": "aloe-petricola",
     "aka": ["Stone Aloe","Rock Aloe"],
     "overview": "Aloe petricola is solitary, stemless, growing to 2 feet high (60 cm) and up to 3 feet (90 cm) wide which is native to the east transvaal in South Africa. This Aloe has thick, stiff, non-bending pale blue-green leaves with sharp, widely spaced small reddish marginal teeth  and an overall ball-like, rounded form.",
+    "resource_link": "http://www.gardenaloes.com/aloe-petricola",
     "price": {"plug": 1.5},
     "availability": {"plug": "03/15/2021"},
     "stock": {"plug":0}
@@ -175,6 +183,7 @@
     "slug": "aloe-speciosa",
     "aka": ["Tilt Head Aloe", "Aloe hexapetala"],
     "overview": "Aloe speciosa is a generally single-stemmed, tall succulent growing up to 10 feet (3 m) that carries its massive rosettes of leaves at a tilt off to one side. The Tilt-head Aloe is a handsome tree-like succulent having decorative blue-green leaves with deep pink to pale red, serrated leaf margins, and dense cylindrical flower heads of red buds, opening greenish white in spring-summer.",
+    "resource_link": "http://www.gardenaloes.com/aloe-speciosa",
     "price": {"plug": 1.5},
     "availability": {"plug": "03/15/2021"},
     "stock": {"plug":0}
@@ -193,6 +202,7 @@
     "slug": "aloe-thraskii",
     "aka": ["Coast Aloe", "Dune Aloe"],
     "overview": "Aloe thraskii is wonderful feature plant that is tall and robust, with enormous olive green leaves that are recurved back to the trunk, sometimes even touching the skirt of old, dried leaves around the trunk. This unbranched tree-like Aloe grows to 10 feet with deeply concave (U-shaped in cross section) pale olive-green leaves that have small reddish-brown marginal teeth. Also known as the Dune Aloe this fast-growing, South African, un-branched succulent plant, develops a very large and beautiful rosette.",
+    "resource_link": "http://www.gardenaloes.com/aloe-thraskii",
     "price": {"plug": 1.50, "four_in": 3},
     "availability": {"plug": "02/15/2021", "four_in": "01/15/2021"},
     "stock": {"four_in":79}
@@ -202,6 +212,7 @@
     "slug": "aloe-vanbalenii",
     "aka": ["Van Balen's Aloe"],
     "overview": "Commonly grown, Aloe vanbalenii is one of the most beautiful and distinctive aloes, with its long, twisted and recurved leaves resembling an octopus. This striking Aloe is a medium to large sized South African species that stays relatively low to the ground and forms clumps of stemless rosettes about 3 feet wide.",
+    "resource_link": "http://www.gardenaloes.com/aloe-vanbalenii",
     "price": {"ten_ga": 65},
     "availability": {"ten_ga": "03/15/2021"},
     "stock": {"ten_ga":3}
@@ -221,7 +232,7 @@
     "aka": [],
     "overview": "A beautiful, nearly spineless, native of Mexico with wide blue-green, recurved leaves which grows 2-3 feet high by 3-4 feet wide. Agave pedunculifera is similar in appearance to Agave attenuata but with small soft teeth along it's leaf margins.",
     "price": {"one_ga":6.5,"two_ga": 12, "five_ga": 18, "ten_ga": 45},
-    "availability": {"two_ga": "11/15/2020", "five_ga": "11/15/2020", "ten_ga": "03/15/2021"},
+    "availability": {"one_ga":"10/15/2020","two_ga": "12/15/2020", "five_ga": "12/15/2020", "ten_ga": "03/15/2021"},
     "stock": {"one_ga":9,"two_ga":30,"five_ga":11,"ten_ga":1}
   },
   {
