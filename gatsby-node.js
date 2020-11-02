@@ -7,7 +7,7 @@
 // gatsby node is run through node (not babel) and supports the es6 module syntax  'require' vs 'import'
 
 /*
-* Define schema for plant prices
+* Define schema for plant prices, availability and stock
 * this lets gatsby determine types of unused fields
 */
 exports.createSchemaCustomization = ({ actions }) => {
@@ -36,6 +36,18 @@ exports.createSchemaCustomization = ({ actions }) => {
       seven_ga: String
       ten_ga: String
       fifteen_ga: String
+    }
+    type PlantsJsonStock implements Node {
+      plug: Int
+      four_in: Int
+      six_in: Int
+      eight_in: Int
+      one_ga: Int
+      two_ga: Int
+      five_ga: Int
+      seven_ga: Int
+      ten_ga: Int
+      fifteen_ga: Int
     }
   `
   createTypes(typeDefs)

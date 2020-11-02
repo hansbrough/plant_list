@@ -11,7 +11,6 @@ import PlantSizeConstants from "../constants/PlantSizes";
 import "../components/plants.css";
 
 const IndexPage = ({data}) => {
-  console.log("plant-listing data:",data);
   const nowDate = new Date();
 
   return (
@@ -20,7 +19,7 @@ const IndexPage = ({data}) => {
 
       <AvailabilityLegend />
       <table>
-        <PlantTableHeader />
+        <PlantTableHeader showThumbnail={true}/>
         <tbody className="available">
         {data && data.allPlantsJson.edges.map(edge => {
           const plant = edge.node
@@ -38,7 +37,9 @@ const IndexPage = ({data}) => {
                   />}
               </td>
               <td><Link to={`/${plant.slug}`}>{plant.title}</Link></td>
-              {Object.keys(PlantSizeConstants).map((size) => <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} /> )}
+              {Object.keys(PlantSizeConstants).map((size) =>
+                <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} />
+              )}
             </tr>
           )
         })}

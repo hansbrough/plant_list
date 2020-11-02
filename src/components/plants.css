@@ -59,6 +59,13 @@
 header h1 {
   font-family: "Krona One", sans-serif;
 }
+header nav a {
+  padding: .5rem;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
 
 .home.page-header > div {
   max-width: none;
@@ -174,4 +181,15 @@ blockquote {
 
 .plant-overview-info {
   width: 90%;
+}
+
+/*-- stock page --*/
+.stock td {
+  white-space: nowrap;
+}
+.stock .sub-total {
+  background-color: #F1EEF6;
+}
+.stock .total {
+  background-color: #BDC9E1;
 }
