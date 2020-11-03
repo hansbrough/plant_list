@@ -53,7 +53,10 @@ exports.createSchemaCustomization = ({ actions }) => {
   createTypes(typeDefs)
 }
 
+
+
 exports.createPages = async ({ actions: { createPage }, graphql }) => {
+  // All plants
   const plantResults = await graphql(`
     {
       allPlantsJson {
@@ -65,18 +68,106 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
       }
     }
   `)
+  // plants filtered by genus
+  const genusResults = await graphql(`
+    {
+      aloe:allPlantsJson(filter: {genus: {eq: "aloe"}}, sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
+      agave:allPlantsJson(filter: {genus: {eq: "agave"}}, sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
+    }
+  `)
 
-// extra context 'regex' props created here so they can be used as filters in template queries.
-plantResults.data.allPlantsJson.edges.forEach(edge => {
-  const plant = edge.node
-  createPage({
-    path: `/${plant.slug}/`,
-    component: require.resolve("./src/templates/plant-profile.js"),
-    context: {
-      slug: plant.slug,
-      image_regex: `/${plant.slug}/`,
-      image_hero_regex: `/${plant.slug}-hero/`
-    },
+  // extra context 'regex' props created here so they can be used as filters in template queries.
+  plantResults.data.allPlantsJson.edges.forEach(edge => {
+    const plant = edge.node
+    createPage({
+      path: `/${plant.slug}/`,
+      component: require.resolve("./src/templates/plant-profile.js"),
+      context: {
+        slug: plant.slug,
+        image_regex: `/${plant.slug}/`,
+        image_hero_regex: `/${plant.slug}-hero/`
+      },
+    })
   })
-})
+
+  // create plant genus specific pages that list results
+  console.log("!!genusResults:",genusResults)
+  const plantGenusNames = Object.keys(genusResults.data);
+  plantGenusNames.forEach(genusName => {
+    const genus = genusResults.data[genusName];
+    createPage({
+      path: `/plant-listing/${genusName}/`,
+      component: require.resolve("./src/templates/plant-filtered-listing.js"),
+      context: {
+        genus_name: genusName,
+        totalCount: genus.totalCount,
+        edges: genus.edges,
+        image_hero_regex: `/[a-z]*-hero/`
+      },
+    })
+  });
 }
