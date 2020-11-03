@@ -71,6 +71,39 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
   // plants filtered by genus
   const genusResults = await graphql(`
     {
+      all:allPlantsJson(sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
       aloe:allPlantsJson(filter: {genus: {eq: "aloe"}}, sort: {fields: title order: ASC}) {
         totalCount
         edges {
@@ -137,6 +170,39 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
           }
         }
       }
+      other:allPlantsJson(filter: {genus: {nin: ["aloe","agave"]}}, sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
     }
   `)
 
@@ -154,8 +220,19 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
     })
   })
 
-  // create plant genus specific pages that list results
-  console.log("!!genusResults:",genusResults)
+  // create 'index' entry for list of all plants
+  createPage({
+    path: `/plant-listing/`,
+    component: require.resolve("./src/templates/plant-filtered-listing.js"),
+    context: {
+      genus_name: 'all',
+      totalCount: genusResults.data['all'].totalCount,
+      edges: genusResults.data['all'].edges,
+      image_hero_regex: `/[a-z]*-hero/`
+    },
+  });
+
+  // create plant genus specific pages that list filtered results
   const plantGenusNames = Object.keys(genusResults.data);
   plantGenusNames.forEach(genusName => {
     const genus = genusResults.data[genusName];

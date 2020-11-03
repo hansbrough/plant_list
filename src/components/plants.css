@@ -55,6 +55,18 @@
   background:#045A8D;
   color: white;
 }
+
+/*-- filters --*/
+.filters-container {
+  align-items:center;
+  padding: .5rem;
+  background: hsla(0, 0%, 0%, 0.02);
+  border: 1px solid hsla(0, 0%, 0%, 0.05);
+  display: flex;
+  font-size: 90%;
+  margin-top: .5rem;
+}
+
 /*-- layout --*/
 header h1 {
   font-family: "Krona One", sans-serif;
@@ -78,6 +90,10 @@ header nav a:hover {
 .home.layout-content {
   padding: 0;
   max-width: none;
+}
+
+.plant-listing.layout-content {
+  /*padding-top: 0;*/
 }
 
 .layout-content {

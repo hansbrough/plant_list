@@ -1,3 +1,7 @@
+/*
+* use page context queries (defined in gatsby-node.js) to render filtered lists of plants by 'genus'.
+*/
+
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Img from "gatsby-image";
@@ -9,6 +13,7 @@ import AvailabilityLegend from "../components/availabilityLegend";
 import SEO from "../components/seo";
 import PlantTableCell from "../components/plantTableCell";
 import PlantTableHeader from "../components/plantTableHeader";
+import PlantFilters from "../components/plantFilters";
 /*--Style--*/
 import "../components/plants.css";
 
@@ -30,18 +35,18 @@ export const query = graphql`
   }
   `
 
-const plantsFilteredByGenus = ({ data, pageContext }) => {
+const plantsFilteredByGenus = ({ data, pageContext={} }) => {
   const nowDate = new Date();
+  const {genus_name:genusName} = pageContext;
 
   return (
-    <Layout>
+    <Layout pageName="plant-listing">
       <SEO
-        title={`Genus ${pageContext.genus_name} plants`}
-        description={`${pageContext.totalCount} ${pageContext.genus_name} plants for sale.`}
+        title={`Genus ${genusName} plants`}
+        description={`${pageContext.totalCount} ${genusName} plants for sale.`}
       />
-      <h1>{`Genus ${pageContext.genus_name} plants`} ({pageContext.totalCount})</h1>
       <AvailabilityLegend />
-
+      <PlantFilters genusName={genusName} />
       <table>
         <PlantTableHeader showThumbnail={true}/>
         <tbody className="available">
