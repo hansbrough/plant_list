@@ -16,10 +16,10 @@ const PlantTableCell = ({size, plant, nowDate}) => {
         return {
           0:'now',
           1:'very-soon',
-          3:'soon',
-          4:'awhile',
-          5:'a-long-while',
-          6:'a-very-long-while'
+          2:'soon',
+          3:'awhile',
+          4:'a-long-while',
+          5:'a-very-long-while'
         }[monthsAway];
       }
     }

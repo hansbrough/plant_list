@@ -53,7 +53,10 @@ exports.createSchemaCustomization = ({ actions }) => {
   createTypes(typeDefs)
 }
 
+
+
 exports.createPages = async ({ actions: { createPage }, graphql }) => {
+  // All plants
   const plantResults = await graphql(`
     {
       allPlantsJson {
@@ -65,18 +68,183 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
       }
     }
   `)
+  // plants filtered by genus
+  const genusResults = await graphql(`
+    {
+      all:allPlantsJson(sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
+      aloe:allPlantsJson(filter: {genus: {eq: "aloe"}}, sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
+      agave:allPlantsJson(filter: {genus: {eq: "agave"}}, sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
+      other:allPlantsJson(filter: {genus: {nin: ["aloe","agave"]}}, sort: {fields: title order: ASC}) {
+        totalCount
+        edges {
+          node {
+            slug
+            title
+            price {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+            availability {
+              plug
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
+          }
+        }
+      }
+    }
+  `)
 
-// extra context 'regex' props created here so they can be used as filters in template queries.
-plantResults.data.allPlantsJson.edges.forEach(edge => {
-  const plant = edge.node
-  createPage({
-    path: `/${plant.slug}/`,
-    component: require.resolve("./src/templates/plant-profile.js"),
-    context: {
-      slug: plant.slug,
-      image_regex: `/${plant.slug}/`,
-      image_hero_regex: `/${plant.slug}-hero/`
-    },
+  // extra context 'regex' props created here so they can be used as filters in template queries.
+  plantResults.data.allPlantsJson.edges.forEach(edge => {
+    const plant = edge.node
+    createPage({
+      path: `/${plant.slug}/`,
+      component: require.resolve("./src/templates/plant-profile.js"),
+      context: {
+        slug: plant.slug,
+        image_regex: `/${plant.slug}/`,
+        image_hero_regex: `/${plant.slug}-hero/`
+      },
+    })
   })
-})
+
+  // create 'index' entry for list of all plants
+  createPage({
+    path: `/plant-listing/`,
+    component: require.resolve("./src/templates/plant-filtered-listing.js"),
+    context: {
+      genus_name: 'all',
+      totalCount: genusResults.data['all'].totalCount,
+      edges: genusResults.data['all'].edges,
+      image_hero_regex: `/[a-z]*-hero/`
+    },
+  });
+
+  // create plant genus specific pages that list filtered results
+  const plantGenusNames = Object.keys(genusResults.data);
+  plantGenusNames.forEach(genusName => {
+    const genus = genusResults.data[genusName];
+    createPage({
+      path: `/plant-listing/${genusName}/`,
+      component: require.resolve("./src/templates/plant-filtered-listing.js"),
+      context: {
+        genus_name: genusName,
+        totalCount: genus.totalCount,
+        edges: genus.edges,
+        image_hero_regex: `/[a-z]*-hero/`
+      },
+    })
+  });
 }

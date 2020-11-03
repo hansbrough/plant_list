@@ -23,6 +23,7 @@ export const query = graphql`
       title
       aka
       overview
+      resource_link
       price {
         plug
         four_in
@@ -105,7 +106,13 @@ const Plant = ({ data, pageContext }) => {
           </div>
         </section>
 
-        <section><h2>Overview</h2>{plant.overview}</section>
+        <section>
+          <h2>Overview</h2>
+          <p>
+            {plant.overview}
+            {plant.resource_link && <a style={{paddingLeft:".5rem"}} href={plant.resource_link} target="_blank" rel="noopener noreferrer">Learn more about {plant.title}</a>}
+          </p>
+        </section>
 
         <AvailabilityLegend />
         <table>

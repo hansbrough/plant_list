@@ -45,7 +45,7 @@ const Header = ({ siteTitle, pageName }) => (
           margin: `1.25rem 0 0 0`,
         }}
       >
-        <Link to="/plant-listing" activeStyle={activeStyles}>Plant Availability</Link> | <Link to="/contact" activeStyle={activeStyles}>Contact</Link>
+        <Link to="/plant-listing" activeStyle={activeStyles} partiallyActive={true}>Plant Availability</Link> | <Link to="/contact" activeStyle={activeStyles}>Contact</Link>
       </nav>
     </div>
   </header>

@@ -1,27 +1,56 @@
+/*
+* use page context queries (defined in gatsby-node.js) to render filtered lists of plants by 'genus'.
+*/
+
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Img from "gatsby-image";
-
+/*--Constants--*/
+import PlantSizeConstants from "../constants/PlantSizes";
+/*--Components--*/
 import Layout from "../components/layout";
-import SEO from "../components/seo";
 import AvailabilityLegend from "../components/availabilityLegend";
+import SEO from "../components/seo";
 import PlantTableCell from "../components/plantTableCell";
 import PlantTableHeader from "../components/plantTableHeader";
-import PlantSizeConstants from "../constants/PlantSizes";
+import PlantFilters from "../components/plantFilters";
+/*--Style--*/
 import "../components/plants.css";
 
-const IndexPage = ({data}) => {
+//pass matching images into overview card - and pick a match based on slug + possibly '-hero' string
+export const query = graphql`
+  query
+  {
+    plantHeroes: allFile(filter: {name: {regex: "/-hero/"}}) {
+      edges {
+        node {
+          childImageSharp {
+            fixed(height:50, width:50) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+  }
+  `
+
+const plantsFilteredByGenus = ({ data, pageContext={} }) => {
   const nowDate = new Date();
+  const {genus_name:genusName} = pageContext;
 
   return (
     <Layout pageName="plant-listing">
-      <SEO title="Plant Listing" />
-
+      <SEO
+        title={`Genus ${genusName} plants`}
+        description={`${pageContext.totalCount} ${genusName} plants for sale.`}
+      />
       <AvailabilityLegend />
+      <PlantFilters genusName={genusName} />
       <table>
         <PlantTableHeader showThumbnail={true}/>
         <tbody className="available">
-        {data && data.allPlantsJson.edges.map(edge => {
+        {pageContext.edges && pageContext.edges.map(edge => {
           const plant = edge.node
           // find the hero image for the current plant node.
           const thumbnail = data.plantHeroes && data.plantHeroes.edges.find(thumbnail => thumbnail.node.childImageSharp.fixed.src.includes(plant.slug))
@@ -49,54 +78,4 @@ const IndexPage = ({data}) => {
   )
 }
 
-// results automagically passed to page component as 'data'
-export const query = graphql`
-  query {
-    allPlantsJson(sort: {fields: title order: ASC})
-    {
-      edges {
-        node {
-          title
-          slug
-          price {
-            plug
-            four_in
-            six_in
-            eight_in
-            one_ga
-            two_ga
-            five_ga
-            seven_ga
-            ten_ga
-            fifteen_ga
-          }
-          availability {
-            plug
-            four_in
-            six_in
-            eight_in
-            one_ga
-            two_ga
-            five_ga
-            seven_ga
-            ten_ga
-            fifteen_ga
-          }
-        }
-      }
-    }
-    plantHeroes: allFile(filter: {name: {regex: "/-hero/"}}) {
-      edges {
-        node {
-          childImageSharp {
-            fixed(height:50, width:50) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
-      }
-    }
-  }
-`
-
-export default IndexPage
+export default plantsFilteredByGenus
