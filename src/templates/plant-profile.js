@@ -26,6 +26,8 @@ export const query = graphql`
       resource_link
       price {
         plug
+        two_in
+        three_in
         four_in
         six_in
         eight_in
@@ -38,6 +40,8 @@ export const query = graphql`
       }
       availability {
         plug
+        two_in
+        three_in
         four_in
         six_in
         eight_in
