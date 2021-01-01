@@ -13,7 +13,7 @@ import React from "react"
 //sea serpent: rgba(91, 192, 190, 1);
 //aqua marine: rgba(111, 255, 233, 1);
 
-// applied the currently active page/link
+// applied to the currently active page/link
 const activeStyles = { background: "#397194", color:"#F1EEF6"};
 
 const Header = ({ siteTitle, pageName }) => (
