@@ -15,6 +15,8 @@ exports.createSchemaCustomization = ({ actions }) => {
   const typeDefs = `
     type PlantsJsonPrice implements Node {
       plug: Float
+      two_in: Float
+      three_in: Float
       four_in: Float
       six_in: Float
       eight_in: Float
@@ -27,6 +29,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type PlantsJsonAvailability implements Node {
       plug: String
+      two_in: String
+      three_in: String
       four_in: String
       six_in: String
       eight_in: String
@@ -39,6 +43,8 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type PlantsJsonStock implements Node {
       plug: Int
+      two_in: Int
+      three_in: Int
       four_in: Int
       six_in: Int
       eight_in: Int
@@ -79,6 +85,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             title
             price {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -91,6 +99,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             }
             availability {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -112,6 +122,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             title
             price {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -124,6 +136,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             }
             availability {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -145,6 +159,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             title
             price {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -157,6 +173,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             }
             availability {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -178,6 +196,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             title
             price {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in
@@ -190,6 +210,8 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
             }
             availability {
               plug
+              two_in
+              three_in
               four_in
               six_in
               eight_in

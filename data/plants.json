@@ -30,13 +30,23 @@
     "genus": "agave"
   },
   {
+    "title": "Agave chiapensis",
+    "slug": "agave-chiapensis",
+    "aka": [],
+    "overview": "",
+    "price": {"two_in": 2.00, "three_in": 2.50},
+    "availability": {"two_in": "03/15/2021", "three_in": "03/15/2021"},
+    "stock": {"two_in":39,"three_in":18},
+    "genus": "agave"
+  },
+  {
     "title": "Agave desmettiana",
     "slug": "agave-desmettiana",
     "aka": ["Variegated Smooth Agave"],
     "overview": "Bright golden yellow edges on arching, fleshy leaves creates an elegant urn-like form that is a sensational focal point for the landscape or a large container. Foliage has tiny, marginal thorns.",
     "price": {"two_ga": 12, "one_ga": 6.5, "ten_ga":50},
     "availability": {"two_ga": "03/15/2021", "one_ga": "03/15/2021", "ten_ga":"10/01/2020"},
-    "stock": {"one_ga":17,"two_ga":2, "ten_ga":1},
+    "stock": {"one_ga":5,"two_ga":14, "ten_ga":1},
     "genus": "agave"
   },
   {
@@ -76,7 +86,7 @@
     "overview": "Agave lophantha 'Quadricolor' makes a dazzling specimen either in a container or in the ground. This species has a handsome hemispherical form with distinctive, four-color variegation along the leaves - from dark green to pale-yellow-green stripes. Agave lophantha is a tough little agave reaching about 18″ in diameter.",
     "price": {"one_ga": 6.50, "two_ga": 12, "five_ga": 18},
     "availability": {"one_ga": "03/15/2021", "two_ga": "03/15/2021", "five_ga": "03/15/2021"},
-    "stock": {"one_ga":1,"two_ga":2,"five_ga":9},
+    "stock": {"one_ga":19,"two_ga":2,"five_ga":9},
     "genus": "agave"
   },
   {
@@ -127,9 +137,9 @@
     "aka": ["Dawe’s Aloe"],
     "overview": "Aloe dawei (Dawe’s Aloe) from Uganda has clumping, upright clusters of elongated succulent stems that elongate to 3-4+ feet tall and green, fleshy leaves form rosettes about 2 feet across with closely-spaced reddish-brown serrated teeth along the margins.",
     "resource_link": "http://www.gardenaloes.com/aloe-dawei",
-    "price": {"plug": 1.50, "two_ga": 12, "five_ga": 18},
-    "availability": {"plug": "01/15/2021","two_ga": "03/15/2021", "five_ga": "03/15/2021"},
-    "stock": {"plug":59,"five_ga":3},
+    "price": {"two_in": 2.00, "three_in": 2.50, "two_ga": 12, "five_ga": 18},
+    "availability": {"two_in": "03/15/2021","three_in": "03/15/2021","two_ga": "03/15/2021", "five_ga": "03/15/2021"},
+    "stock": {"two_in":24,"three_in":36,"five_ga":3},
     "genus": "aloe"
   },
   {
@@ -171,9 +181,9 @@
     "aka": ["Mountain Aloe", "Snake Aloe"],
     "overview": "Aloe broomii (Snake Aloe) is a common and attractive aloe. It is a robust, short-stemmed, evergreen succulent forming a large, dense rosette of light green leaves, 1 ft. long (30 cm) that has the form and shape of an agave.",
     "resource_link": "http://www.gardenaloes.com/aloe-broomii",
-    "price": {"plug": 1.5},
-    "availability": {"plug": "03/15/2021"},
-    "stock": {"plug":0},
+    "price": {"two_in": 1.5},
+    "availability": {"two_in": "03/15/2021"},
+    "stock": {"two_in":35},
     "genus": "aloe"
   },
   {
@@ -181,9 +191,9 @@
     "slug": "aloe-pretoriensis",
     "aka": ["Pretoria Aloe"],
     "overview": "Aloe pretoriensis is a medium-sized, rosette-forming, single stem, blue-green aloe from South Africa that unlike most aloes has thin fleshy leaves. Grows slowly on a trunk to as tall as 3 feet. In the late fall into winter a magnificent branching inflorescence with bright red flowers reaches up to 6 feet!",
-    "price": {"plug": 1.5},
-    "availability": {"plug": "03/15/2021"},
-    "stock": {"plug":0},
+    "price": {"two_in": 2},
+    "availability": {"two_in": "03/15/2021"},
+    "stock": {"two_in":42},
     "genus": "aloe"
   },
   {
@@ -192,9 +202,9 @@
     "aka": ["Stone Aloe","Rock Aloe"],
     "overview": "Aloe petricola is solitary, stemless, growing to 2 feet high (60 cm) and up to 3 feet (90 cm) wide which is native to the east transvaal in South Africa. This Aloe has thick, stiff, non-bending pale blue-green leaves with sharp, widely spaced small reddish marginal teeth  and an overall ball-like, rounded form.",
     "resource_link": "http://www.gardenaloes.com/aloe-petricola",
-    "price": {"plug": 1.5},
-    "availability": {"plug": "03/15/2021"},
-    "stock": {"plug":0},
+    "price": {"two_in": 2.00},
+    "availability": {"two_in": "03/15/2021"},
+    "stock": {"two_in":28},
     "genus": "aloe"
   },
   {
@@ -203,9 +213,9 @@
     "aka": ["Tilt Head Aloe", "Aloe hexapetala"],
     "overview": "Aloe speciosa is a generally single-stemmed, tall succulent growing up to 10 feet (3 m) that carries its massive rosettes of leaves at a tilt off to one side. The Tilt-head Aloe is a handsome tree-like succulent having decorative blue-green leaves with deep pink to pale red, serrated leaf margins, and dense cylindrical flower heads of red buds, opening greenish white in spring-summer.",
     "resource_link": "http://www.gardenaloes.com/aloe-speciosa",
-    "price": {"plug": 1.5},
-    "availability": {"plug": "03/15/2021"},
-    "stock": {"plug":0},
+    "price": {"two_in": 2.00},
+    "availability": {"two_in": "03/15/2021"},
+    "stock": {"two_in":9},
     "genus": "aloe"
   },
   {
@@ -224,9 +234,9 @@
     "aka": ["Coast Aloe", "Dune Aloe"],
     "overview": "Aloe thraskii is wonderful feature plant that is tall and robust, with enormous olive green leaves that are recurved back to the trunk, sometimes even touching the skirt of old, dried leaves around the trunk. This unbranched tree-like Aloe grows to 10 feet with deeply concave (U-shaped in cross section) pale olive-green leaves that have small reddish-brown marginal teeth. Also known as the Dune Aloe this fast-growing, South African, un-branched succulent plant, develops a very large and beautiful rosette.",
     "resource_link": "http://www.gardenaloes.com/aloe-thraskii",
-    "price": {"plug": 1.50, "four_in": 3},
-    "availability": {"plug": "02/15/2021", "four_in": "01/15/2021"},
-    "stock": {"four_in":79},
+    "price": {"two_in": 2.00, "three_in": 2.50, "four_in": 3},
+    "availability": {"two_in": "02/15/2021", "three_in": "02/15/2021", "four_in": "01/15/2021"},
+    "stock": {"two_in":48, "three_in":44, "four_in":29},
     "genus": "aloe"
   },
   {
@@ -257,7 +267,7 @@
     "overview": "A beautiful, nearly spineless, native of Mexico with wide blue-green, recurved leaves which grows 2-3 feet high by 3-4 feet wide. Agave pedunculifera is similar in appearance to Agave attenuata but with small soft teeth along it's leaf margins.",
     "price": {"one_ga":6.5,"two_ga": 12, "five_ga": 18, "ten_ga": 45},
     "availability": {"one_ga":"10/15/2020","two_ga": "12/15/2020", "five_ga": "12/15/2020", "ten_ga": "03/15/2021"},
-    "stock": {"one_ga":9,"two_ga":30,"five_ga":11,"ten_ga":1},
+    "stock": {"one_ga":4,"two_ga":35,"five_ga":11,"ten_ga":1},
     "genus": "agave"
   },
   {
@@ -265,9 +275,9 @@
     "slug": "manfreda-maculosa",
     "aka": ["Texas Tuberose","Spice Lily", "Rattlesnake Agave"],
     "overview": "Manfreda maculosa is a stunning deciduous succulent perennial in both foliage and flower. A native of South Texas with low growing, fleshy rosettes of succulent blue-green toothed leaves with maroon colored spots. The cream to greenish-white flowers appear atop 6 ft bloom spikes in late Spring.",
-    "price": {"four_in": 3, "plug": 1.50},
-    "availability": {"four_in": "02/15/2021", "plug": "02/15/2021"},
-    "stock": {"four_in":17},
+    "price": {"four_in": 3, "three_in": 2.50, "two_in": 2.00},
+    "availability": {"four_in": "02/15/2021", "three_in": "03/15/2021", "two_in": "02/15/2021"},
+    "stock": {"two_in":3,"three_in":54,"four_in":17},
     "genus": "manfreda"
   },
   {
@@ -275,9 +285,9 @@
     "slug": "hesperaloe-parviflora",
     "aka": ["Red Yucca", "Coral Yucca", "Hummingbird Yucca"],
     "overview": "Hesperaloe parviflora is a hummingbird's favorite that produces tall spikes of reddish-pink flowers that continue to bloom all summer. This yucca-like evergreen perennial succulent is stemless with clumps of arching and spreading grass-like foliage 3 to 4 feet tall.",
-    "price": {"plug": 1.50},
-    "availability": {"plug": "02/15/2021"},
-    "stock": {"plug":0},
+    "price": {"two_in": 2.00},
+    "availability": {"two_in": "02/15/2021"},
+    "stock": {"two_in":35},
     "genus": "hesperaloe"
   },
   {
@@ -289,5 +299,15 @@
     "availability": {"two_ga": "03/15/2021", "seven_ga": "03/15/2021", "ten_ga": "03/15/2021"},
     "stock": {"two_ga":1,"seven_ga":1,"ten_ga":1},
     "genus": "aloe"
+  },
+  {
+    "title": "Kalanchoe Sexangularis",
+    "slug": "kalanchoe-sexangularis",
+    "aka": ["Six Angled Kalanchoe"],
+    "overview": "Exotic looking plant with green fleshy leaves which turn red in direct sun. Grows to 3 feet and can be planted outside in zones 9b or higher (will tolerate a very light frost). Leaf shape / color and upright habit make it nice as an accent plant for larger pots. ",
+    "price": {"six_in":3.5},
+    "availability": {"six_in": "03/15/2021"},
+    "stock": {"six_in":14},
+    "genus": "Kalanchoe"
   }
 ]

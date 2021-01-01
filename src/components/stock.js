@@ -15,7 +15,7 @@ export default function stockTable() {
   const getPlantTotal = (plant) => {
     const {price, stock} = plant;
     return price && stock && Object.keys(PlantSizeConstants).reduce((acc, size) => {
-      return acc + stock[size] * price[size];
+      return acc + (stock[size] * price[size]);
     }, 0);
   };
 
@@ -40,6 +40,8 @@ export default function stockTable() {
                 slug
                 price {
                   plug
+                  two_in
+                  three_in
                   four_in
                   six_in
                   eight_in
@@ -52,6 +54,8 @@ export default function stockTable() {
                 }
                 availability {
                   plug
+                  two_in
+                  three_in
                   four_in
                   six_in
                   eight_in
@@ -64,6 +68,8 @@ export default function stockTable() {
                 }
                 stock {
                   plug
+                  two_in
+                  three_in
                   four_in
                   six_in
                   eight_in
@@ -97,7 +103,7 @@ export default function stockTable() {
             )
           })}
             <tr style={{borderTop:'3px solid #2B8CBE'}}>
-              <td colSpan="11"><b>All Plant Stock Total:</b></td>
+              <td colSpan="13"><b>All Plant Stock Total:</b></td>
               <td className="total">{`$${getStockTotal(data.allPlantsJson.edges)}`}</td>
             </tr>
           </tbody>
