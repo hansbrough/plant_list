@@ -56,6 +56,14 @@
   color: white;
 }
 
+.available .sold-out {
+  color: grey;
+}
+
+.available .sold-out:after {
+  content: '(Sold Out!)';
+  display: block;
+}
 /*-- filters --*/
 .filters-container {
   align-items:center;

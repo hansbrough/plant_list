@@ -10,6 +10,7 @@ const PlantTableCell = ({size, plant, nowDate}) => {
   const getClassName = (size, availability) => {
     if(size && availability) {
       const availableDateStr = availability[size];
+      if(availableDateStr === 'sold_out') return 'sold-out';//when none left - no point displaying availability date.
       if(availableDateStr) {
         let monthsAway = monthDiff(nowDate, new Date(availableDateStr));
         monthsAway = Math.max(monthsAway, 0);
