@@ -1,3 +1,41 @@
+/* Variables */
+:root {
+  --space1: 3px;
+  --space2: 5px;
+  --space3: 8px;
+  --space4: 13px;
+  --space5: 26px;
+  --space6: 52px;
+  --space7: 76px;
+  --space8: 112px;
+  --mobile: 400px;
+  --small: 600px;
+  --medium: 1000px;
+  --large: 1300px;
+  --standard-header: 'Inria Serif', serif;
+  --standard-font: 'Inter', sans-serif;
+  --brand-font: 'Yeseva One', cursive;
+  --standard-black: #000000;
+  --standard-white: #ffffff;
+  --standard-grey: #e2e2e2;
+  --standard-dark-grey: #545250;
+  --standard-light-grey: #FCFAF6;
+  --grey-passthough: #979797;
+  --grey-border: #A9A9A8;
+  --grey-placeholder: #716868;
+  --grey-crumb: #53524E;
+  --grey-disabled: #F2F2F2;
+  --grey-chip: #F1F1F1;
+  --grey-one: #D8D8D8;
+  --bg-grey: #F7F7F7;
+  --bg-dark: #383634;
+  --bg-close-icon: #E9E7E3;
+  --bg-light-gray: #e5e5e5;
+  --standard-gold: #B59F66;
+  --sale: #902F15;
+  --error: #9A3515;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -454,6 +492,86 @@ form {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+
+/* Buttons */
+.buttonText {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Forms */
+
+.formField {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.formField.mb-0 {
+  margin-bottom: 0px;
+}
+
+.formField input[type='text'],
+.formField input[type='email'],
+.formField input[type='number'],
+.formField input[type='tel'],
+.formField input[type='password'],
+.formField textarea,
+.formField select {
+  width: 100%;
+  border: 1px solid var(--bg-light-gray);
+  font-size: 14px;
+  padding: 12px 20px 12px 12px;
+  line-height: 1;
+  box-sizing: border-box;
+  font-family: var(--standard-font);
+}
+
+.formField textarea {
+  resize: none;
+  height: 150px;
+}
+
+.formField select {
+  padding: 9px 10px;
+}
+
+.formField label,
+.formField span.label {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+}
+
+.formField label.middle,
+.formField span.label.middle {
+  display: flex;
+  align-items: center;
+}
+
+.formField.required label::after,
+.formField.required label::after,
+.formField.required label::after {
+  content: '*';
+  display: inline-block;
+  margin-left: 4px;
+  /* color: var(--standard-red); */
+}
+
+.formField .error {
+  /* position: absolute; */
+  /* bottom: -2px; */
+  /* right: 5px; */
+  color: var(--error);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.genericError {
+  color: var(--error);
+  font-size: 12px;
+  line-height: 15px;
 }
 noscript {
   margin-left: 0;
