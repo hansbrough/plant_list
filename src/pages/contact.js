@@ -1,12 +1,11 @@
-import React from "react";
-import { graphql } from "gatsby";
+import React, { useState } from "react";
+import { graphql, Link, navigate } from "gatsby";
 import Img from "gatsby-image";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-//= ==== Style ===== //
-//import { FontAwesomeIcon } from 'react-fontawesome';
-//import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import FormInputField from '../components/FormInputField/FormInputField';
+import Button from '../components/Button';
 
 // results automagically passed to page component as 'data'
 export const query = graphql`
@@ -22,18 +21,44 @@ export const query = graphql`
 `
 
 const ContactPage = ({data}) => {
+
+  const initialState = {
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  };
+
+  const [contactForm, setContactForm] = useState(initialState);
+
+  const handleChange = (id, e) => {
+    const tempForm = { ...contactForm, [id]: e };
+    setContactForm(tempForm);
+  };
+
+  const handleSubmit = (e) => {
+    console.log("ApplyPage handleSubmit")
+    e.preventDefault();
+    const formData = Object.assign({"form-name": "contact"}, contactForm);
+    const encodedFormData = new URLSearchParams(formData).toString();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encodedFormData
+    })
+    .then(() => navigate("/"))
+    .catch(error => alert(error));
+  };
+
   return (
     <Layout>
       <SEO title="Contact" />
-      <h1>Contact Brough Plants</h1>
+      <h1>Contact Us</h1>
       <p>
-        Sourcing plants for a landscape project can be difficult.
-        If you are a contractor, designer, architect or landscape professional we can help you locate plant materials for you project.
+        Got a question? Write us an email or just use the form below.
       </p>
-      <p>Use the form below to Contractors and Designers looking for help sourcing plants.</p>
-      <p>If you would like to place an order or ask a question - reach out by phone or email:</p>
       <p>
-        <span><b>Phone</b> (650)-218-4172</span>
+        If you don't have an account yet and would like to buy plants fill out our <Link to="/apply">application form</Link> first.
       </p>
       <p>
         <span><b>Email</b> hans@broughplants.com</span>
@@ -41,6 +66,59 @@ const ContactPage = ({data}) => {
       <p>
         <span><b>CA Nursery License</b> C3194</span>
       </p>
+
+      <form
+          onSubmit={(e) => handleSubmit(e)}
+          name="contact"
+          data-netlify="true"
+        >
+        <input type="hidden" name="form-name" value="contact" />
+        <div >
+            <FormInputField
+              id={'name'}
+              value={contactForm.name}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'text'}
+              labelName={'Contact Name'}
+              required
+            />
+            <FormInputField
+              id={'email'}
+              value={contactForm.email}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'email'}
+              labelName={'Email'}
+              required
+            />
+            <FormInputField
+              id={'subject'}
+              value={contactForm.subject}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'text'}
+              labelName={'Subject'}
+              required
+            />
+            <div >
+              <FormInputField
+                id={'message'}
+                value={contactForm.message}
+                handleChange={(id, e) => handleChange(id, e)}
+                type={'textarea'}
+                labelName={'Message'}
+                required
+              />
+            </div>
+
+          </div>
+          <Button
+
+            level={'primary'}
+            type={'buttonSubmit'}
+          >
+            submit
+          </Button>
+      </form>
+
       <Img
           fixed={data.nurseryHero.childImageSharp.fixed}
           alt="Plants growing in all day sun."

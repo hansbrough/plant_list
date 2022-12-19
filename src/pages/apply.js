@@ -42,7 +42,6 @@ const ApplyPage = ({data}) => {
   };
 
   const handleSubmit = (e) => {
-    console.log("ApplyPage handleSubmit")
     e.preventDefault();
     const formData = Object.assign({"form-name": "apply"}, applyForm);
     const encodedFormData = new URLSearchParams(formData).toString();
@@ -55,7 +54,6 @@ const ApplyPage = ({data}) => {
     .catch(error => alert(error));
   };
 
-  console.log("ApplyPage applyForm:",applyForm)
   return (
     <Layout>
       <SEO title="Apply" />
