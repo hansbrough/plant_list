@@ -26,12 +26,17 @@ const ContactPage = ({data}) => {
     <Layout>
       <SEO title="Contact" />
       <h1>Contact Brough Plants</h1>
+      <p>
+        Sourcing plants for a landscape project can be difficult.
+        If you are a contractor, designer, architect or landscape professional we can help you locate plant materials for you project.
+      </p>
+      <p>Use the form below to Contractors and Designers looking for help sourcing plants.</p>
       <p>If you would like to place an order or ask a question - reach out by phone or email:</p>
       <p>
         <span><b>Phone</b> (650)-218-4172</span>
       </p>
       <p>
-        <span><b>Email</b> hans@dryoasisgardening.com</span>
+        <span><b>Email</b> hans@broughplants.com</span>
       </p>
       <p>
         <span><b>CA Nursery License</b> C3194</span>
