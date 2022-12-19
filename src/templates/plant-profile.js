@@ -24,6 +24,21 @@ export const query = graphql`
       aka
       overview
       resource_link
+      stock {
+        plug
+        two_in
+        three_in
+        four_in
+        six_in
+        eight_in
+        one_ga
+        two_ga
+        five_ga
+        seven_ga
+        ten_ga
+        fifteen_ga
+        twenty_ga
+      }
       price {
         plug
         two_in
@@ -84,6 +99,7 @@ const Plant = ({ data, pageContext }) => {
   const nowDate = new Date();
   const plant = data.plantsJson;
   const akaText = !!plant.aka.length && `Also Known As: ${plant.aka.join(", ")}`;
+  const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided not to display these.
 
   return (
     <Layout>
@@ -125,7 +141,7 @@ const Plant = ({ data, pageContext }) => {
           {plant &&
             (
               <tr>
-                {Object.keys(PlantSizeConstants).map((size) => <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} /> )}
+                {Object.keys(PlantSizeConstants).filter(size => !excludedSizeKeys.includes(size)).map((size) => <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} /> )}
               </tr>
             )
           }

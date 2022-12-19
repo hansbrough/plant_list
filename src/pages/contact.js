@@ -33,6 +33,9 @@ const ContactPage = ({data}) => {
       <p>
         <span><b>Email</b> hans@dryoasisgardening.com</span>
       </p>
+      <p>
+        <span><b>CA Nursery License</b> C3194</span>
+      </p>
       <Img
           fixed={data.nurseryHero.childImageSharp.fixed}
           alt="Plants growing in all day sun."

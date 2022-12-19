@@ -7,24 +7,33 @@ const PlantTableCell = ({size, plant, nowDate}) => {
      (12 * (dateTo.getFullYear() - dateFrom.getFullYear()))
   }
 
-  const getClassName = (size, availability) => {
-    if(size && availability) {
+  // return string of css class names
+  const getClassNames = (size, availability, stock) => {
+    console.log("getClassNames:",size, availability, stock)
+    const classNames = [];
+    if(size && availability && stock) {
       const availableDateStr = availability[size];
-      if(availableDateStr === 'sold_out') return 'sold-out';//when none left - no point displaying availability date.
+      if(stock[size] && stock[size] < 5) { //not many left
+        classNames.push('low-stock');
+      }
+      if(availableDateStr === 'sold_out') {
+        classNames.push('sold-out');//when none left - no point displaying availability date.
+      }
       if(availableDateStr) {
         let monthsAway = monthDiff(nowDate, new Date(availableDateStr));
         monthsAway = Math.max(monthsAway, 0);
-        return {
+        classNames.push({
           0:'now',
           1:'very-soon',
           2:'soon',
           3:'awhile',
           4:'a-long-while',
           5:'a-very-long-while'
-        }[monthsAway];
+        }[monthsAway]);
       }
+
     }
-    return null;
+    return classNames.join(' ');
   }
 
   const getTitle = (size, availability) => {
@@ -34,11 +43,11 @@ const PlantTableCell = ({size, plant, nowDate}) => {
     return null;
   }
 
-  const {price, availability} = plant;
-  const availabilityClassName = getClassName(size, availability);
+  const {price, availability, stock} = plant;
+  const availabilityClassNames = getClassNames(size, availability, stock);
 
   return (
-    <td className={availabilityClassName} title={getTitle(size, availability)}>
+    <td className={availabilityClassNames} title={getTitle(size, availability)}>
       {price[size] && `$${price[size]}`}
     </td>
   )

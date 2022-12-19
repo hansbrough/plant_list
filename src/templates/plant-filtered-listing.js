@@ -38,6 +38,7 @@ export const query = graphql`
 const plantsFilteredByGenus = ({ data, pageContext={} }) => {
   const nowDate = new Date();
   const {genus_name:genusName} = pageContext;
+  const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided not to display these.
 
   return (
     <Layout pageName="plant-listing">
@@ -52,6 +53,7 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
         <tbody className="available">
         {pageContext.edges && pageContext.edges.map(edge => {
           const plant = edge.node
+
           // find the hero image for the current plant node.
           const thumbnail = data.plantHeroes && data.plantHeroes.edges.find(thumbnail => thumbnail.node.childImageSharp.fixed.src.includes(plant.slug))
           return (
@@ -66,7 +68,7 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
                   />}
               </td>
               <td><Link to={`/${plant.slug}`}>{plant.title}</Link></td>
-              {Object.keys(PlantSizeConstants).map((size) =>
+              {Object.keys(PlantSizeConstants).filter(size => !excludedSizeKeys.includes(size)).map((size) =>
                 <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} />
               )}
             </tr>

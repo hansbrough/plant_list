@@ -1,0 +1,29 @@
+@media print {
+  /* legend (print)*/
+  .availability-legend .legend-labels,
+  .availability-legend .legend-title {
+    display:none;
+  }
+  .availability-legend {
+    margin-left: 120px;
+  }
+  .sold-out, .soon, .very-soon, .awhile, .a-long-while {
+    visibility: hidden;
+  }
+  /*-- filters (print)--*/
+  .filters-container {
+    display:none;
+  }
+  .page-nav {
+    display:none !important;
+  }
+
+  /*-- layout (print)--*/
+  .plant-listing.layout-content {
+    margin: 0 !important;
+  }
+  .plant-listing.page-header > div {
+    margin-left: 120px;
+    padding-left: 0px;
+  }
+}
