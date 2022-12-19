@@ -68,7 +68,7 @@ const ApplyPage = ({data}) => {
 
       <form
           onSubmit={(e) => handleSubmit(e)}
-          name="contact"
+          name="apply"
           data-netlify="true"
         >
         <input type="hidden" name="form-name" value="apply" />
