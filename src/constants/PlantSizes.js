@@ -10,7 +10,8 @@ const plantSizes = {
   'five_ga':'5 ga.',
   'seven_ga':'7 ga.',
   'ten_ga':'10 ga.',
-  'fifteen_ga':'15 ga.'
+  'fifteen_ga':'15 ga.',
+  'twenty_ga':'20 ga.',
 };
 
 export default plantSizes;

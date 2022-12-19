@@ -8,6 +8,7 @@ import { Link, StaticQuery, graphql } from "gatsby";
 import PlantTableHeader from "../components/plantTableHeader";
 import PlantSizeConstants from "../constants/PlantSizes";
 import "../components/plants.css";
+import "../components/print.css";
 
 export default function stockTable() {
 
@@ -26,6 +27,15 @@ export default function stockTable() {
       stockTotal += getPlantTotal(plant.node);
     })
     return stockTotal;
+  };
+
+  // get total stock available at a given size pot
+  const getSizeTotal = (plants=[], size) => {
+    let stockSizeTotal = 0;
+    plants.forEach(plant => {
+      stockSizeTotal += plant.node?.stock[size] ?? 0;
+    })
+    return stockSizeTotal;
   };
 
   return (
@@ -51,6 +61,7 @@ export default function stockTable() {
                   seven_ga
                   ten_ga
                   fifteen_ga
+                  twenty_ga
                 }
                 availability {
                   plug
@@ -65,6 +76,7 @@ export default function stockTable() {
                   seven_ga
                   ten_ga
                   fifteen_ga
+                  twenty_ga
                 }
                 stock {
                   plug
@@ -79,6 +91,7 @@ export default function stockTable() {
                   seven_ga
                   ten_ga
                   fifteen_ga
+                  twenty_ga
                 }
               }
             }
@@ -103,7 +116,20 @@ export default function stockTable() {
             )
           })}
             <tr style={{borderTop:'3px solid #2B8CBE'}}>
-              <td colSpan="13"><b>All Plant Stock Total:</b></td>
+              <td ><b>All Plant Stock Total:</b></td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'plug')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'two_in')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'three_in')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'four_in')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'six_in')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'eight_in')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'one_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'two_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'five_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'seven_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'ten_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'fifteen_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'twenty_ga')}`}</td>
               <td className="total">{`$${getStockTotal(data.allPlantsJson.edges)}`}</td>
             </tr>
           </tbody>

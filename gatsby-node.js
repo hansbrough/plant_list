@@ -83,6 +83,21 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
           node {
             slug
             title
+            stock {
+              plug
+              two_in
+              three_in
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+              twenty_ga
+            }
             price {
               plug
               two_in

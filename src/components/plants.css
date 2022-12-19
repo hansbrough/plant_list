@@ -63,7 +63,17 @@
 .available .sold-out:after {
   content: '(Sold Out!)';
   display: block;
+  font-size: small;
+  white-space: nowrap;
 }
+
+.available .low-stock:after {
+  content: '(Low)';
+  display: block;
+  font-size: small;
+  white-space: nowrap;
+}
+
 /*-- filters --*/
 .filters-container {
   align-items:center;
@@ -210,6 +220,7 @@ blockquote {
 /*-- stock page --*/
 .stock td {
   white-space: nowrap;
+  border-right: 1px solid lightGrey;
 }
 .stock .sub-total {
   background-color: #F1EEF6;
