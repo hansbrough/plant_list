@@ -5,13 +5,13 @@ const plantSizes = {
   'four_in':'4"',
   'six_in':'6"',
   'eight_in':'8"',
-  'one_ga':'1 ga.',
-  'two_ga':'2 ga.',
-  'five_ga':'5 ga.',
-  'seven_ga':'7 ga.',
-  'ten_ga':'10 ga.',
-  'fifteen_ga':'15 ga.',
-  'twenty_ga':'20 ga.',
+  'one_ga':'1g',
+  'two_ga':'2g',
+  'five_ga':'5g',
+  'seven_ga':'7g',
+  'ten_ga':'10g',
+  'fifteen_ga':'15g',
+  'twenty_ga':'20g',
 };
 
 export default plantSizes;
