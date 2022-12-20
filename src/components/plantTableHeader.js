@@ -8,7 +8,7 @@ const PlantTableHeader = ({showName=true, showThumbnail=false, showPlantTotal=fa
     <thead>
       <tr>
         {showThumbnail && <th>&nbsp;</th>}
-        {showName && <th>Botanical Name</th>}
+        {showName && <th>Name</th>}
         {Object.values(PlantSizeConstants).filter(size => !excludedSizeValues.includes(size)).map((size) => (<th key={`header-${size}`}>{size}</th>))}
         {showPlantTotal && <th>SubTotal</th>}
       </tr>

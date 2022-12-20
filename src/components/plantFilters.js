@@ -17,7 +17,7 @@ const PlantFilters = ({genusName='all'}) => {
 
   // set custom 'react-select' styles
   const selectStyles = {
-    container: styles => ({ ...styles, minWidth: '10rem' }),
+    container: styles => ({ ...styles, minWidth: '10rem', zIndex: 2 }),
   };
 
   return (
