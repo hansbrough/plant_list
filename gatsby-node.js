@@ -135,6 +135,18 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
           node {
             slug
             title
+            stock {
+              two_in
+              three_in
+              four_in
+              six_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
             price {
               plug
               two_in
@@ -172,6 +184,18 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
           node {
             slug
             title
+            stock {
+              two_in
+              three_in
+              four_in
+              six_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
             price {
               plug
               two_in
@@ -209,6 +233,18 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
           node {
             slug
             title
+            stock {
+              two_in
+              three_in
+              four_in
+              six_in
+              one_ga
+              two_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+            }
             price {
               plug
               two_in
