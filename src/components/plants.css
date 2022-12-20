@@ -34,25 +34,12 @@
   width: 100%;
 }
 
-.available .now {
+.available .soon {
   background: #F1EEF6;
 }
 
-.available .very-soon {
-  background: #BDC9E1;
-}
-
-.available .soon {
-  background:#74A9CF;
-}
-
-.available .awhile {
+.available .now {
   background:#2B8CBE;
-  color: white;
-}
-
-.available .a-long-while {
-  background:#045A8D;
   color: white;
 }
 

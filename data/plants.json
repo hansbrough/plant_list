@@ -86,7 +86,7 @@
     "overview": "The variegated form of Agave Funkiana - 'Fatal Attraction' features narrow dark green leaves with a lighter central mid-stripe and small brownish-red teeth along leaf edges. This native of the Sierra Madre Oriental mountains in Mexico will eventually reach a maximum of 2' to 3' foot in diameter.",
     "price": {"one_ga": 8, "two_ga": 16, "five_ga": 20, "seven_ga": 35,"fifteen_ga":60.00},
     "availability": {"one_ga": "02/15/2021", "two_ga": "02/15/2021", "five_ga": "sold_out", "seven_ga": "02/15/2021","fifteen_ga":"05/15/2022"},
-    "stock": {"one_ga":1,"two_ga":6,"five_ga":1,"seven_ga":4,"fifteen_ga":1},
+    "stock": {"one_ga":1,"two_ga":6,"five_ga":0,"seven_ga":4,"fifteen_ga":1},
     "genus": "agave"
   },
   {
@@ -239,7 +239,7 @@
     "resource_link": "http://www.gardenaloes.com/aloe-cameronii",
     "price": {"seven_ga": 35},
     "availability": {"seven_ga": "sold_out"},
-    "stock": {"seven_ga":1},
+    "stock": {"seven_ga":0},
     "genus": "aloe"
   },
   {
