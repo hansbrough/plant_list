@@ -2,7 +2,7 @@ import React from 'react';
 import PlantSizeConstants from "../constants/PlantSizes";
 
 const PlantTableHeader = ({showName=true, showThumbnail=false, showPlantTotal=false}) => {
-  const excludedSizeValues = ['plug','3"','8"','20 ga.'];//decided not to display these.
+  const excludedSizeValues = ['plug','3"','8"','20g'];//decided not to display these.
 
   return (
     <thead>

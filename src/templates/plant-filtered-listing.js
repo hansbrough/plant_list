@@ -48,7 +48,7 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
       />
       <AvailabilityLegend />
       <PlantFilters genusName={genusName} />
-      <table>
+      <table className="availability-grid">
         <PlantTableHeader showThumbnail={true}/>
         <tbody className="available">
         {pageContext.edges && pageContext.edges.map(edge => {
