@@ -1,0 +1,22 @@
+.pageNav {
+  display: flex;
+  margin: 1.25rem 0 0 0;
+  justify-content: space-between;
+}
+
+.innerContainer {
+  margin: 0 auto;
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
+.nonHomeHeader {
+  margin: 0;
+}
+
+.left {
+  color: white;
+}
+
+.right {
+  color: black;
+}

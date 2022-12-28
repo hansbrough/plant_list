@@ -21,7 +21,7 @@
     background-color: var(--standard-black);;
     text-transform: uppercase;
     font-weight: 500;
-    
+
 }
 
 @media (hover: hover) {
@@ -133,12 +133,17 @@
 }
 
 .link {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--standard-white);
+    cursor: pointer;
     padding: 0px;
-    text-decoration: underline;
+    text-decoration: none;
     min-width: auto;
     font-weight: normal;
 }
 
 .link:hover {
-    text-decoration: none;
+    text-decoration: underline;
+
 }

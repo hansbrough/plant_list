@@ -1,12 +1,15 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Wholesale Plant site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Hans Brough <hans@broughplants.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@reach/dialog": "^0.2.9",
+    "@reach/tabs": "^0.1.6",
+    "@reach/visually-hidden": "^0.1.4",
     "gatsby": "^2.18.4",
     "gatsby-background-image": "^1.1.2",
     "gatsby-image": "^2.2.34",
@@ -14,6 +17,7 @@
     "gatsby-plugin-excerpts": "^1.0.2",
     "gatsby-plugin-google-analytics": "^2.1.31",
     "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-netlify-identity": "^0.0.3",
     "gatsby-plugin-offline": "^3.0.24",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
@@ -29,6 +33,7 @@
     "react-fontawesome": "^1.7.1",
     "react-helmet": "^5.2.1",
     "react-loadable": "^5.5.0",
+    "react-netlify-identity-widget": "^0.2.7",
     "react-select": "^3.1.0"
   },
   "devDependencies": {
