@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { graphql, Link, navigate } from "gatsby";
 import Img from "gatsby-image";
-import { useIdentityContext } from "react-netlify-identity-widget"
+import { useIdentityContext } from "react-netlify-identity-widget";
+import { isBrowser } from "../utils/general";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import FormInputField from '../components/FormInputField/FormInputField';
@@ -24,7 +25,7 @@ const ResllerPage = ({data}) => {
   // redirect when user not logged in (TODO: use a router somehow?)
   const identity = useIdentityContext();
   const isLoggedIn = identity && identity.isLoggedIn;
-  if(identity && !isLoggedIn) {
+  if(isBrowser && identity && !isLoggedIn) {
     navigate('/');
     return null;
   } else {
