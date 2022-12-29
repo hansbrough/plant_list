@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import { Link } from "gatsby"
+import { Link, navigate } from "gatsby"
 import PropTypes from "prop-types"
 import IdentityModal, { useIdentityContext } from "react-netlify-identity-widget"
 import "react-netlify-identity-widget/styles.css"
@@ -10,12 +10,19 @@ import * as styles from './Header.module.css';
 // applied to the currently active page/link
 const activeStyles = { background: "#397194", color:"#F1EEF6"};
 
+const NavLink = (isLoggedIn, path, label) => {
+  let link = null;
+  if(isLoggedIn) {
+    link = '| ' + <Link to="/reseller" activeStyle={activeStyles}>Reseller</Link>
+  }
+  return link;
+}
+
 const Header = ({ siteTitle, pageName }) => {
-  console.log("Header pageName:",pageName)
   const [dialog, setDialog] = useState(false);
   const identity = useIdentityContext();
   const name = (identity && identity.user && identity.user.user_metadata && identity.user.user_metadata.name) || "NoName"
-  const isLoggedIn = identity && identity.isLoggedIn
+  const isLoggedIn = identity && identity.isLoggedIn;
 
   return (
     <>
@@ -40,7 +47,10 @@ const Header = ({ siteTitle, pageName }) => {
             </h1>}
             <nav className={styles.pageNav}>
               <div className={styles.left}>
-                <Link to="/plant-listing" activeStyle={activeStyles} partiallyActive={true}>Plant Availability</Link> | <Link to="/contact" activeStyle={activeStyles}>Contact</Link>
+                <Link to="/plant-listing" activeStyle={activeStyles} partiallyActive={true}>Plant Availability</Link> |
+                <Link to="/contact" activeStyle={activeStyles}>Contact</Link>
+                {isLoggedIn && ` | `}
+                {isLoggedIn && <Link to="/reseller" activeStyle={activeStyles}>Reseller</Link>}
               </div>
               <div className={styles.right}>
                 <Button className="link" onClick={() => setDialog(true)}>
