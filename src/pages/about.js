@@ -23,7 +23,7 @@ export const query = graphql`
 
 const ContactPage = ({data}) => {
   return (
-    <Layout>
+    <Layout pageName="about">
       <SEO title="Contact" />
       <h1>About</h1>
       <p>

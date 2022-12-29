@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { logout } from "../utils/auth"
+//import { logout } from "../utils/auth"
 
 const Callback = () => {
 return(
@@ -11,7 +11,7 @@ return(
     <a
       href="#logout"
       onClick={e => {
-            logout()
+            //logout()
             e.preventDefault()
       }}
     >

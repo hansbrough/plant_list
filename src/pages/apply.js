@@ -55,9 +55,9 @@ const ApplyPage = ({data}) => {
   };
 
   return (
-    <Layout>
+    <Layout pageName="apply">
       <SEO title="Apply" />
-      <h1>Apply</h1>
+      <h2>Apply</h2>
       <p>
         Sourcing plants for a landscape project can be difficult.
         If you are a contractor, designer, architect or other landscape professional we can help you locate plant materials either with stock on hand or by coordinating with another wholesaler.

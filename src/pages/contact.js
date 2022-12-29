@@ -51,9 +51,9 @@ const ContactPage = ({data}) => {
   };
 
   return (
-    <Layout>
+    <Layout pageName="contact">
       <SEO title="Contact" />
-      <h1>Contact Us</h1>
+      <h2>Contact Us</h2>
       <p>
         Got a question? Write us an email or just use the form below.
       </p>

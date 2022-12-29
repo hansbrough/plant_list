@@ -239,7 +239,7 @@ html {
 }
 body {
   background-color: #F1FAEE;
-  color: rgba(28, 37, 65, 1);
+  color: var(--standard-dark-grey);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
