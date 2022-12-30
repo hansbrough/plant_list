@@ -1,12 +1,10 @@
-import React, { useState } from "react";
-import { graphql, Link, navigate } from "gatsby";
+import React from "react";
+import { graphql, navigate } from "gatsby";
 import Img from "gatsby-image";
 import { useIdentityContext } from "react-netlify-identity-widget";
 import { isBrowser } from "../utils/general";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import FormInputField from '../components/FormInputField/FormInputField';
-import Button from '../components/Button';
 
 // results automagically passed to page component as 'data'
 export const query = graphql`
@@ -22,10 +20,14 @@ export const query = graphql`
 `
 
 const ResllerPage = ({data}) => {
-  // redirect when user not logged in (TODO: use a router somehow?)
   const identity = useIdentityContext();
+  const roles = (identity && identity?.user?.app_metadata?.roles);
+  //console.log("user roles:",roles);
+  const isWholesaleCustomer = roles?.includes('nursery');//used to restrict "trades people" and others from seeing the wholesale prices
+  const isTradesCustomer = roles?.includes('trades');
   const isLoggedIn = identity && identity.isLoggedIn;
-  if(isBrowser && identity && !isLoggedIn) {
+
+  if(isBrowser && identity && !isLoggedIn) { // redirect client when not logged in.
     navigate('/');
     return null;
   } else {
@@ -34,8 +36,22 @@ const ResllerPage = ({data}) => {
         <SEO title="Brough Plants Reseller Resources" />
         <h2>Reseller Resources</h2>
 
+        {isWholesaleCustomer &&
+          (
+            <p>
+              <a href="/pdf/availability_wholesale_pricing.pdf" download target="_blank">Latest Plant Availability List with Wholesale Pricing</a>
+            </p>
+          )
+        }
+        {isTradesCustomer && !isWholesaleCustomer &&
+          (
+            <p>
+              <a href="/pdf/availability_trade_pricing.pdf" download target="_blank">Latest Plant Availability List with Trade Pricing</a>
+            </p>
+          )
+        }
         <p>
-          Download the <a href="/pdf/availability_pricing.pdf" download target="_blank">Latest Availability List with Pricing</a>.
+          <a href="/pdf/CA_Resellers_Form.pdf" download target="_blank">CA Reseller Form </a>
         </p>
 
         <Img

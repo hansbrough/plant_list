@@ -9,7 +9,6 @@ const PlantTableCell = ({size, plant, nowDate}) => {
 
   // return string of css class names
   const getClassNames = (size, availability, stock) => {
-    ///console.log("getClassNames - size:",size, " available:",availability," stock:",stock)
     const classNames = [];
     if(size && availability && stock) {
       const availableDateStr = availability[size];

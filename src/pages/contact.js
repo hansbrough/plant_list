@@ -37,7 +37,6 @@ const ContactPage = ({data}) => {
   };
 
   const handleSubmit = (e) => {
-    console.log("ApplyPage handleSubmit")
     e.preventDefault();
     const formData = Object.assign({"form-name": "contact"}, contactForm);
     const encodedFormData = new URLSearchParams(formData).toString();
