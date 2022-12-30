@@ -21,7 +21,7 @@ const NavLink = (isLoggedIn, path, label) => {
 const Header = ({ siteTitle, pageName }) => {
   const [dialog, setDialog] = useState(false);
   const identity = useIdentityContext();
-  const name = (identity && identity.user && identity.user.user_metadata && identity.user.user_metadata.name) || "NoName"
+  const name = (identity && identity?.user?.user_metadata?.name);
   const isLoggedIn = identity && identity.isLoggedIn;
 
   return (
