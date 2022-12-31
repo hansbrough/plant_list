@@ -62,7 +62,7 @@ const ApplyPage = ({data}) => {
         Sourcing plants for a landscape project can be difficult.
         If you are a contractor, designer, architect or other landscape professional we can help you locate plant materials either with stock on hand or by coordinating with another wholesaler.
       </p>
-      <p>To apply please use the form below to describe your business and project needs. We will respond within a few business days.</p>
+      <p>To purchase plants at trade discount please use the form below to describe your business and project needs. We will respond within a few business days.</p>
 
       <form
           onSubmit={(e) => handleSubmit(e)}
