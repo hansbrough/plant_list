@@ -46,6 +46,12 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
         title={`Genus ${genusName} plants`}
         description={`${pageContext.totalCount} ${genusName} plants for sale.`}
       />
+      <h2>Plant Availability</h2>
+      <p>
+        Everything listed below is ready to sell.
+        We also source and resell a large number of plants from other wholesale nurseries.
+      </p>
+
       <AvailabilityLegend />
       <PlantFilters genusName={genusName} />
       <table className="availability-grid">

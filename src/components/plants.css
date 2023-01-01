@@ -62,7 +62,8 @@
 }
 
 .legend-msg {
-  margin: .5rem 0;
+  font-size: 14px;
+  margin: .5rem 0 1.5rem 0;
 }
 
 /*-- filters --*/

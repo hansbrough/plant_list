@@ -4,9 +4,6 @@ const AvailabilityLegend = () => {
 
   return (
     <div className="availability-legend">
-      <h2 className="legend-title">Availability Legend</h2>
-
-
       <div className="legend-scale">
         <ul className="available legend-labels">
           <li><span className="now"></span><span className="px-1">Available</span></li>
