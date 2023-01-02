@@ -62,7 +62,13 @@ const ApplyPage = ({data}) => {
         Sourcing plants for a landscape project can be difficult.
         If you are a contractor, designer, architect or other landscape professional we can help you locate plant materials either with stock on hand or by coordinating with another wholesaler.
       </p>
-      <p>To purchase plants at trade discount please use the form below to describe your business and project needs. We will respond within a few business days.</p>
+      <p>
+        To purchase plants at trade discount please use the form below to describe your business and project needs.
+        Once we've reviewed your submission, we'll create your account and you'll receive an E-mail from us with instructions for setting a password.
+      </p>
+      <p>
+        After successfully logging in you will have access to our Reseller area.
+      </p>
 
       <form
           onSubmit={(e) => handleSubmit(e)}
@@ -117,8 +123,7 @@ const ApplyPage = ({data}) => {
                 value={applyForm.description}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
-                labelName={'Plants Needed'}
-                required
+                labelName={'Tell us about the types of plants you need'}
               />
             </div>
             <div className={styles.budgetRange}>

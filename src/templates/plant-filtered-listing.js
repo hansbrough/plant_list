@@ -48,8 +48,8 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
       />
       <h2>Plant Availability</h2>
       <p>
-        Everything listed below is ready to sell.
-        We also source and resell a large number of plants from other wholesale nurseries.
+        Everything listed as available below is ready to sell.
+        We also source and resell a large number of plants from other wholesale nurseries so chances are good that we can find your plants.
       </p>
 
       <AvailabilityLegend />
