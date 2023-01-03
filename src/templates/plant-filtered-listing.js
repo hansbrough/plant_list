@@ -46,11 +46,12 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
         title={`Genus ${genusName} plants`}
         description={`${pageContext.totalCount} ${genusName} plants for sale.`}
       />
-      <h2>Plant Availability</h2>
+      <h2>Wholesale Plant Availability</h2>
       <p>
-        Everything listed below is ready to sell.
-        We also source and resell a large number of plants from other wholesale nurseries.
+        Everything listed as available below is ready to sell.
+        We also source and resell a large number of plants from other wholesale nurseries so chances are good that we can find your plants.
       </p>
+      <p>Looking for retail plants? Visit our retail site: <a href="https://dryoasisplants.com" target="_blank">dryoasisplants.com</a></p>
 
       <AvailabilityLegend />
       <PlantFilters genusName={genusName} />

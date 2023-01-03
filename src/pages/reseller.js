@@ -25,7 +25,9 @@ const ResllerPage = ({data}) => {
   //console.log("user roles:",roles);
   const isWholesaleCustomer = roles?.includes('nursery');//used to restrict "trades people" and others from seeing the wholesale prices
   const isTradesCustomer = roles?.includes('trades');
+  const hasNoRoll = !roles?.length;
   const isLoggedIn = identity && identity.isLoggedIn;
+  //console.log("hasNoRoll:",hasNoRoll)
 
   if(isBrowser && identity && !isLoggedIn) { // redirect client when not logged in.
     navigate('/');
@@ -38,21 +40,40 @@ const ResllerPage = ({data}) => {
 
         {isWholesaleCustomer &&
           (
-            <p>
-              <a href="/pdf/availability_wholesale_pricing.pdf" download target="_blank">Latest Plant Availability List with Wholesale Pricing</a>
-            </p>
+            <>
+              <p>
+                Welcome! We offer wholesale pricing on all plants to licensed nurseries with a CA sellers permit.
+                If you have not already be sure to fill out and submit CA reseller form below.
+              </p>
+              <p>
+                <a href="/pdf/availability_wholesale_pricing.pdf" download target="_blank">Latest Plant Availability List with Wholesale Pricing</a>
+              </p>
+              <p>
+                <a href="/pdf/CA_Resellers_Form.pdf" download target="_blank">CA Reseller Form </a>
+              </p>
+            </>
           )
         }
         {isTradesCustomer && !isWholesaleCustomer &&
           (
+            <>
+              <p>Welcome! We offer a 15% trade discount on all plants to landscape professionals.</p>
+              <p>
+                <a href="/pdf/availability_trade_pricing.pdf" download target="_blank">Latest Plant Availability List with Trade Pricing</a>
+              </p>
+            </>
+          )
+        }
+        {hasNoRoll &&
+          (
             <p>
-              <a href="/pdf/availability_trade_pricing.pdf" download target="_blank">Latest Plant Availability List with Trade Pricing</a>
+              Thanks for signing up to purchase plants! We will reach out to you soon to request more information about your business.
+              You can also tell us about your business by using our <a href="/apply">application form</a>.
+              Check back here once we've approved your application for access to our pricing list.
             </p>
           )
         }
-        <p>
-          <a href="/pdf/CA_Resellers_Form.pdf" download target="_blank">CA Reseller Form </a>
-        </p>
+
 
         <Img
             fixed={data.nurseryHero.childImageSharp.fixed}

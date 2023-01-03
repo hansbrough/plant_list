@@ -45,6 +45,34 @@
     margin-top: 32px;
 }
 
+.banner {
+  background: #63abd9;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 36px;
+}
+
+.banner p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.banner .closeContainer {
+  cursor: pointer;
+  position: absolute;
+  line-height: 12px;
+  right: 20px;
+  top: 20px;
+  padding: 4px;
+}
+
+.banner .closeContainer svg:hover {
+  color: #457b9d;
+}
+
 @media (max-width: 800px) {
     .contactForm {
         grid-template-columns: 1fr;
