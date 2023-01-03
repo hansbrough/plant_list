@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { graphql, Link, navigate } from "gatsby";
 import Img from "gatsby-image";
 
@@ -30,6 +30,16 @@ const ContactPage = ({data}) => {
   };
 
   const [contactForm, setContactForm] = useState(initialState);
+  const [submitDisabled, setSubmitDisabled] = useState(true);
+
+  // update disable state of submit button. assumes all fields required. 
+  useEffect(()=> {
+    if(contactForm && Object.values(contactForm).includes('')) {
+      setSubmitDisabled(true);
+    } else {
+      setSubmitDisabled(false);
+    }
+  },[contactForm]);
 
   const handleChange = (id, e) => {
     const tempForm = { ...contactForm, [id]: e };
@@ -110,7 +120,7 @@ const ContactPage = ({data}) => {
 
           </div>
           <Button
-
+            disabled={submitDisabled}
             level={'primary'}
             type={'buttonSubmit'}
           >

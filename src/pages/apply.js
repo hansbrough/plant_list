@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { graphql, navigate } from "gatsby";
 import Img from "gatsby-image";
 
@@ -35,6 +35,16 @@ const ApplyPage = ({data}) => {
   };
 
   const [applyForm, setApplyForm] = useState(initialState);
+  const [submitDisabled, setSubmitDisabled] = useState(true);
+
+  // update disable state of submit button. assumes last 2 fields NOT required.
+  useEffect(() => {
+    if(applyForm && Object.values(applyForm).slice(0, -2).includes('')) {
+      setSubmitDisabled(true);
+    } else {
+      setSubmitDisabled(false);
+    }
+  },[applyForm]);
 
   const handleChange = (id, e) => {
     const tempForm = { ...applyForm, [id]: e };
@@ -148,6 +158,7 @@ const ApplyPage = ({data}) => {
           </div>
           <Button
             className={styles.customButton}
+            disabled={submitDisabled}
             level={'primary'}
             type={'buttonSubmit'}
           >
