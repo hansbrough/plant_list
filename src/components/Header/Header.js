@@ -1,6 +1,7 @@
-import React, {useState} from "react"
-import { Link, navigate } from "gatsby"
-import PropTypes from "prop-types"
+import React, { useState } from "react"
+import { Link } from "gatsby"
+import PropTypes from "prop-types";
+import NotificationBanner from '../NotificationBanner';
 import IdentityModal, { useIdentityContext } from "react-netlify-identity-widget"
 import "react-netlify-identity-widget/styles.css"
 import Button from "../Button"
@@ -10,18 +11,10 @@ import * as styles from './Header.module.css';
 // applied to the currently active page/link
 const activeStyles = { background: "#397194", color:"#F1EEF6"};
 
-const NavLink = (isLoggedIn, path, label) => {
-  let link = null;
-  if(isLoggedIn) {
-    link = '| ' + <Link to="/reseller" activeStyle={activeStyles}>Reseller</Link>
-  }
-  return link;
-}
-
 const Header = ({ siteTitle, pageName }) => {
   const [dialog, setDialog] = useState(false);
+  const [showBanner, setShowBanner] = useState();
   const identity = useIdentityContext();
-  const name = (identity && identity?.user?.user_metadata?.name);
   const isLoggedIn = identity && identity.isLoggedIn;
 
   return (
@@ -61,7 +54,16 @@ const Header = ({ siteTitle, pageName }) => {
         </div>
 
       </header>
-      <IdentityModal showDialog={dialog} onCloseDialog={() => setDialog(false)} />
+      <IdentityModal
+        showDialog={dialog}
+        onCloseDialog={() => setDialog(false)}
+        onSignup={() => setShowBanner(true)}
+      />
+      { showBanner &&
+        <NotificationBanner
+          msg="Thanks for signing up. Don't forget to confirm your email address."
+        />
+      }
     </>
   )
 }

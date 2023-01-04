@@ -43,7 +43,7 @@ const ResllerPage = ({data}) => {
             <>
               <p>
                 Welcome! We offer wholesale pricing on all plants to licensed nurseries with a CA sellers permit.
-                If you have not already be sure to fill out and submit CA reseller form below.
+                If you have not already be sure to fill out and submit the CA reseller form below.
               </p>
               <p>
                 <a href="/pdf/availability_wholesale_pricing.pdf" download target="_blank">Latest Plant Availability List with Wholesale Pricing</a>

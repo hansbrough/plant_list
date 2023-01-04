@@ -1,14 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { graphql, Link } from "gatsby";
-import Img from "gatsby-image";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import FormInputField from '../components/FormInputField/FormInputField';
 import Button from '../components/Button';
-import Icon from '../components/Icons/Icon';
-
-import * as styles from './Contact.module.css';
+import NotificationBanner from '../components/NotificationBanner';
 
 // results automagically passed to page component as 'data'
 export const query = graphql`
@@ -138,21 +135,11 @@ const ContactPage = ({data}) => {
             </Button>
         </form>
 
-        {/*<Img
-            fixed={data.nurseryHero.childImageSharp.fixed}
-            alt="Plants growing in all day sun."
-            className="aloe-regions-map"
-          />*/}
       </Layout>
-      {showBanner &&
-        (
-          <div className={styles.banner}>
-            <div className={styles.closeContainer} onClick={() => setShowBanner(false)}>
-              <Icon symbol={'cross'}></Icon>
-            </div>
-            <p>Thanks for reaching out! We will reply within a few business days.</p>
-          </div>
-        )
+      { showBanner &&
+        <NotificationBanner
+          msg="Thanks for reaching out! We will reply within a few business days."
+        />
       }
     </>
   )
