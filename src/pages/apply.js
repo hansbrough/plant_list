@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
 
 import Layout from "../components/layout";
 import FormInputField from '../components/FormInputField/FormInputField';
-import Icon from '../components/Icons/Icon';
+import NotificationBanner from '../components/NotificationBanner';
 import Button from '../components/Button';
 import Dropdown from '../components/Dropdown/Dropdown';
 import SEO from "../components/seo";
@@ -173,23 +172,12 @@ const ApplyPage = ({data}) => {
               submit
             </Button>
         </form>
-
-        {/*<Img
-            fixed={data.nurseryHero.childImageSharp.fixed}
-            alt="Plants growing in all day sun."
-            className="aloe-regions-map"
-          />
-          */}
       </Layout>
-      {showBanner &&
-        (
-          <div className={styles.banner}>
-            <div className={styles.closeContainer} onClick={() => setShowBanner(false)}>
-              <Icon symbol={'cross'}></Icon>
-            </div>
-            <p>Thanks for submitting your details! We will review your submission within a few business days and send follow up instructions.</p>
-          </div>
-        )
+
+      { showBanner &&
+        <NotificationBanner
+          msg="Thanks for submitting your details! We will review your submission within a few business days and send follow up instructions."
+        />
       }
     </>
   )

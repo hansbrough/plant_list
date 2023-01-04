@@ -42,12 +42,12 @@ const PlantTableCell = ({size, plant, nowDate}) => {
     return null;
   }
 
-  const {price, availability, stock} = plant;
+  const {availability, stock} = plant;
   const availabilityClassNames = getClassNames(size, availability, stock);
 
   return (
     <td className={availabilityClassNames} title={getTitle(size, availability)}>
-      {/*{price[size] && `$${price[size]}`}*/}
+      
     </td>
   )
 }
