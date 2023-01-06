@@ -80,9 +80,10 @@ const ApplyPage = ({data}) => {
           If you are a contractor, designer, architect or other landscape professional we can help you locate plant materials either with stock on hand or by coordinating with another wholesaler.
         </p>
         <p>
-          To purchase plants at trade discount please use the form below to describe your business and project needs.
+          To purchase plants at a trade discount please use the form below to describe your business and project needs.
           Once we've reviewed your submission, we'll create your account and you'll receive an E-mail from us with instructions for setting a password.
         </p>
+        <p>Looking for retail plants? Visit our retail site: <a href="https://dryoasisplants.com" target="_blank" rel="noreferrer">dryoasisplants.com</a></p>
         <p>
           After successfully logging in you will have access to our Reseller area.
         </p>
