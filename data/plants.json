@@ -528,15 +528,5 @@
     "availability": {"fifteen_ga": "09/15/2022"},
     "stock": {"fifteen_ga":1},
     "genus": "Trichocereus"
-  },
-  {
-    "title": "Opuntia basilaris 'Caudata'",
-    "slug": "opuntia-basilaris",
-    "aka": ["Baby Beaver Tails"],
-    "overview": "A compact prickly pear cactus only grows to 18 inches tall and slowly to 2’ wide, and can be pruned occasionally. Springtime finds these beautiful silver-blue pads covered with brilliant, delicate, bright pink flowers.",
-    "price": {"fifteen_ga": 150},
-    "availability": {"fifteen_ga": "05/15/2022"},
-    "stock": {"fifteen_ga":1},
-    "genus": "Opuntia"
   }
 ]

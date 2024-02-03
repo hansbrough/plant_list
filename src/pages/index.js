@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 // results automagically passed to page component as 'data'
 export const query = graphql`
   query {
-    nurseryHero:file(name: { eq: "backyard-nursery" }) {
+    nurseryHero:file(name: { eq: "hmb_nursery_1" }) {
       childImageSharp {
         fluid(maxWidth: 1000, fit: COVER) {
           ...GatsbyImageSharpFluid
