@@ -41,8 +41,8 @@ const Header = ({ siteTitle, pageName }) => {
             <nav className={styles.pageNav}>
               <div className={styles.left}>
                 <Link to="/plant-listing" activeStyle={activeStyles} partiallyActive={true}>Plant Availability</Link> |
-                <Link to="/contact" activeStyle={activeStyles}>Contact</Link>
-                {isLoggedIn && ` | `}
+                <Link to="/contact" activeStyle={activeStyles}>Contact</Link> |
+                {!isLoggedIn && <Link to="/apply" activeStyle={activeStyles}>Apply</Link>}
                 {isLoggedIn && <Link to="/reseller" activeStyle={activeStyles}>Reseller</Link>}
               </div>
               <div className={styles.right}>
