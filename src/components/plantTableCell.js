@@ -12,9 +12,9 @@ const PlantTableCell = ({size, plant, nowDate}) => {
     const classNames = [];
     if(size && availability && stock) {
       const availableDateStr = availability[size];
-      if(stock[size] && stock[size] < 5) { //not many left
-        classNames.push('low-stock');
-      }
+      // if(stock[size] && stock[size] < 5) { //not many left
+      //   classNames.push('low-stock');
+      // }
       // if(availableDateStr === 'sold_out') {
       //   classNames.push('sold-out');//when none left - no point displaying availability date.
       // }
@@ -47,7 +47,7 @@ const PlantTableCell = ({size, plant, nowDate}) => {
 
   return (
     <td className={availabilityClassNames} title={getTitle(size, availability)}>
-      
+
     </td>
   )
 }

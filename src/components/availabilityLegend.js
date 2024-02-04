@@ -11,9 +11,7 @@ const AvailabilityLegend = () => {
         </ul>
       </div>
 
-      <p className="legend-msg">
-        Plant sizes marked as 'Low' have fewer than 5 left.
-      </p>
+      <p className="legend-msg"></p>
     </div>
   )
 }
