@@ -48,8 +48,8 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
       />
       <h2>Wholesale Plant Availability</h2>
       <p>
-        Everything listed as available below is ready to sell.
-        We also source and resell a large number of plants from other wholesale nurseries so chances are good that we can find your plants.
+        Login to the reseller area to see plant pricing and quantities. Don't have an account? <Link to="/apply" >Apply</Link> today.
+
       </p>
       <p>Looking for retail plants? Visit our retail site: <a href="https://dryoasisplants.com" target="_blank" rel="noreferrer">dryoasisplants.com</a></p>
 
