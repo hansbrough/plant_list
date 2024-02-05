@@ -224,7 +224,7 @@
     "title": "Aloe acutissima",
     "slug": "aloe-acutissima",
     "aka": ["Blue Aloe"],
-    "overview": "",
+    "overview": "Aloe acutissima is an attractive aloe from Madagascar with interesting foliage colors and winter flowers that does well in the ground or in larger pots. This is a shrubby, fast growing species which can fill an area in a few years, after which it slowly spreads in all directions.",
     "resource_link": "http://www.gardenaloes.com/aloe-acutissima",
     "price": {"one_ga": 8,"two_ga": 14},
     "availability": {"one_ga": "sold_out","two_ga":"10/15/2023"},
@@ -251,6 +251,17 @@
     "price": {"two_ga": 12,"five_ga": 20,"ten_ga": 50,"fifteen_ga": 85},
     "availability": {"two_ga": "11/15/2022", "five_ga": "11/15/2022", "ten_ga": "11/15/2022","fifteen_ga":"11/15/2023"},
     "stock": {"two_ga":2, "five_ga":2, "ten_ga":1,"fifteen_ga":3},
+    "genus": "aloe"
+  },
+  {
+    "title": "Aloe camperi 'Cornuta'",
+    "slug": "aloe-camperi-cornuta",
+    "aka": [],
+    "overview": "Aloe camperi 'Cornuta'is the spotted version of the standard form. This unusual African Aloe forms rambling colonies of 2’ high and wide rosettes with long, narrow, serrated, evergreen, succulent leaves.",
+    "resource_link": "https://www.gardenaloes.com/aloe-camperi/",
+    "price": {"four_in":4.75,"one_ga": 9,"two_ga": 12},
+    "availability": {"four_in":"11/15/2023", "one_ga": "3/15/2024","two_ga": "4/15/2024"},
+    "stock": {"four_in":64,"one_ga":12,"two_ga":24},
     "genus": "aloe"
   },
   {
@@ -470,6 +481,106 @@
     "genus": "aloe"
   },
   {
+    "title": "Aloe cryptopoda",
+    "slug": "aloe-cryptopoda",
+    "aka": [],
+    "overview": "This plant is one of the most beautiful and showy of the South African species of Aloe. Aloe cryptopoda has solitary, stemless rosettes densely packed with upright, curved smooth turquoisey-grey leaves with small sharp reddish-brown spines along the margins. A very attractive and unique Aloe with spectacular display of bi-colored blooms when in full flower.",
+    "price": {"one_ga":8,"two_ga":12,"five_ga":20,"seven_ga":35,"ten_ga": 50},
+    "availability": {"one_ga": "03/15/2021","two_ga": "03/15/2021","five_ga": "07/15/2022", "seven_ga": "03/15/2021", "ten_ga": "03/15/2021"},
+    "stock": {"one_ga":1,"five_ga":1,"seven_ga":1,"ten_ga":1},
+    "genus": "aloe"
+  },
+  {
+    "title": "Aloe 'Cynthia Giddy'",
+    "slug": "aloe-cynthia-giddy",
+    "aka": [],
+    "overview": "An attractive, clumping, spotted aloe hybrid which undergoes dramatic color changes in response to sun, drought or cold stress. This Aloe is medium-sized and forma numerous rosettes to 2 feet tall with dark green white-spotted leaves that have bronze to deep maroon depending upon conditions. 'Cynthia Giddy' also flowers much of the year, from summer to winter and it is a good, relatively hardy landscape plant.",
+    "price": {"four_in":4.75,"two_ga":12},
+    "availability": {"four_in": "07/15/2023","two_ga": "01/15/2024"},
+    "stock": {"four_in":8,"two_ga":50},
+    "genus": "aloe"
+  },
+  {
+    "title": "Aloe ferox",
+    "slug": "aloe-ferox",
+    "aka": ["Cape Aloe"],
+    "overview": "Aloe ferox (Cape Aloe), native to South Africa, grows up to 3-5 feet wide. Its single stem can reach 10 feet in height, featuring a dense rosette of blue-green, lance-shaped leaves. An impressive candelabra-like inflorescence is topped by small flowers, usually 5-8 branches with spike-like heads. Its thick, fleshy leaves show reddish-brown spines, and may have a pale blue or red hue. Dead leaves form a petticoat on the stem, creating an aged appearance.",
+    "price": {"four_in":4.75,"one_ga": 12},
+    "availability": {"four_in":"03/15/2024","one_ga": "01/15/2024"},
+    "stock": {"four_in":48,"one_ga":48},
+    "genus": "aloe"
+  },
+  {
+    "title": "Agave celsii 'Multicolor'",
+    "slug": "agave-celsii-multicolor",
+    "aka": [],
+    "overview": "Agave celsii 'Multicolor' makes a nice addition to any garden landscape. This medium-sized agave boasts rosettes that reach up to 2 feet in height and breadth, adorned with fleshy leaves. The cream-margined green foliage, measuring 6 inches wide and 2 feet long, elegantly curves upwards, creating a mesmerizing display. Thriving in full sun or light shade, this drought-tolerant plant is an excellent choice for coastal California gardens, exhibiting hardiness even in temperatures as low as the mid-20s.",
+    "price": {"four_in":4.00,"one_ga": 9},
+    "availability": {"four_in":"09/15/2023","one_ga": "02/15/2024"},
+    "stock": {"four_in":500,"one_ga":350},
+    "genus": "agave"
+  },
+  {
+    "title": "Agave vilmoriniana",
+    "slug": "agave-vilmoriniana",
+    "aka": ["Octopus Agave"],
+    "overview": "Agave vilmoriniana, known as Octopus Agave, reaches a mature height of 3 to 4 feet and a spread of 6 to 8 feet. Its long, narrow, arching leaves create a unique silhouette, resembling the tentacles of an octopus, making it an excellent focal point in arid landscapes. Plant in well-drained soil under full sun for optimal growth. Drought-tolerant and low-maintenance, it's ideal for xeriscaping, rock gardens, or as a standalone specimen.",
+    "price": {"four_in":3.50},
+    "availability": {"four_in":"04/15/2024"},
+    "stock": {"four_in":200},
+    "genus": "agave"
+  },
+  {
+    "title": "Aloe wickensii",
+    "slug": "aloe-wickensii",
+    "aka": ["Cape Aloe"],
+    "overview": "This plant is one of the most beautiful and showy of the South African species of Aloe. Aloe wickensii has solitary, stemless rosettes densely packed with upright, curved smooth turquoisey-grey leaves with small sharp reddish-brown spines along the margins. A very attractive and unique Aloe with spectacular display of bi-colored blooms when in full flower.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"02/15/2024"},
+    "stock": {"four_in":93},
+    "genus": "aloe"
+  },
+  {
+    "title": "Agave xylonacantha",
+    "slug": "agave-xylonacantha",
+    "aka": ["Saw Leaf agave"],
+    "overview": "In a nod to one of Agave xylonocantha's most striking features it used to be named after the teeth of the Great White Shark! This Agave is also unique in that it forms relatively few of it's convoluted, sword-shaped leaves when compared to other agaves. It produces a basal rosette of up to 6 ft in diameter and 3 to 4 ft in height. Monocarpic flowering stalks can reach a height of 11 feet. It is a close relative of Agave lophantha.",
+    "price": {"four_in":3.50},
+    "availability": {"four_in":"02/15/2024"},
+    "stock": {"four_in":32},
+    "genus": "agave"
+  },
+  {
+    "title": "Aloe comptonii",
+    "slug": "aloe-comptonii",
+    "aka": [],
+    "overview": "Aloe comptonii is one of the larger creeping aloe species from S. Africa. This species is a moderately-sized (the largest of the species), compact, South African aloe known for its growth habit of spreading along the ground via horizontal, sprawling stems, sometimes retaining a lot of leaves giving the rosettes a curious stacked look.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"02/15/2024"},
+    "stock": {"four_in":32},
+    "genus": "aloe"
+  },
+  {
+    "title": "Aloe elegans",
+    "slug": "aloe-elegans",
+    "aka": [],
+    "overview": "A medium-sized, mostly stemless plant. Aloe elegans grows 18-24 inches tall, featuring open rosettes of thick, upright, gray-green lance-shaped leaves with reddish-tinged edges when plants are exposed to drought. Late winter to early spring brings a few (2-4) branched inflorescence, bearing bright yellow conical flower heads that rise above leaf tips. This species enjoys full sun to light shade and soil that drains well, needing infrequent irrigation. Ethiopian native where it is very common on open slopes at moderately high elevations.",
+    "price": {"five_ga":25},
+    "availability": {"five_ga":"09/15/2023"},
+    "stock": {"five_ga":3},
+    "genus": "aloe"
+  },
+  {
+    "title": "Aloe microstigma",
+    "slug": "aloe-microstigma",
+    "aka": [],
+    "overview": "Aloe microstigma is a South African species with speckled leaves and wonderful flower colors. One of the most floriferous Aloes in South Africa, Aloe microstigma is a medium size, easy, relatively fast growing plant, tolerating summer watering and some shade, as well as poor soils.",
+    "price": {"four_in":5.50},
+    "availability": {"four_in":"02/15/2024"},
+    "stock": {"four_in":12},
+    "genus": "aloe"
+  },
+  {
     "title": "Mangave 'Macho Mocha'",
     "slug": "mangave-macho-mocha",
     "aka": [],
@@ -498,16 +609,6 @@
     "availability": {"one_ga":"sold_out","five_ga":"05/15/2024"},
     "stock": {"one_ga":0,"five_ga":32},
     "genus": "hesperaloe"
-  },
-  {
-    "title": "Aloe cryptopoda",
-    "slug": "aloe-cryptopoda",
-    "aka": [],
-    "overview": "This plant is one of the most beautiful and showy of the South African species of Aloe. Aloe cryptopoda has solitary, stemless rosettes densely packed with upright, curved smooth turquoisey-grey leaves with small sharp reddish-brown spines along the margins. A very attractive and unique Aloe with spectacular display of bi-colored blooms when in full flower.",
-    "price": {"one_ga":8,"two_ga":12,"five_ga":20,"seven_ga":35,"ten_ga": 50},
-    "availability": {"one_ga": "03/15/2021","two_ga": "03/15/2021","five_ga": "07/15/2022", "seven_ga": "03/15/2021", "ten_ga": "03/15/2021"},
-    "stock": {"one_ga":1,"five_ga":1,"seven_ga":1,"ten_ga":1},
-    "genus": "aloe"
   },
   {
     "title": "Kalanchoe Sexangularis",
