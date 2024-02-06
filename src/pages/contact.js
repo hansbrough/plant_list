@@ -77,7 +77,7 @@ const ContactPage = ({data}) => {
           If you don't have an account yet and would like to buy plants fill out our <Link to="/apply">application form</Link> first.
         </p>
         <p>
-          <span><b>Email</b> hans@broughplants.com</span>
+          <span><b>Email</b> hans@dryoasisgardening.com</span>
         </p>
         <p>
           <span><b>CA Nursery License</b> C3194</span>
