@@ -84,9 +84,9 @@
     "slug": "agave-fatal-attraction",
     "aka": [],
     "overview": "The variegated form of Agave Funkiana - 'Fatal Attraction' features narrow dark green leaves with a lighter central mid-stripe and small brownish-red teeth along leaf edges. This native of the Sierra Madre Oriental mountains in Mexico will eventually reach a maximum of 2' to 3' foot in diameter.",
-    "price": {"one_ga": 8, "two_ga": 16, "five_ga": 20, "seven_ga": 35,"fifteen_ga":60.00},
-    "availability": {"one_ga": "02/15/2021", "two_ga": "02/15/2021", "five_ga": "sold_out", "seven_ga": "02/15/2021","fifteen_ga":"05/15/2022"},
-    "stock": {"one_ga":1,"two_ga":6,"five_ga":0,"seven_ga":4,"fifteen_ga":1},
+    "price": {"one_ga": 9, "two_ga": 16, "five_ga": 20, "seven_ga": 40,"fifteen_ga":60},
+    "availability": {"one_ga": "10/15/2023", "two_ga": "10/15/2023", "five_ga": "sold_out", "seven_ga": "02/15/2021","fifteen_ga":"05/15/2022"},
+    "stock": {"one_ga":10,"two_ga":6,"five_ga":0,"seven_ga":4,"fifteen_ga":1},
     "genus": "agave"
   },
   {
@@ -150,10 +150,20 @@
     "genus": "agave"
   },
   {
+    "title": "Agave 'Blue Flame'",
+    "slug": "agave-blue-flame",
+    "aka": [],
+    "overview": "Agave 'Blue Flame' are visually impressive with their distinctive blue-green leaves that gracefully curve upward, resembling a flickering flame. Its unique coloration and graceful growth habit make it a standout addition to any dry garden.",
+    "price": {"five_ga": 22},
+    "availability": {"one_ga": "sold_out", "two_ga": "sold_out","five_ga": "10/15/2023"},
+    "stock": {"one_ga":0,"two_ga":0,"five_ga":22},
+    "genus": "agave"
+  },
+  {
     "title": "Agave 'Red Margin'",
     "slug": "agave-red-margin",
     "aka": [],
-    "overview": "Similar in appearance to 'Blue Flame,' or 'Blue Glow,' this very attractive species exhibits smooth, lanceolate, toothless, silver-green leaves with red margins.",
+    "overview": "Similar in appearance to 'Blue Flame' or 'Blue Glow' this very attractive species exhibits smooth, lanceolate, toothless, silver-green leaves with red margins.",
     "price": {"one_ga": 8, "two_ga": 12, "five_ga": 20},
     "availability": {"one_ga": "11/15/2022", "two_ga": "03/15/2021","five_ga": "sold_out"},
     "stock": {"one_ga":14,"two_ga":1,"five_ga":0},
@@ -305,7 +315,7 @@
     "resource_link": "http://www.gardenaloes.com/aloe-kedongensis",
     "price": {"four_in":4,"one_ga": 8, "two_ga": 11,"five_ga": 20},
     "availability": {"four_in":"07/15/2023","one_ga": "02/15/2023","two_ga": "07/15/2023","five_ga": "07/15/2023"},
-    "stock": {"four_in":16,"one_ga":11,"two_ga":11,"five_ga":11},
+    "stock": {"four_in":16,"one_ga":11,"two_ga":7,"five_ga":11},
     "genus": "aloe"
   },
   {
@@ -442,9 +452,9 @@
     "aka": ["Coast Aloe", "Dune Aloe"],
     "overview": "Aloe thraskii is wonderful feature plant that is tall and robust, with enormous olive green leaves that are recurved back to the trunk, sometimes even touching the skirt of old, dried leaves around the trunk. This unbranched tree-like Aloe grows to 10 feet with deeply concave (U-shaped in cross section) pale olive-green leaves that have small reddish-brown marginal teeth. Also known as the Dune Aloe this fast-growing, South African, un-branched succulent plant, develops a very large and beautiful rosette.",
     "resource_link": "http://www.gardenaloes.com/aloe-thraskii",
-    "price": {"two_in":1.90,"one_ga":8,"two_ga":14,"five_ga":20,"fifteen_ga":74},
-    "availability": {"two_in":"3/15/2024", "one_ga": "10/15/2023","two_ga": "03/15/2023","five_ga": "10/15/2023","fifteen_ga":"sold_out"},
-    "stock": {"two_in":50, "one_ga":6,"two_ga":39,"five_ga":13,"fifteen_ga":0},
+    "price": {"two_in":1.90,"one_ga":8,"two_ga":14,"five_ga":20,"seven_ga":45,"fifteen_ga":74},
+    "availability": {"two_in":"3/15/2024", "one_ga": "10/15/2023","two_ga": "03/15/2023","five_ga": "10/15/2023","seven_ga":"10/15/2023","fifteen_ga":"sold_out"},
+    "stock": {"two_in":50, "one_ga":13,"two_ga":10,"five_ga":13,"seven_ga":3,"fifteen_ga":0},
     "genus": "aloe"
   },
   {
@@ -487,7 +497,7 @@
     "overview": "This plant is one of the most beautiful and showy of the South African species of Aloe. Aloe cryptopoda has solitary, stemless rosettes densely packed with upright, curved smooth turquoisey-grey leaves with small sharp reddish-brown spines along the margins. A very attractive and unique Aloe with spectacular display of bi-colored blooms when in full flower.",
     "price": {"one_ga":8,"two_ga":12,"five_ga":20,"seven_ga":35,"ten_ga": 50},
     "availability": {"one_ga": "03/15/2021","two_ga": "03/15/2021","five_ga": "07/15/2022", "seven_ga": "03/15/2021", "ten_ga": "03/15/2021"},
-    "stock": {"one_ga":1,"five_ga":1,"seven_ga":1,"ten_ga":1},
+    "stock": {"one_ga":3,"five_ga":1,"seven_ga":1,"ten_ga":1},
     "genus": "aloe"
   },
   {
@@ -577,7 +587,7 @@
     "overview": "Aloe microstigma is a South African species with speckled leaves and wonderful flower colors. One of the most floriferous Aloes in South Africa, Aloe microstigma is a medium size, easy, relatively fast growing plant, tolerating summer watering and some shade, as well as poor soils.",
     "price": {"four_in":5.50},
     "availability": {"four_in":"02/15/2024"},
-    "stock": {"four_in":12},
+    "stock": {"four_in":16},
     "genus": "aloe"
   },
   {

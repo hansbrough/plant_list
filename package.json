@@ -2,8 +2,8 @@
   "name": "gatsby-starter-default",
   "private": true,
   "description": "A Wholesale Plant site",
-  "version": "0.1.0",
-  "author": "Hans Brough <hans@broughplants.com>",
+  "version": "0.1.1",
+  "author": "Hans Brough <hans@dryoasisgardening.com>",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
