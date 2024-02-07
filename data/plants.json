@@ -11,7 +11,7 @@
   },
   {
     "title": "Agave attenuata 'Ray of Light'",
-    "slug": "agave-attenuata",
+    "slug": "agave-attenuata-ray-of-light",
     "aka": ["Variegated Fox Tail Agave"],
     "overview": "The variegated Foxtail Agave can reach a height of 5' and forms beautiful, soft green, spineless rosettes which work well with other succulents or even tropical plants. It's graceful form and lack of spines makes Agave attenuata a popular dry garden choice. This agave will tolerate full sun near the coast. It will usually be damaged when temperatures reach 28° F.",
     "price": {"one_ga": 8.00, "five_ga": 20},
@@ -35,8 +35,8 @@
     "aka": [],
     "overview": "A beautiful smaller Agave with solitary rosettes slowly growing to 2 feet tall and 3 feet across with 18 inch long by 1-1 1/2 inch wide blue-green leaves that have red margins edged with yellow and bearing tiny soft spines and a stout short red terminal spine.",
     "price": {"one_ga":8.00,"five_ga":20},
-    "availability": {"one_ga": "03/15/2023","five_ga": "10/15/2022"},
-    "stock": {"one_ga":3,"five_ga":13},
+    "availability": {"one_ga": "sold_out","five_ga": "sold_out"},
+    "stock": {"one_ga":0,"five_ga":0},
     "genus": "agave"
   },
   {
@@ -60,8 +60,8 @@
     "genus": "agave"
   },
   {
-    "title": "Agave desmettiana",
-    "slug": "agave-desmettiana",
+    "title": "Agave desmettiana 'Variegata'",
+    "slug": "agave-desmettiana-variegata",
     "aka": ["Variegated Smooth Agave"],
     "overview": "Bright golden yellow edges on arching, fleshy leaves creates an elegant urn-like form that is a sensational focal point for the landscape or a large container. Foliage has tiny, marginal thorns.",
     "price": {"two_ga": 18, "five_ga": 20, "seven_ga":35},
@@ -112,7 +112,7 @@
   {
     "title": "Agave gypsophila 'Curly'",
     "slug": "agave-gypsophila-curly",
-    "aka": [""],
+    "aka": [" Gypsum Century Plant","Blue Wave Agave"],
     "overview": "Grows 2 to 3 feet, forms a single open rosette of wavy gray colored leaves.",
     "price": {"four_in": 4.75,"two_ga":9.75},
     "availability": {"four_in": "09/15/2022","two_ga": "09/15/2023"},
@@ -302,9 +302,9 @@
     "aka": ["Malagasy Aloe", "Vahondrandra"],
     "overview": "A smallish tree aloe from Southern Madagascar which is typically non-branching, and grows to 13 feet tall with recurving green leaves. Also known as the Vahondrandra, it still quite rare in cultivation, frequently sought after by collectors.",
     "resource_link": "http://www.gardenaloes.com/aloe-helenae",
-    "price": {"one_ga":12,"seven_ga":65,"fifteen_ga": 345.00},
-    "availability": {"one_ga":"sold_out","seven_ga":"5/15/2024","fifteen_ga": "06/15/2022"},
-    "stock": {"one_ga":0,"seven_ga":2,"fifteen_ga":1},
+    "price": {"one_ga":12, "seven_ga":85, "ten_ga":100, "fifteen_ga": 345.00},
+    "availability": {"one_ga":"sold_out","seven_ga":"5/15/2024","ten_ga":"5/15/2024","fifteen_ga": "sold_out"},
+    "stock": {"one_ga":0,"seven_ga":2,"ten_ga":1,"fifteen_ga":0},
     "genus": "aloe"
   },
   {
@@ -385,7 +385,7 @@
   },
   {
     "title": "Aloe pretoriensis hybrid",
-    "slug": "aloe-pretoriensis",
+    "slug": "aloe-pretoriensis-x",
     "aka": ["Pretoria Aloe"],
     "overview": "Aloe pretoriensis is a medium-sized, rosette-forming, single stem, blue-green aloe from South Africa that unlike most aloes has thin fleshy leaves. Grows slowly on a trunk to as tall as 3 feet. In the late fall into winter a magnificent branching inflorescence with bright red flowers reaches up to 6 feet!",
     "price": {"one_ga": 8, "two_ga": 16,"five_ga":26},
