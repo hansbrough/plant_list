@@ -1,10 +1,13 @@
-import React from "react";
-import { graphql, navigate } from "gatsby";
+import React, { useState, useEffect } from "react";
+import { graphql, navigate, Link } from "gatsby";
 import Img from "gatsby-image";
 import { useIdentityContext } from "react-netlify-identity-widget";
 import { isBrowser } from "../utils/general";
+import FormInputField from '../components/FormInputField/FormInputField';
+import Button from '../components/Button';
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import NotificationBanner from '../components/NotificationBanner';
 
 // results automagically passed to page component as 'data'
 export const query = graphql`
@@ -29,11 +32,54 @@ const ResllerPage = ({data}) => {
   const isLoggedIn = identity && identity.isLoggedIn;
   //console.log("hasNoRoll:",hasNoRoll)
 
+  const initialState = {
+    name: '',
+    email: '',
+    plants: ''
+  };
+
+  const [orderForm, setOrderForm] = useState(initialState);
+  const [submitDisabled, setSubmitDisabled] = useState(true);
+  const [showBanner, setShowBanner] = useState();
+
+  // update disable state of submit button. assumes all fields required.
+  useEffect(()=> {
+    if(orderForm && Object.values(orderForm).includes('')) {
+      setSubmitDisabled(true);
+    } else {
+      setSubmitDisabled(false);
+    }
+  },[orderForm]);
+
+  const handleChange = (id, e) => {
+    const tempForm = { ...orderForm, [id]: e };
+    setOrderForm(tempForm);
+  };
+
+  const handleshowBanner = () => {
+    setShowBanner(true);
+    setOrderForm(initialState);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = Object.assign({"form-name": "contact"}, orderForm);
+    const encodedFormData = new URLSearchParams(formData).toString();
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encodedFormData
+    })
+    .then(handleshowBanner)
+    .catch(error => alert(error));
+  };
+
   if(isBrowser && identity && !isLoggedIn) { // redirect client when not logged in.
     navigate('/');
     return null;
   } else {
     return (
+      <>
       <Layout pageName="reseller">
         <SEO title="Brough Plants Reseller Resources" />
         <h2>Reseller Resources</h2>
@@ -64,6 +110,60 @@ const ResllerPage = ({data}) => {
             </>
           )
         }
+        <p>
+          <Link to="/delivery" >Delivery and Pickup Information</Link>
+        </p>
+        {!hasNoRoll &&
+          (
+            <>
+            <h2>Order</h2>
+            <p>List the plants, their sizes and quanties in the order and we will send an invoice for you to verify.</p>
+            <form
+                onSubmit={(e) => handleSubmit(e)}
+                name="order"
+                data-netlify="true"
+              >
+              <input type="hidden" name="form-name" value="order" />
+              <div >
+                  <FormInputField
+                    id={'name'}
+                    value={orderForm.name}
+                    handleChange={(id, e) => handleChange(id, e)}
+                    type={'text'}
+                    labelName={'Contact Name'}
+                    required
+                  />
+                  <FormInputField
+                    id={'email'}
+                    value={orderForm.email}
+                    handleChange={(id, e) => handleChange(id, e)}
+                    type={'email'}
+                    labelName={'Email'}
+                    required
+                  />
+                  <div >
+                    <FormInputField
+                      id={'plants'}
+                      value={orderForm.plants}
+                      handleChange={(id, e) => handleChange(id, e)}
+                      type={'textarea'}
+                      labelName={'Plants'}
+                      required
+                    />
+                  </div>
+
+                </div>
+                <Button
+                  disabled={submitDisabled}
+                  level={'primary'}
+                  type={'buttonSubmit'}
+                >
+                  submit
+                </Button>
+            </form>
+            </>
+          )
+        }
         {hasNoRoll &&
           (
             <p>
@@ -81,11 +181,13 @@ const ResllerPage = ({data}) => {
             className="aloe-regions-map"
           />
 
-
-
-
-
       </Layout>
+      { showBanner &&
+        <NotificationBanner
+          msg="Thank you for your order request! We will reply as soon as possible."
+        />
+      }
+    </>
     )
   }
 }
