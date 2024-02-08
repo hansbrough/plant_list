@@ -113,9 +113,7 @@ const ResllerPage = ({data}) => {
         <p>
           <Link to="/delivery" >Delivery and Pickup Information</Link>
         </p>
-        {!hasNoRoll &&
-          (
-            <>
+
             <h2>Order</h2>
             <p>List the plants, their sizes and quanties in the order and we will send an invoice for you to verify.</p>
             <form
@@ -161,9 +159,7 @@ const ResllerPage = ({data}) => {
                   submit
                 </Button>
             </form>
-            </>
-          )
-        }
+            
         {hasNoRoll &&
           (
             <p>
