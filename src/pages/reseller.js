@@ -63,7 +63,7 @@ const ResllerPage = ({data}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formData = Object.assign({"form-name": "contact"}, orderForm);
+    const formData = Object.assign({"form-name": "order"}, orderForm);
     const encodedFormData = new URLSearchParams(formData).toString();
     fetch("/", {
       method: "POST",

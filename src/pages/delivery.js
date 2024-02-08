@@ -1,13 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { graphql, navigate, Link } from "gatsby";
+import React from "react";
+import { graphql } from "gatsby";
 import Img from "gatsby-image";
-import { useIdentityContext } from "react-netlify-identity-widget";
-import { isBrowser } from "../utils/general";
-import FormInputField from '../components/FormInputField/FormInputField';
-import Button from '../components/Button';
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import NotificationBanner from '../components/NotificationBanner';
 
 // results automagically passed to page component as 'data'
 export const query = graphql`
