@@ -29,10 +29,10 @@ const DeliveryPage = ({data}) => {
         Deliveries must be scheduled 48 hours in advance. Cutoff time for additions or cancellations to orders scheduled for delivery is 12 pm the day prior. Any deliveries canceled after the cutoff time will be subject to a 25% cancellation fee.
       </p>
       <ul>
-        <li>We charge a 10% fee of the subtotal to deliver to the central Bay Area (South of Santa Rosa, Southwest of Vacaville, West of Antioch/Livermore, and North of San Jose).</li>
-        <li>We charge a 15% fee to deliver to the extended Bay Area (North of Santa Rosa, Sacramento, Stockton, and Monterrey).</li>
+        <li>We charge a 10% ($100 min) fee of the subtotal to deliver to the central Bay Area (South of Santa Rosa, Southwest of Vacaville, West of Antioch/Livermore, and North of San Jose).</li>
+        <li>We charge a 15% f($150 min) ee to deliver to the extended Bay Area (North of Santa Rosa, Sacramento, Stockton, and Monterrey).</li>
         <li>All deliveries outside of the extended Bay Area or over 100 miles are subject to a negotiated rate.</li>
-        <li>To qualify for delivery, the order subtotal minimum is $800.</li>
+        <li>To qualify for delivery, the order subtotal minimum is $400.</li>
         <li>Customer assistance in unloading material is required.</li>
         <li>Delivery is curbside only.</li>
         <li>Delivery cancelation, rejection, or rescheduling is subject to applicable restocking fees.</li>
