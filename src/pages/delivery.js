@@ -26,22 +26,21 @@ const DeliveryPage = ({data}) => {
       <h2>Delivery and Pickup</h2>
       <h3>Schedule a Delivery</h3>
       <p>
-        Deliveries must be scheduled 48 hours in advance. Cutoff time for additions or cancellations to orders scheduled for delivery is 12 pm the day prior. Any deliveries canceled after the cutoff time will be subject to a 25% cancellation fee.
+        Orders will be held for a period of two weeks. Any orders not collected within this timeframe may be subject to restocking and associated fees.
       </p>
       <ul>
-        <li>We charge a 10% ($100 min) fee of the subtotal to deliver to the central Bay Area (South of Santa Rosa, Southwest of Vacaville, West of Antioch/Livermore, and North of San Jose).</li>
-        <li>We charge a 15% f($150 min) ee to deliver to the extended Bay Area (North of Santa Rosa, Sacramento, Stockton, and Monterrey).</li>
-        <li>All deliveries outside of the extended Bay Area or over 100 miles are subject to a negotiated rate.</li>
-        <li>To qualify for delivery, the order subtotal minimum is $400.</li>
-        <li>Customer assistance in unloading material is required.</li>
-        <li>Delivery is curbside only.</li>
-        <li>Delivery cancelation, rejection, or rescheduling is subject to applicable restocking fees.</li>
+        <li>For deliveries to the central Bay Area (areas South of Santa Rosa, Southwest of Vacaville, West of Antioch/Livermore, and North of San Jose), there is a delivery fee of 10% of the subtotal, with a minimum charge of $100.</li>
+        <li>For deliveries to the extended Bay Area (areas North of Santa Rosa, Sacramento, Stockton, and Monterrey), the delivery fee is 15% of the subtotal, with a minimum charge of $150.</li>
+        <li>Deliveries outside of the extended Bay Area or exceeding 100 miles will incur a negotiated delivery rate.</li>
+        <li>Orders must meet a minimum subtotal of $400 to qualify for delivery.</li>
+        <li>Customer assistance for unloading materials is required, and delivery is strictly curbside.</li>
+        <li>Cancellation, rejection, or rescheduling of delivery may be subject to applicable restocking fees.</li>
       </ul>
 
       <h3>Pick-up your order</h3>
       <p>
         Plant orders are available for pick up at our Halfmoon Bay Nursery.
-        Orders are held for 2 weeks. Orders that are not picked up within 2 weeks may be restocked and assessed a restocking fee.
+        Orders will be held for a period of two weeks. Any orders not collected within this timeframe may be subject to restocking and associated fees.
       </p>
 
       <Img
