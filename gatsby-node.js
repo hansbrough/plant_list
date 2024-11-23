@@ -22,10 +22,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       eight_in: Float
       one_ga: Float
       two_ga: Float
+      three_ga: Float
       five_ga: Float
       seven_ga: Float
       ten_ga: Float
       fifteen_ga: Float
+      twenty_ga: Float
     }
     type PlantsJsonAvailability implements Node {
       plug: String
@@ -36,10 +38,12 @@ exports.createSchemaCustomization = ({ actions }) => {
       eight_in: String
       one_ga: String
       two_ga: String
+      three_ga: String
       five_ga: String
       seven_ga: String
       ten_ga: String
       fifteen_ga: String
+      twenty_ga: String
     }
     type PlantsJsonStock implements Node {
       plug: Int
@@ -50,10 +54,28 @@ exports.createSchemaCustomization = ({ actions }) => {
       eight_in: Int
       one_ga: Int
       two_ga: Int
+      three_ga: Int
       five_ga: Int
       seven_ga: Int
       ten_ga: Int
       fifteen_ga: Int
+      twenty_ga: Int
+    }
+    type PlantsJsonUpc implements Node {
+      plug: String
+      two_in: String
+      three_in: String
+      four_in: String
+      six_in: String
+      eight_in: String
+      one_ga: String
+      two_ga: String
+      three_ga: String
+      five_ga: String
+      seven_ga: String
+      ten_ga: String
+      fifteen_ga: String
+      twenty_ga: String
     }
   `
   createTypes(typeDefs)
@@ -92,6 +114,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -107,10 +130,12 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             availability {
               plug
@@ -121,10 +146,28 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
+            }
+            upc {
+              plug
+              two_in
+              three_in
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              three_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+              twenty_ga
             }
           }
         }
@@ -142,6 +185,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               six_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -156,6 +200,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -170,10 +215,27 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
               fifteen_ga
+            }
+            upc {
+              plug
+              two_in
+              three_in
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              three_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+              twenty_ga
             }
           }
         }
@@ -191,6 +253,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               six_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -205,6 +268,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -219,10 +283,27 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
               fifteen_ga
+            }
+            upc {
+              plug
+              two_in
+              three_in
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              three_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+              twenty_ga
             }
           }
         }
@@ -240,6 +321,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               six_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -254,6 +336,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
@@ -268,10 +351,27 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               eight_in
               one_ga
               two_ga
+              three_ga
               five_ga
               seven_ga
               ten_ga
               fifteen_ga
+            }
+            upc {
+              plug
+              two_in
+              three_in
+              four_in
+              six_in
+              eight_in
+              one_ga
+              two_ga
+              three_ga
+              five_ga
+              seven_ga
+              ten_ga
+              fifteen_ga
+              twenty_ga
             }
           }
         }

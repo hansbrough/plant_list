@@ -4,20 +4,22 @@
     "slug": "agave-attenuata",
     "aka": ["Fox Tail Agave"],
     "overview": "The Foxtail Agave can reach a height of 5' and forms beautiful, soft green, spineless rosettes which work well with other succulents or even tropical plants. It's graceful form and lack of spines makes Agave attenuata a popular dry garden choice. This agave will tolerate full sun near the coast. It will usually be damaged when temperatures reach 28° F.",
-    "price": {"five_ga": 18},
-    "availability": {"five_ga": "09/15/2023"},
-    "stock": {"five_ga":4},
-    "genus": "agave"
+    "price": {"four_in":4,"five_ga": 18},
+    "availability": {"four_in":"09/15/2024","five_ga": "09/15/2023"},
+    "stock": {"four_in":32,"five_ga":4},
+    "genus": "agave",
+    "upc": {"four_in":"810181310153","two_ga":"810181310160","five_ga": "810181310177"}
   },
   {
     "title": "Agave attenuata 'Ray of Light'",
     "slug": "agave-attenuata-ray-of-light",
     "aka": ["Variegated Fox Tail Agave"],
     "overview": "The variegated Foxtail Agave can reach a height of 5' and forms beautiful, soft green, spineless rosettes which work well with other succulents or even tropical plants. It's graceful form and lack of spines makes Agave attenuata a popular dry garden choice. This agave will tolerate full sun near the coast. It will usually be damaged when temperatures reach 28° F.",
-    "price": {"one_ga": 8.00, "five_ga": 25,"ten_ga": 50},
+    "price": {"one_ga": 8.00, "two_ga":14,"five_ga": 25,"ten_ga": 50},
     "availability": {"one_ga": "sold_out", "five_ga": "09/15/2023", "ten_ga": "10/15/2023"},
-    "stock": {"one_ga":0,"five_ga":6,"ten_ga":2},
-    "genus": "agave"
+    "stock": {"one_ga":0,"two_ga":6,"five_ga":1,"ten_ga":0},
+    "genus": "agave",
+    "upc": {"one_ga":"810181310122","two_ga":"810181310139","five_ga": "810181310146"}
   },
   {
     "title": "Agave angustifolia",
@@ -26,8 +28,9 @@
     "overview": "Slow-growing plants offering a dramatic appearance making them suitable for a range of landscape options. Agave angustifolia forms a large rosette of narrow, erect, green leaves, which works great for mass planting. Also great in rock gardens, in a mixed border, or in any tropical themed landscape design.",
     "price": {"five_ga": 25},
     "availability": {"five_ga": "09/15/2023"},
-    "stock": {"five_ga":2},
-    "genus": "agave"
+    "stock": {"five_ga":1},
+    "genus": "agave",
+    "upc": {"five_ga": "810181310115"}
   },
   {
     "title": "Agave 'Blue Glow'",
@@ -36,8 +39,9 @@
     "overview": "A beautiful smaller Agave with solitary rosettes slowly growing to 2 feet tall and 3 feet across with 18 inch long by 1-1 1/2 inch wide blue-green leaves that have red margins edged with yellow and bearing tiny soft spines and a stout short red terminal spine.",
     "price": {"one_ga":8.00,"five_ga":20},
     "availability": {"one_ga": "sold_out","five_ga": "sold_out"},
-    "stock": {"one_ga":0,"five_ga":0},
-    "genus": "agave"
+    "stock": {"one_ga":0,"three_ga":0,"five_ga":0},
+    "genus": "agave",
+    "upc": {"one_ga":"810181310030","three_ga":"810181310047","five_ga": "810181310054"}
   },
   {
     "title": "Agave bracteosa 'Mateo'",
@@ -46,8 +50,9 @@
     "overview": "The Agave bracteosa var. Mateo is upright growing to about 2 feet tall and wide with solitary rosettes. The spineless leaves take on a beautiful light green to green color with a pale band running down the center. A great drought tolerant choice for gardens with a coastal influence. This is one of the few safe agaves for pets and children.",
     "price": {"one_ga": 8.00, "two_ga": 16,"five_ga": 20,"seven_ga": 35,"ten_ga": 50,"fifteen_ga":69},
     "availability": {"one_ga": "sold_out", "two_ga":"06/15/2023","seven_ga":"06/15/2023","five_ga": "sold_out", "seven_ga":"06/15/2023", "ten_ga":"06/15/2023", "fifteen_ga":"04/15/2023"},
-    "stock": {"one_ga":0,"two_ga":8,"five_ga":0,"seven_ga":3, "ten_ga":2,"fifteen_ga":1},
-    "genus": "agave"
+    "stock": {"one_ga":0,"two_ga":8,"five_ga":0,"seven_ga":2, "ten_ga":2,"fifteen_ga":1},
+    "genus": "agave",
+    "upc": {"four_in":"","two_ga":"810181310214","two_ga":"810181310214","seven_ga":"","ten_ga": "810181310207","fifteen_ga":"810181310191"}
   },
   {
     "title": "Agave chiapensis",
@@ -57,7 +62,8 @@
     "price": {"six_in": 5,"one_ga":7,"two_ga":16,"five_ga":24},
     "availability": {"six_in": "sold_out","one_ga":"9/15/2023","two_ga":"12/15/2023","five_ga":"12/15/2023"},
     "stock": {"six_in":0, "one_ga":12,"two_ga":36,"five_ga":24},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"four_in":"810181310269","one_ga":"810181310276","two_ga":"810181310283","five_ga":"810181310290"}
   },
   {
     "title": "Agave desmettiana 'Variegata'",
@@ -65,9 +71,10 @@
     "aka": ["Variegated Smooth Agave"],
     "overview": "Bright golden yellow edges on arching, fleshy leaves creates an elegant urn-like form that is a sensational focal point for the landscape or a large container. Foliage has tiny, marginal thorns.",
     "price": {"two_ga": 18, "five_ga": 20, "seven_ga":35},
-    "availability": {"two_ga": "sold_out", "five_ga":"10/15/2022", "seven_ga":"10/15/2022"},
-    "stock": {"two_ga":6, "five_ga":6, "seven_ga":4},
-    "genus": "agave"
+    "availability": {"two_ga": "10/15/2024", "five_ga":"10/15/2022", "seven_ga":"sold_out"},
+    "stock": {"two_ga":2, "five_ga":2, "seven_ga":0},
+    "genus": "agave",
+    "upc": {"one_ga":"810181310306"}
   },
   {
     "title": "Agave ellemeetiana 'Satina'",
@@ -75,9 +82,10 @@
     "aka": ["Ellemeet's Agave"],
     "overview": "A rarity amongst agaves a due to a lack of spines. This defenseless agave works well in shady and high traffic locations. Agave ellemeetiana has bright green leaves and will make a great addition to any shady, temperate garden.",
     "price": {"four_in": 4.75,"one_ga":9,"two_ga":16},
-    "availability": {"four_in": "09/15/2022","one_ga":"4/15/2024","two_ga":"12/15/2023"},
-    "stock": {"four_in": 6,"one_ga":12,"two_ga":26},
-    "genus": "agave"
+    "availability": {"four_in":"sold_out","one_ga":"sold_out","two_ga":"sold_out"},
+    "stock": {"four_in": 0,"one_ga":0,"two_ga":0,"five_ga":0},
+    "genus": "agave",
+    "upc": {"one_ga":"810181310313","two_ga":"810181310320","five_ga":"810181310337"}
   },
   {
     "title": "Agave funkiana var. 'Fatal Attraction'",
@@ -86,8 +94,9 @@
     "overview": "The variegated form of Agave Funkiana - 'Fatal Attraction' features narrow dark green leaves with a lighter central mid-stripe and small brownish-red teeth along leaf edges. This native of the Sierra Madre Oriental mountains in Mexico will eventually reach a maximum of 2' to 3' foot in diameter.",
     "price": {"one_ga": 9, "two_ga": 16, "five_ga": 20, "seven_ga": 40,"fifteen_ga":60},
     "availability": {"one_ga": "10/15/2023", "two_ga": "10/15/2023", "five_ga": "sold_out", "seven_ga": "02/15/2021","fifteen_ga":"05/15/2022"},
-    "stock": {"one_ga":10,"two_ga":6,"five_ga":0,"seven_ga":4,"fifteen_ga":1},
-    "genus": "agave"
+    "stock": {"one_ga":10,"two_ga":6,"five_ga":0,"seven_ga":4,"fifteen_ga":0},
+    "genus": "agave",
+    "upc": {"one_ga":"810181310351","two_ga":"810181310368","five_ga": "810181310375"}
   },
   {
     "title": "Agave franzosinii",
@@ -97,7 +106,8 @@
     "price": {"two_ga": 14},
     "availability": {"two_ga": "05/15/2023"},
     "stock": {"two_ga":1},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Agave filamentosa",
@@ -106,18 +116,20 @@
     "overview": "Agave filamentosa (filfera) is a small 'lacy' looking agave which has strings that peel off of the dark green leaf edges as they emerge and unfold from the center. This eye-catching, compact agave will do well in a pot or can be used near borders as an accent plant.",
     "price": {"one_ga": 8},
     "availability": {"one_ga": "sold_out"},
-    "stock": {"one_ga":0},
-    "genus": "agave"
+    "stock": {"four_in":24,"one_ga":0},
+    "genus": "agave",
+    "upc": {"four_in":"810181310344","two_ga":"","five_ga": ""}
   },
   {
     "title": "Agave gypsophila 'Curly'",
     "slug": "agave-gypsophila-curly",
     "aka": [" Gypsum Century Plant","Blue Wave Agave"],
     "overview": "Grows 2 to 3 feet, forms a single open rosette of wavy gray colored leaves.",
-    "price": {"four_in": 4.75,"two_ga":9.75},
-    "availability": {"four_in": "09/15/2022","two_ga": "09/15/2023"},
-    "stock": {"four_in": 16,"two_ga":40},
-    "genus": "agave"
+    "price": {"four_in": 4.75,"two_ga":14},
+    "availability": {"four_in": "09/15/2022","two_ga": "09/15/2024"},
+    "stock": {"four_in": 0,"two_ga":50},
+    "genus": "agave",
+    "upc": {"four_in":"","two_ga":"810181310405","five_ga": ""}
   },
   {
     "title": "Agave lopantha",
@@ -127,7 +139,8 @@
     "price": {"one_ga": 6, "two_ga": 12, "five_ga": 18},
     "availability": {"one_ga": "03/15/2023", "two_ga": "03/15/2023", "five_ga": "03/15/2023"},
     "stock": {"one_ga":10, "two_ga": 9, "five_ga":7},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"one_ga":"810181310474","two_ga":"810181310481","five_ga": "810181310498"}
   },
   {
     "title": "Agave lopantha 'Quadricolor'",
@@ -137,7 +150,8 @@
     "price": {"one_ga": 6, "two_ga": 12, "five_ga": 20,"seven_ga":35,"ten_ga":50},
     "availability": {"one_ga": "03/15/2023", "two_ga": "03/15/2023", "five_ga": "03/15/2023","seven_ga": "06/15/2023","ten_ga": "06/15/2023"},
     "stock": {"one_ga": 32,"two_ga":16,"five_ga":6,"seven_ga":3,"ten_ga":4},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"one_ga":"810181310436","two_ga":"810181310443","five_ga": "810181310450","seven_ga":"810181310467","ten_ga":"810181310429"}
   },
   {
     "title": "Agave potatorum var. verschaffeltii",
@@ -147,7 +161,8 @@
     "price": {"one_ga": 8},
     "availability": {"one_ga": "sold_out"},
     "stock": {"one_ga":0},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Agave 'Blue Flame'",
@@ -157,7 +172,8 @@
     "price": {"five_ga": 22},
     "availability": {"one_ga": "sold_out", "two_ga": "sold_out","five_ga": "10/15/2023"},
     "stock": {"one_ga":0,"two_ga":0,"five_ga":22},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"four_in":"","one_ga":"810181310016","five_ga": "810181310023"}
   },
   {
     "title": "Agave 'Red Margin'",
@@ -167,27 +183,30 @@
     "price": {"one_ga": 8, "two_ga": 12, "five_ga": 20},
     "availability": {"one_ga": "11/15/2022", "two_ga": "03/15/2021","five_ga": "sold_out"},
     "stock": {"one_ga":14,"two_ga":1,"five_ga":0},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"one_ga":"810181310085","two_ga":"810181310092","five_ga": "810181310108"}
   },
   {
     "title": "Agave macroacantha",
     "slug": "agave-macroacantha",
     "aka": ["Black-Spined Agave"],
     "overview": "Distinctive small to medium-sized Agave whose rosettes have narrow blue-gray leaves that are evenly spaced and radiate straight out from the center of the plant.",
-    "price": {"two_ga": 12.00},
-    "availability": {"two_ga": "6/15/2023"},
-    "stock": {"two_ga":3},
-    "genus": "agave"
+    "price": {"two_ga":12,"five_ga":24},
+    "availability": {"two_ga": "6/15/2023","five_ga": "6/15/2023"},
+    "stock": {"two_ga":3,"five_ga":1},
+    "genus": "agave",
+    "upc": {"two_ga":"810181310504","five_ga": "810181310511"}
   },
   {
     "title": "Agave pedunculifera",
     "slug": "agave-pedunculifera",
     "aka": [],
     "overview": "A beautiful, nearly spineless, native of Mexico with wide blue-green, recurved leaves which grows 2-3 feet high by 3-4 feet wide. Agave pedunculifera is similar in appearance to Agave attenuata but with small soft teeth along it's leaf margins.",
-    "price": {"six_in":5,"one_ga":8,"two_ga": 16, "five_ga": 20, "seven_ga":40,"ten_ga": 50},
+    "price": {"six_in":5,"one_ga":8,"two_ga": 16, "five_ga": 22, "seven_ga":40,"ten_ga": 50},
     "availability": {"six_in":"sold_out","one_ga":"6/15/2023","two_ga": "6/15/2023", "five_ga": "12/15/2023", "seven_ga":"05/15/2023","ten_ga": "03/15/2023"},
     "stock": {"six_in":0,"one_ga":14,"two_ga":15,"five_ga":7,"seven_ga":16,"ten_ga":6},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"one_ga":"810181310542","two_ga":"810181310559","five_ga": "810181310566","seven_ga":"810181310573","ten_ga":"810181310535"}
   },
   {
     "title": "Agave salmiana",
@@ -196,8 +215,9 @@
     "overview": "",
     "price": {"one_ga": 8,"five_ga": 25,"seven_ga": 35},
     "availability": {"one_ga": "sold_out","five_ga": "04/15/2023","seven_ga": "06/15/2023"},
-    "stock": {"one_ga":0,"five_ga":3,"seven_ga":3},
-    "genus": "agave"
+    "stock": {"one_ga":0,"five_ga":0,"seven_ga":0},
+    "genus": "agave",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Agave sebastiana",
@@ -207,7 +227,8 @@
     "price": {"four_in": 4.75,"one_ga": 9},
     "availability": {"four_in": "sold_out","one_ga":"4/15/2024"},
     "stock": {"four_in": 0,"one_ga":68},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"one_ga":"810181310597"}
   },
   {
     "title": "Agave sisalana",
@@ -217,7 +238,8 @@
     "price": {"one_ga": 8,"five_ga": 20},
     "availability": {"one_ga": "sold_out","five_ga": "09/15/2022"},
     "stock": {"one_ga":0,"five_ga":3},
-    "genus": "agave"
+    "genus": "agave",
+    "upc": {"four_in":"","two_ga":"","five_ga": "810181310603"}
   },
   {
     "title": "Aloe africana",
@@ -227,8 +249,9 @@
     "resource_link": "http://www.gardenaloes.com/aloe-africana",
     "price": {"one_ga": 8, "two_ga": 12, "five_ga": 20, "seven_ga": 35},
     "availability": {"one_ga": "04/15/2024", "two_ga": "sold_out","five_ga": "sold_out", "seven_ga": "05/15/2023"},
-    "stock": {"one_ga":5,"five_ga":0,"seven_ga":1},
-    "genus": "aloe"
+    "stock": {"one_ga":6,"five_ga":0,"seven_ga":0},
+    "genus": "aloe",
+    "upc": {"four_in":"","one_ga":"810181310863"}
   },
   {
     "title": "Aloe acutissima",
@@ -239,7 +262,8 @@
     "price": {"one_ga": 8,"two_ga": 14},
     "availability": {"one_ga": "sold_out","two_ga":"10/15/2023"},
     "stock": {"one_ga":0,"two_ga":8},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe cameronii",
@@ -250,7 +274,8 @@
     "price": {"five_ga": 23,"seven_ga": 35},
     "availability": {"five_ga":"1/15/2024","seven_ga": "sold_out"},
     "stock": {"five_ga":1,"seven_ga":0},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe camperi",
@@ -261,7 +286,8 @@
     "price": {"two_ga": 12,"five_ga": 20,"ten_ga": 50,"fifteen_ga": 85},
     "availability": {"two_ga": "11/15/2022", "five_ga": "11/15/2022", "ten_ga": "11/15/2022","fifteen_ga":"11/15/2023"},
     "stock": {"two_ga":2, "five_ga":2, "ten_ga":1,"fifteen_ga":3},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe camperi 'Cornuta'",
@@ -272,7 +298,8 @@
     "price": {"four_in":4.75,"one_ga": 9,"two_ga": 12},
     "availability": {"four_in":"11/15/2023", "one_ga": "3/15/2024","two_ga": "4/15/2024"},
     "stock": {"four_in":64,"one_ga":12,"two_ga":24},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe dawei",
@@ -283,7 +310,8 @@
     "price": {"two_in": 1.75,"two_ga": 11, "five_ga": 20, "seven_ga": 35},
     "availability": {"two_in":"05/15/2024","two_ga":"sold_out", "five_ga":"04/15/2023", "seven_ga":"05/15/2023"},
     "stock": {"two_in":72,"two_ga":0,"five_ga":48,"seven_ga":1},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe dorotheae 'HBG'",
@@ -294,7 +322,8 @@
     "price": {"four_in": 4.75,"two_ga": 11},
     "availability": {"four_in": "10/15/2022","two_ga": "3/15/2024"},
     "stock": {"four_in":10,"two_ga":18},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe helenae",
@@ -305,7 +334,8 @@
     "price": {"one_ga":12, "seven_ga":85, "ten_ga":100, "fifteen_ga": 345.00},
     "availability": {"one_ga":"sold_out","seven_ga":"5/15/2024","ten_ga":"5/15/2024","fifteen_ga": "sold_out"},
     "stock": {"one_ga":0,"seven_ga":2,"ten_ga":1,"fifteen_ga":0},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe kedongensis",
@@ -316,7 +346,8 @@
     "price": {"four_in":4,"one_ga": 8, "two_ga": 11,"five_ga": 20},
     "availability": {"four_in":"07/15/2023","one_ga": "02/15/2023","two_ga": "07/15/2023","five_ga": "07/15/2023"},
     "stock": {"four_in":16,"one_ga":11,"two_ga":7,"five_ga":11},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe marlothii x sinkatana",
@@ -327,7 +358,8 @@
     "price": {"four_in": 4.75,"one_ga":9},
     "availability": {"four_in": "6/15/2023","one_ga":"2/15/2024"},
     "stock": {"four_in":12,"one_ga":16},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe mutabilis",
@@ -338,7 +370,8 @@
     "price": {"one_ga": 8, "two_ga": 12, "five_ga": 20, "ten_ga":50},
     "availability": {"one_ga": "sold_out", "two_ga": "sold_out", "five_ga": "03/15/2023", "ten_ga": "05/15/2022"},
     "stock": {"one_ga":0,"five_ga":2,"ten_ga":2},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe 'Moonglow'",
@@ -348,8 +381,9 @@
     "resource_link": "https://www.smgrowers.com/products/plants/plantdisplay.asp?plant_id=3733",
     "price": {"four_in":4.75,"two_ga": 16,"five_ga": 20},
     "availability": {"four_in": "4/15/2024","two_ga": "03/01/2024","five_ga": "05/15/2022"},
-    "stock": {"four_in":72,"two_ga":36,"five_ga":1},
-    "genus": "aloe"
+    "stock": {"four_in":210,"two_ga":36,"five_ga":0},
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe pluridens",
@@ -360,7 +394,8 @@
     "price": {"one_ga":9,"five_ga": 20,"ten_ga":60},
     "availability": {"one_ga":"01/15/2024","five_ga": "03/15/2021","ten_ga":"5/15/2022"},
     "stock": {"one_ga":5,"five_ga":1,"ten_ga":2},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe broomii",
@@ -371,7 +406,8 @@
     "price": {"three_in": 4,"four_in": 5},
     "availability": {"three_in": "sold_out","four_in": "04/15/2023"},
     "stock": {"three_in":0,"four_in":12},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe plicatilis",
@@ -381,7 +417,8 @@
     "price": {"twenty_ga": 200},
     "availability": {"twenty_ga":"4/15/23"},
     "stock": {"twenty_ga":1},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe pretoriensis hybrid",
@@ -391,7 +428,8 @@
     "price": {"one_ga": 8, "two_ga": 16,"five_ga":26},
     "availability": {"one_ga":"sold_out", "two_ga":"sold_out","five_ga":"04/15/2024"},
     "stock": {"one_ga":0,"two_ga":0,"five_ga":24},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe petricola",
@@ -402,7 +440,8 @@
     "price": {"one_ga": 8, "two_ga": 16},
     "availability": {"one_ga":"10/15/23", "two_ga":"8/15/23"},
     "stock": {"one_ga":14, "two_ga":2},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe speciosa",
@@ -413,7 +452,8 @@
     "price": {"four_in":6,"one_ga": 10,"fifteen_ga":95},
     "availability": {"four_in":"04/15/2024","one_ga": "sold_out","fifteen_ga": "05/15/2022"},
     "stock": {"four_in":32,"one_ga":0,"fifteen_ga":1},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe striata",
@@ -424,7 +464,8 @@
     "price": {"two_in":1.75,"four_in":4.75,"one_ga": 9,"seven_ga":34},
     "availability": {"two_in":"02/15/2024","four_in":"02/15/2024","one_ga": "02/15/2024","seven_ga": "sold_out"},
     "stock": {"two_in":200,"four_in":72,"one_ga":140,"seven_ga":0},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe arborescens x ferox 'Tangerine'",
@@ -434,7 +475,8 @@
     "price": {"four_in":4.75,"two_ga": 12,"five_ga": 20,"seven_ga": 35,"ten_ga": 50},
     "availability": {"four_in":"04/15/2024","two_ga": "sold_out", "five_ga": "02/15/2023","seven_ga": "07/15/2023", "ten_ga": "05/15/2023"},
     "stock": {"four_in":140,"two_ga":0,"five_ga":2,"seven_ga":7,"ten_ga":10},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe arborescens variegated",
@@ -444,7 +486,8 @@
     "price": {"one_ga": 8, "two_ga": 14, "five_ga": 20},
     "availability": {"one_ga": "04/15/2024", "two_ga": "03/15/2024","five_ga": "01/15/2024"},
     "stock": {"one_ga":5, "two_ga":2,"five_ga":1},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe thraskii",
@@ -455,7 +498,8 @@
     "price": {"two_in":1.90,"one_ga":8,"two_ga":14,"five_ga":20,"seven_ga":45,"fifteen_ga":74},
     "availability": {"two_in":"3/15/2024", "one_ga": "10/15/2023","two_ga": "03/15/2023","five_ga": "10/15/2023","seven_ga":"10/15/2023","fifteen_ga":"sold_out"},
     "stock": {"two_in":50, "one_ga":13,"two_ga":10,"five_ga":13,"seven_ga":3,"fifteen_ga":0},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe vanbalenii",
@@ -466,7 +510,8 @@
     "price": {"four_in":5.75,"two_ga":22,"ten_ga": 65},
     "availability": {"four_in":"2/15/2024","two_ga":"2/15/2024","ten_ga": "sold_out"},
     "stock": {"four_in":16,"two_ga":11,"ten_ga":0},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe vaombe",
@@ -477,7 +522,8 @@
     "price": {"two_ga": 16,"five_ga": 20,"seven_ga":50,"fifteen_ga": 84},
     "availability": {"two_ga": "sold_out","five_ga": "sold_out","seven_ga":"06/15/2023","fifteen_ga": "03/15/2022"},
     "stock": {"two_ga":0,"five_ga":0,"seven_ga":2,"fifteen_ga":4},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe Vaotsanda x divaricata 'Candy Corn'",
@@ -488,7 +534,8 @@
     "price": { "six_in": 5,"two_ga":14},
     "availability": {"six_in": "sold_out","two_ga":"01/15/2024"},
     "stock": {"six_in":0,"two_ga":60},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe cryptopoda",
@@ -498,7 +545,8 @@
     "price": {"one_ga":8,"two_ga":12,"five_ga":20,"seven_ga":35,"ten_ga": 50},
     "availability": {"one_ga": "03/15/2021","two_ga": "03/15/2021","five_ga": "07/15/2022", "seven_ga": "03/15/2021", "ten_ga": "03/15/2021"},
     "stock": {"one_ga":3,"five_ga":1,"seven_ga":1,"ten_ga":1},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe 'Cynthia Giddy'",
@@ -507,8 +555,9 @@
     "overview": "An attractive, clumping, spotted aloe hybrid which undergoes dramatic color changes in response to sun, drought or cold stress. This Aloe is medium-sized and forma numerous rosettes to 2 feet tall with dark green white-spotted leaves that have bronze to deep maroon depending upon conditions. 'Cynthia Giddy' also flowers much of the year, from summer to winter and it is a good, relatively hardy landscape plant.",
     "price": {"four_in":4.75,"two_ga":12},
     "availability": {"four_in": "07/15/2023","two_ga": "01/15/2024"},
-    "stock": {"four_in":8,"two_ga":50},
-    "genus": "aloe"
+    "stock": {"four_in":0,"two_ga":57},
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe ferox",
@@ -518,27 +567,63 @@
     "price": {"four_in":4.75,"one_ga": 12},
     "availability": {"four_in":"03/15/2024","one_ga": "01/15/2024"},
     "stock": {"four_in":48,"one_ga":48},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Agave celsii 'Multicolor'",
     "slug": "agave-celsii-multicolor",
     "aka": [],
     "overview": "Agave celsii 'Multicolor' makes a nice addition to any garden landscape. This medium-sized agave boasts rosettes that reach up to 2 feet in height and breadth, adorned with fleshy leaves. The cream-margined green foliage, measuring 6 inches wide and 2 feet long, elegantly curves upwards, creating a mesmerizing display. Thriving in full sun or light shade, this drought-tolerant plant is an excellent choice for coastal California gardens, exhibiting hardiness even in temperatures as low as the mid-20s.",
-    "price": {"four_in":4.00,"one_ga": 9},
-    "availability": {"four_in":"09/15/2023","one_ga": "02/15/2024"},
-    "stock": {"four_in":500,"one_ga":350},
-    "genus": "agave"
+    "price": {"four_in":4.00,"one_ga": 9,"three_ga":19.75},
+    "availability": {"four_in":"09/15/2023","one_ga": "02/15/2024","three_ga": "02/15/2025"},
+    "stock": {"four_in":500,"one_ga":150,"three_ga":120},
+    "genus": "agave",
+    "upc": {"four_in":"810181310245","one_ga":"810181310238","three_ga": ""}
+  },
+  {
+    "title": "Agave celsii albicans x attenuata 'Blue Haze'",
+    "slug": "agave-celsii-blue-haze",
+    "aka": [],
+    "overview": "A moderately sized Agave attenuata hybrid, forming rosettes reaching 2 feet in height and 6 to 8 inches in width. Its fleshy leaves, spanning 2 feet, display an elegant upward curve and a glaucous-gray hue. The leaves feature a gentle terminal spine and subtle brown spines curving backward along the edges.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"09/15/2024"},
+    "stock": {"four_in":70},
+    "genus": "agave",
+    "upc": {"four_in":"810181310252"}
+  },
+  {
+    "title": "Agave potatorum x isthmensis",
+    "slug": "agave-potatorum-x-isthmensis",
+    "aka": [],
+    "overview": "A new agave from Rancho Tissue Technologies cultured after being chosen from thousands seedlings. Impressive imprints appear on the back of each leaf.&nbsp; Each leaf has multicolor tips. Truly a showstopper. Mid-sized, Fast grower.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"09/15/2024"},
+    "stock": {"four_in":70},
+    "genus": "agave",
+    "upc": {"four_in":"810181310580"}
+  },
+  {
+    "title": "Agave guiengola 'Platinum'",
+    "slug": "agave-guiengola-platinum",
+    "aka": [],
+    "overview": "A native to Mexico and Central America. It features a symmetrical rosette with smooth, blue-green leaves adorned with silver margins edged in creamy white and short, dark teeth along the margins. Slow-growing and evergreen, it reaches a mature height of 2-3 feet tall and 3-6 feet wide.",
+    "price": {"four_in":4.75,"two_ga":12},
+    "availability": {"four_in":"09/15/2024","two_ga":"11/15/2024"},
+    "stock": {"four_in":30,"two_ga":24},
+    "genus": "agave",
+    "upc": {"four_in":"00810181310382","two_ga":"00810181310399"}
   },
   {
     "title": "Agave vilmoriniana",
     "slug": "agave-vilmoriniana",
     "aka": ["Octopus Agave"],
     "overview": "Agave vilmoriniana, known as Octopus Agave, reaches a mature height of 3 to 4 feet and a spread of 6 to 8 feet. Its long, narrow, arching leaves create a unique silhouette, resembling the tentacles of an octopus, making it an excellent focal point in arid landscapes. Plant in well-drained soil under full sun for optimal growth. Drought-tolerant and low-maintenance, it's ideal for xeriscaping, rock gardens, or as a standalone specimen.",
-    "price": {"four_in":3.50},
-    "availability": {"four_in":"04/15/2024"},
-    "stock": {"four_in":200},
-    "genus": "agave"
+    "price": {"four_in":3.50,"one_ga":8},
+    "availability": {"four_in":"04/15/2024","one_ga":"01/15/2025"},
+    "stock": {"four_in":0,"one_ga":72},
+    "genus": "agave",
+    "upc": {"four_in":"","one_ga":"810181310627","five_ga": ""}
   },
   {
     "title": "Aloe wickensii",
@@ -548,17 +633,19 @@
     "price": {"four_in":4.75},
     "availability": {"four_in":"02/15/2024"},
     "stock": {"four_in":93},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Agave xylonacantha",
     "slug": "agave-xylonacantha",
     "aka": ["Saw Leaf agave"],
-    "overview": "In a nod to one of Agave xylonocantha's most striking features it used to be named after the teeth of the Great White Shark! This Agave is also unique in that it forms relatively few of it's convoluted, sword-shaped leaves when compared to other agaves. It produces a basal rosette of up to 6 ft in diameter and 3 to 4 ft in height. Monocarpic flowering stalks can reach a height of 11 feet. It is a close relative of Agave lophantha.",
-    "price": {"four_in":3.50},
+    "overview": "In a nod to one of Agave xylonacantha's most striking features it used to be named after the teeth of the Great White Shark! This Agave is also unique in that it forms relatively few of it's convoluted, sword-shaped leaves when compared to other agaves. It produces a basal rosette of up to 6 ft in diameter and 3 to 4 ft in height. Monocarpic flowering stalks can reach a height of 11 feet. It is a close relative of Agave lophantha.",
+    "price": {"four_in":3.50,"one_ga":9,"five_ga":24},
     "availability": {"four_in":"02/15/2024"},
-    "stock": {"four_in":32},
-    "genus": "agave"
+    "stock": {"four_in":32,"one_ga":72,"five_ga":1},
+    "genus": "agave",
+    "upc": {"four_in":"810181310641","one_ga":"810181310634","five_ga": "810181310658"}
   },
   {
     "title": "Aloe comptonii",
@@ -568,7 +655,8 @@
     "price": {"four_in":4.75},
     "availability": {"four_in":"02/15/2024"},
     "stock": {"four_in":32},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe elegans",
@@ -578,7 +666,8 @@
     "price": {"five_ga":25},
     "availability": {"five_ga":"09/15/2023"},
     "stock": {"five_ga":3},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe microstigma",
@@ -588,7 +677,8 @@
     "price": {"four_in":5.50},
     "availability": {"four_in":"02/15/2024"},
     "stock": {"four_in":16},
-    "genus": "aloe"
+    "genus": "aloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Mangave 'Macho Mocha'",
@@ -597,8 +687,9 @@
     "overview": "A gorgeous, fast-growing, rosette-forming plant up to 6 feet wide that flushes deep magenta in response to direct sun. This Mangave's fleshy, gray-green leaves are so densely covered with iron-purple spots that toward the tip of the leaves the entire surface appears a burgundy color.",
     "price": {"two_ga": 9,"five_ga": 18,"seven_ga": 28},
     "availability": {"two_ga": "02/15/2024","five_ga": "03/15/2022","seven_ga": "05/15/2022"},
-    "stock": {"two_ga":36,"five_ga":7,"seven_ga":1},
-    "genus": "xMangave"
+    "stock": {"two_ga":36,"five_ga":0,"seven_ga":0},
+    "genus": "xMangave",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Manfreda maculosa",
@@ -608,7 +699,8 @@
     "price": {"one_ga": 7,"two_ga":11},
     "availability": {"one_ga": "04/15/2024","two_ga": "04/15/2024"},
     "stock": {"one_ga":12,"two_ga":12},
-    "genus": "manfreda"
+    "genus": "manfreda",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Hesperaloe parviflora",
@@ -617,8 +709,9 @@
     "overview": "Hesperaloe parviflora is a hummingbird's favorite that produces tall spikes of reddish-pink flowers that continue to bloom all summer. This yucca-like evergreen perennial succulent is stemless with clumps of arching and spreading grass-like foliage 3 to 4 feet tall.",
     "price": {"one_ga": 7,"five_ga": 18},
     "availability": {"one_ga":"sold_out","five_ga":"05/15/2024"},
-    "stock": {"one_ga":0,"five_ga":32},
-    "genus": "hesperaloe"
+    "stock": {"one_ga":0,"five_ga":0},
+    "genus": "hesperaloe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Kalanchoe Sexangularis",
@@ -628,7 +721,8 @@
     "price": {"five_ga": 16},
     "availability": {"five_ga": "sold_out"},
     "stock": {"five_ga":0},
-    "genus": "Kalanchoe"
+    "genus": "Kalanchoe",
+    "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
   {
     "title": "Trichocereus spachianus",
@@ -638,6 +732,7 @@
     "price": {"fifteen_ga": 185},
     "availability": {"fifteen_ga": "09/15/2022"},
     "stock": {"fifteen_ga":1},
-    "genus": "Trichocereus"
+    "genus": "Trichocereus",
+    "upc": {"fifteen_ga": "810181312928"}
   }
 ]
