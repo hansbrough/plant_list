@@ -6,10 +6,6 @@ import SEO from "../components/seo"
 import Img from "gatsby-image"
 //import { OutboundLink } from "gatsby-plugin-google-analytics"
 
-import PlantTableCell from "../components/plantTableCell";
-import PlantTableHeader from "../components/plantTableHeader";
-import PlantSizeConstants from "../constants/PlantSizes";
-
 import "../components/plants.css"
 // Notes: aliased image query only way I could figure out how to pass a variable image name
 // into gatsby-image. all examples on line show hardwired filename strings using "useStaticQuery"
@@ -95,10 +91,8 @@ export const query = graphql`
 `
 
 const Plant = ({ data, pageContext }) => {
-  const nowDate = new Date();
   const plant = data.plantsJson;
   const akaText = !!plant.aka.length && `Also Known As: ${plant.aka.join(", ")}`;
-  const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided not to display these.
 
   return (
     <Layout>
@@ -132,19 +126,6 @@ const Plant = ({ data, pageContext }) => {
             {plant.resource_link && <a style={{paddingLeft:".5rem"}} href={plant.resource_link} target="_blank" rel="noopener noreferrer">Learn more about {plant.title}</a>}
           </p>
         </section>
-
-        <table>
-          <PlantTableHeader showName={false}/>
-          <tbody className="available">
-          {plant &&
-            (
-              <tr>
-                {Object.keys(PlantSizeConstants).filter(size => !excludedSizeKeys.includes(size)).map((size) => <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} /> )}
-              </tr>
-            )
-          }
-          </tbody>
-        </table>
 
         <section className="plant-gallery">
         {
