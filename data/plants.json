@@ -273,9 +273,9 @@
     "resource_link": "http://www.gardenaloes.com/aloe-cameronii",
     "price": {"five_ga": 23,"seven_ga": 35},
     "availability": {"five_ga":"1/15/2024","seven_ga": "sold_out"},
-    "stock": {"five_ga":1,"seven_ga":0},
+    "stock": {"two_ga":0,"five_ga":4,"seven_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"two_ga":"810181310986","five_ga": "810181310993"}
   },
   {
     "title": "Aloe camperi",
@@ -283,11 +283,11 @@
     "aka": ["Popcorn Aloe"],
     "overview": "Aloe camperi, commonly known as Popcorn Aloe is one of the few that has verdant green leaves. This unusual African Aloe forms rambling colonies of 2’ high and wide rosettes with long, narrow, serrated, evergreen, succulent leaves.",
     "resource_link": "https://www.gardenaloes.com/aloe-camperi/",
-    "price": {"two_ga": 12,"five_ga": 20,"ten_ga": 50,"fifteen_ga": 85},
+    "price": {"two_ga": 12,"five_ga": 25,"ten_ga": 50,"fifteen_ga": 85},
     "availability": {"two_ga": "11/15/2022", "five_ga": "11/15/2022", "ten_ga": "11/15/2022","fifteen_ga":"11/15/2023"},
-    "stock": {"two_ga":2, "five_ga":2, "ten_ga":1,"fifteen_ga":3},
+    "stock": {"two_ga":2, "five_ga":2, "ten_ga":0,"fifteen_ga":6},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"two_ga":"810181311044","five_ga": "", "ten_ga":"","fifteen_ga":"810181311037"}
   },
   {
     "title": "Aloe camperi 'Cornuta'",
@@ -297,9 +297,9 @@
     "resource_link": "https://www.gardenaloes.com/aloe-camperi/",
     "price": {"four_in":4.75,"one_ga": 9,"two_ga": 12},
     "availability": {"four_in":"11/15/2023", "one_ga": "3/15/2024","two_ga": "4/15/2024"},
-    "stock": {"four_in":64,"one_ga":12,"two_ga":24},
+    "stock": {"four_in":32,"one_ga":80,"two_ga":32},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311020","two_ga":"810181311013","one_ga": "810181311006"}
   },
   {
     "title": "Aloe dawei",
@@ -307,11 +307,11 @@
     "aka": ["Dawe’s Aloe"],
     "overview": "Aloe dawei (Dawe’s Aloe) from Uganda has clumping, upright clusters of elongated succulent stems that elongate to 3-4+ feet tall and green, fleshy leaves form rosettes about 2 feet across with closely-spaced reddish-brown serrated teeth along the margins.",
     "resource_link": "http://www.gardenaloes.com/aloe-dawei",
-    "price": {"two_in": 1.75,"two_ga": 11, "five_ga": 20, "seven_ga": 35},
+    "price": {"four_in": 3.75,"two_ga": 12, "five_ga": 23, "seven_ga": 35},
     "availability": {"two_in":"05/15/2024","two_ga":"sold_out", "five_ga":"04/15/2023", "seven_ga":"05/15/2023"},
-    "stock": {"two_in":72,"two_ga":0,"five_ga":48,"seven_ga":1},
+    "stock": {"four_in":72,"two_ga":0,"five_ga":48,"seven_ga":1,"ten_ga":2},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311259","two_ga":"810181311235","five_ga": "810181311228","seven_ga":"810181311211","ten_ga":"810181311204"}
   },
   {
     "title": "Aloe dorotheae 'HBG'",
@@ -383,7 +383,7 @@
     "availability": {"four_in": "4/15/2024","two_ga": "03/01/2024","five_ga": "05/15/2022"},
     "stock": {"four_in":210,"two_ga":36,"five_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181310771","two_ga":"810181310795","five_ga": "810181310801"}
   },
   {
     "title": "Aloe pluridens",
@@ -472,11 +472,11 @@
     "slug": "aloe-tangerine",
     "aka": ["Tangerine Aloe"],
     "overview": "This Aloe arborescens and Aloe ferox hybrid stands out because of its rich tangerine-orange buds that open into yellow-orange flowers.",
-    "price": {"four_in":4.75,"two_ga": 12,"five_ga": 20,"seven_ga": 35,"ten_ga": 50},
+    "price": {"four_in":4.75,"two_ga": 12,"five_ga": 25,"seven_ga": 35,"ten_ga": 50},
     "availability": {"four_in":"04/15/2024","two_ga": "sold_out", "five_ga": "02/15/2023","seven_ga": "07/15/2023", "ten_ga": "05/15/2023"},
-    "stock": {"four_in":140,"two_ga":0,"five_ga":2,"seven_ga":7,"ten_ga":10},
+    "stock": {"four_in":140,"two_ga":20,"five_ga":0,"seven_ga":5,"ten_ga":7},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181310924","two_ga":"810181310900","five_ga": "810181310917","seven_ga":"810181310931","ten_ga":"810181310948"}
   },
   {
     "title": "Aloe arborescens variegated",
@@ -485,9 +485,9 @@
     "overview": "A popular cultivar of Aloe arborescens which tends to be slower growing and smaller in size. Grows long arching rosettes, forming thick, large leaves, slightly recurved at the ends and display a variegated strip pattern. It grows up to 10 feet (3 m) tall given favorable conditions.",
     "price": {"one_ga": 8, "two_ga": 14, "five_ga": 20},
     "availability": {"one_ga": "04/15/2024", "two_ga": "03/15/2024","five_ga": "01/15/2024"},
-    "stock": {"one_ga":5, "two_ga":2,"five_ga":1},
+    "stock": {"one_ga":5, "two_ga":0,"five_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181310894","one_ga":"810181310887"}
   },
   {
     "title": "Aloe thraskii",
@@ -531,11 +531,11 @@
     "aka": [""],
     "overview": "hybrid.  Mid sized aloe  dark orange flowers in winter with green leaves turning to deep red in the summer.  fabulous  to 35F  Full sun for best color",
     "resource_link": "https://www.ranchotissue.com/product/aloe-hrb-vaotsanda-x-divaricata-candy-corn/",
-    "price": { "six_in": 5,"two_ga":14},
+    "price": { "four_in": 4.5,"two_ga":14,"five_ga":25,"ten_ga":50},
     "availability": {"six_in": "sold_out","two_ga":"01/15/2024"},
-    "stock": {"six_in":0,"two_ga":60},
+    "stock": {"four_in":0,"two_ga":8,"five_ga":0,"ten_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312461","two_ga":"810181312478","five_ga": "810181312492","ten_ga":"810181312485"}
   },
   {
     "title": "Aloe cryptopoda",
@@ -544,9 +544,9 @@
     "overview": "This plant is one of the most beautiful and showy of the South African species of Aloe. Aloe cryptopoda has solitary, stemless rosettes densely packed with upright, curved smooth turquoisey-grey leaves with small sharp reddish-brown spines along the margins. A very attractive and unique Aloe with spectacular display of bi-colored blooms when in full flower.",
     "price": {"one_ga":8,"two_ga":12,"five_ga":20,"seven_ga":35,"ten_ga": 50},
     "availability": {"one_ga": "03/15/2021","two_ga": "03/15/2021","five_ga": "07/15/2022", "seven_ga": "03/15/2021", "ten_ga": "03/15/2021"},
-    "stock": {"one_ga":3,"five_ga":1,"seven_ga":1,"ten_ga":1},
+    "stock": {"one_ga":3,"five_ga":2,"seven_ga":2,"ten_ga":1},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"one_ga":"810181311181","two_ga":"","five_ga": "810181311174","seven_ga":"810181311167","ten_ga":"810181311150"}
   },
   {
     "title": "Aloe 'Cynthia Giddy'",
@@ -557,7 +557,7 @@
     "availability": {"four_in": "07/15/2023","two_ga": "01/15/2024"},
     "stock": {"four_in":0,"two_ga":57},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181310726","two_ga":"810181310719"}
   },
   {
     "title": "Aloe ferox",
@@ -566,9 +566,9 @@
     "overview": "Aloe ferox (Cape Aloe), native to South Africa, grows up to 3-5 feet wide. Its single stem can reach 10 feet in height, featuring a dense rosette of blue-green, lance-shaped leaves. An impressive candelabra-like inflorescence is topped by small flowers, usually 5-8 branches with spike-like heads. Its thick, fleshy leaves show reddish-brown spines, and may have a pale blue or red hue. Dead leaves form a petticoat on the stem, creating an aged appearance.",
     "price": {"four_in":4.75,"one_ga": 12},
     "availability": {"four_in":"03/15/2024","one_ga": "01/15/2024"},
-    "stock": {"four_in":48,"one_ga":48},
+    "stock": {"four_in":48,"one_ga":30,"two_ga":0,"three_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311402","one_ga":"810181311372","two_ga":"810181311389","three_ga": "810181311396"}
   },
   {
     "title": "Agave celsii 'Multicolor'",
@@ -612,7 +612,7 @@
     "availability": {"four_in":"09/15/2024","two_ga":"11/15/2024"},
     "stock": {"four_in":30,"two_ga":24},
     "genus": "agave",
-    "upc": {"four_in":"00810181310382","two_ga":"00810181310399"}
+    "upc": {"four_in":"810181310382","two_ga":"810181310399"}
   },
   {
     "title": "Agave vilmoriniana",
@@ -630,11 +630,11 @@
     "slug": "aloe-wickensii",
     "aka": ["Cape Aloe"],
     "overview": "This plant is one of the most beautiful and showy of the South African species of Aloe. Aloe wickensii has solitary, stemless rosettes densely packed with upright, curved smooth turquoisey-grey leaves with small sharp reddish-brown spines along the margins. A very attractive and unique Aloe with spectacular display of bi-colored blooms when in full flower.",
-    "price": {"four_in":4.75},
+    "price": {"four_in":4.75,"one_ga":9},
     "availability": {"four_in":"02/15/2024"},
-    "stock": {"four_in":93},
+    "stock": {"four_in":0,"one_ga":48},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312515","one_ga":"810181312508"}
   },
   {
     "title": "Agave xylonacantha",
@@ -652,11 +652,11 @@
     "slug": "aloe-comptonii",
     "aka": [],
     "overview": "Aloe comptonii is one of the larger creeping aloe species from S. Africa. This species is a moderately-sized (the largest of the species), compact, South African aloe known for its growth habit of spreading along the ground via horizontal, sprawling stems, sometimes retaining a lot of leaves giving the rosettes a curious stacked look.",
-    "price": {"four_in":4.75},
+    "price": {"four_in":4.75,"one_ga":9},
     "availability": {"four_in":"02/15/2024"},
-    "stock": {"four_in":32},
+    "stock": {"four_in":48,"one_ga":25},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311105","one_ga":"810181311099"}
   },
   {
     "title": "Aloe elegans",
