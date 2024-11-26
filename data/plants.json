@@ -319,11 +319,11 @@
     "aka": ["Sunset Aloe"],
     "overview": "A gorgeous, suckering, stemless aloe for landscaping in a warm climate and probably the most reliably red aloe whose normal coloration in shade is a bright green with spots.",
     "resource_link": "http://www.gardenaloes.com/aloe-dorotheae",
-    "price": {"four_in": 4.75,"two_ga": 11},
+    "price": {"four_in": 4.75,"two_ga": 12},
     "availability": {"four_in": "10/15/2022","two_ga": "3/15/2024"},
-    "stock": {"four_in":10,"two_ga":18},
+    "stock": {"four_in":120,"two_ga":13},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311303","two_ga":"810181311297"}
   },
   {
     "title": "Aloe helenae",
@@ -333,9 +333,9 @@
     "resource_link": "http://www.gardenaloes.com/aloe-helenae",
     "price": {"one_ga":12, "seven_ga":85, "ten_ga":100, "fifteen_ga": 345.00},
     "availability": {"one_ga":"sold_out","seven_ga":"5/15/2024","ten_ga":"5/15/2024","fifteen_ga": "sold_out"},
-    "stock": {"one_ga":0,"seven_ga":2,"ten_ga":1,"fifteen_ga":0},
+    "stock": {"one_ga":0,"seven_ga":1,"ten_ga":1,"fifteen_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"one_ga":"810181311549","seven_ga":"810181311532","ten_ga": "810181311525"}
   },
   {
     "title": "Aloe kedongensis",
@@ -343,11 +343,11 @@
     "aka": [],
     "overview": "Aloe kedongensis is a medium-large sized, Kenyan aloe with bright green, narrow, toothy, somewhat recurved leaves and multiple tall, thin stems. The Kenyan Aloe is a suckering, spreading shrub up to about six feet tall that is often used in gardens as a low barrier or hedge plant.",
     "resource_link": "http://www.gardenaloes.com/aloe-kedongensis",
-    "price": {"four_in":4,"one_ga": 8, "two_ga": 11,"five_ga": 20},
+    "price": {"four_in":4,"one_ga": 8, "two_ga": 12,"five_ga": 24},
     "availability": {"four_in":"07/15/2023","one_ga": "02/15/2023","two_ga": "07/15/2023","five_ga": "07/15/2023"},
-    "stock": {"four_in":16,"one_ga":11,"two_ga":7,"five_ga":11},
+    "stock": {"four_in":80,"one_ga":20,"two_ga":7,"five_ga":5},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311617","one_ga":"810181311587","two_ga":"810181311594","five_ga": "810181311600"}
   },
   {
     "title": "Aloe marlothii x sinkatana",
@@ -355,11 +355,11 @@
     "aka": [""],
     "overview": "A lovely hybrid of the Aloe marlothii (Mountain Aloe) Leaves are large grey green color with reddish brown spins along the margins.",
     "resource_link": "https://www.ranchotissue.com/product/aloe-sinkatana-x-marlothii/",
-    "price": {"four_in": 4.75,"one_ga":9},
+    "price": {"four_in": 4.75,"one_ga":9,"two_ga":14},
     "availability": {"four_in": "6/15/2023","one_ga":"2/15/2024"},
-    "stock": {"four_in":12,"one_ga":16},
+    "stock": {"four_in":0,"one_ga":35,"two_ga":5},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312072","two_ga":"810181312096","one_ga": "810181312089"}
   },
   {
     "title": "Aloe mutabilis",
@@ -367,11 +367,11 @@
     "aka": [],
     "overview": "A beautiful, medium size, shrubby aloe with bi-color blooms and a trailing stem up to 1 meter long with offshoots. This aloe typically grows 3 to 4 feet tall and topped by 18 to 24 inch wide rosettes of narrow soft-toothed blue-green leaves. A hanging or cliff-dwelling aloe; the plants often grow precariously suspended over steep kloofs in strikingly inaccessible spots.",
     "resource_link": "http://www.gardenaloes.com/aloe-mutabilis",
-    "price": {"one_ga": 8, "two_ga": 12, "five_ga": 20, "ten_ga":50},
-    "availability": {"one_ga": "sold_out", "two_ga": "sold_out", "five_ga": "03/15/2023", "ten_ga": "05/15/2022"},
-    "stock": {"one_ga":0,"five_ga":2,"ten_ga":2},
+    "price": {"one_ga": 8, "two_ga": 12, "five_ga": 25, "ten_ga":50,"fifteen_ga":75,"twenty_ga":150},
+    "availability": {"one_ga": "sold_out", "two_ga": "sold_out", "five_ga": "03/15/2023", "ten_ga": "sold_out","twenty_ga":"10/15/2024"},
+    "stock": {"one_ga":0,"five_ga":2,"fifteen_ga":0,"twenty_ga":2},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"twenty_ga":"810181311778","fifteen_ga":"810181311785","five_ga": "810181311792"}
   },
   {
     "title": "Aloe 'Moonglow'",
@@ -665,20 +665,20 @@
     "overview": "A medium-sized, mostly stemless plant. Aloe elegans grows 18-24 inches tall, featuring open rosettes of thick, upright, gray-green lance-shaped leaves with reddish-tinged edges when plants are exposed to drought. Late winter to early spring brings a few (2-4) branched inflorescence, bearing bright yellow conical flower heads that rise above leaf tips. This species enjoys full sun to light shade and soil that drains well, needing infrequent irrigation. Ethiopian native where it is very common on open slopes at moderately high elevations.",
     "price": {"five_ga":25},
     "availability": {"five_ga":"09/15/2023"},
-    "stock": {"five_ga":3},
+    "stock": {"five_ga":2},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"five_ga": "810181311310"}
   },
   {
     "title": "Aloe microstigma",
     "slug": "aloe-microstigma",
     "aka": [],
     "overview": "Aloe microstigma is a South African species with speckled leaves and wonderful flower colors. One of the most floriferous Aloes in South Africa, Aloe microstigma is a medium size, easy, relatively fast growing plant, tolerating summer watering and some shade, as well as poor soils.",
-    "price": {"four_in":5.50},
+    "price": {"four_in":5.50,"one_ga":9},
     "availability": {"four_in":"02/15/2024"},
-    "stock": {"four_in":16},
+    "stock": {"four_in":17,"one_ga":16},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311747","one_ga":"810181311730"}
   },
   {
     "title": "Mangave 'Macho Mocha'",
@@ -689,7 +689,7 @@
     "availability": {"two_ga": "02/15/2024","five_ga": "03/15/2022","seven_ga": "05/15/2022"},
     "stock": {"two_ga":36,"five_ga":0,"seven_ga":0},
     "genus": "xMangave",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"two_ga":"810181312829"}
   },
   {
     "title": "Manfreda maculosa",
@@ -698,9 +698,9 @@
     "overview": "Manfreda maculosa is a stunning deciduous succulent perennial in both foliage and flower. A native of South Texas with low growing, fleshy rosettes of succulent blue-green toothed leaves with maroon colored spots. The cream to greenish-white flowers appear atop 6 ft bloom spikes in late Spring.",
     "price": {"one_ga": 7,"two_ga":11},
     "availability": {"one_ga": "04/15/2024","two_ga": "04/15/2024"},
-    "stock": {"one_ga":12,"two_ga":12},
+    "stock": {"one_ga":8,"two_ga":0},
     "genus": "manfreda",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"one_ga":"810181312805","two_ga":"810181312812"}
   },
   {
     "title": "Hesperaloe parviflora",
@@ -709,9 +709,9 @@
     "overview": "Hesperaloe parviflora is a hummingbird's favorite that produces tall spikes of reddish-pink flowers that continue to bloom all summer. This yucca-like evergreen perennial succulent is stemless with clumps of arching and spreading grass-like foliage 3 to 4 feet tall.",
     "price": {"one_ga": 7,"five_ga": 18},
     "availability": {"one_ga":"sold_out","five_ga":"05/15/2024"},
-    "stock": {"one_ga":0,"five_ga":0},
+    "stock": {"two_ga":0,"five_ga":0},
     "genus": "hesperaloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"two_ga":"810181312799","five_ga": ""}
   },
   {
     "title": "Kalanchoe Sexangularis",

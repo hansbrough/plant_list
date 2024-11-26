@@ -190,6 +190,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             price {
               plug
@@ -205,6 +206,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             availability {
               plug
@@ -220,6 +222,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             upc {
               plug
@@ -258,6 +261,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             price {
               plug
@@ -273,6 +277,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             availability {
               plug
@@ -288,6 +293,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             upc {
               plug
@@ -326,6 +332,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             price {
               plug
@@ -341,6 +348,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             availability {
               plug
@@ -356,6 +364,7 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
               seven_ga
               ten_ga
               fifteen_ga
+              twenty_ga
             }
             upc {
               plug
