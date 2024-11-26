@@ -9,7 +9,6 @@ import { Link, graphql } from "gatsby";
 //import PlantSizeConstants from "../constants/PlantSizes";
 /*--Components--*/
 import Layout from "../components/layout";
-import AvailabilityLegend from "../components/availabilityLegend";
 import SEO from "../components/seo";
 //import PlantTableCell from "../components/plantTableCell";
 import PlantTableRow from "../components/plantTableRow";
@@ -61,7 +60,6 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
       </p>
       <p>Looking for retail plants? Visit our retail site: <a href="https://dryoasisplants.com" target="_blank" rel="noreferrer">dryoasisplants.com</a></p>
 
-      <AvailabilityLegend />
       <PlantFilters genusName={genusName} />
       <table className="availability-grid">
         <PlantTableHeader showThumbnail={true}/>

@@ -9,7 +9,6 @@ import Img from "gatsby-image"
 import PlantTableCell from "../components/plantTableCell";
 import PlantTableHeader from "../components/plantTableHeader";
 import PlantSizeConstants from "../constants/PlantSizes";
-import AvailabilityLegend from "../components/availabilityLegend";
 
 import "../components/plants.css"
 // Notes: aliased image query only way I could figure out how to pass a variable image name
@@ -134,7 +133,6 @@ const Plant = ({ data, pageContext }) => {
           </p>
         </section>
 
-        <AvailabilityLegend />
         <table>
           <PlantTableHeader showName={false}/>
           <tbody className="available">

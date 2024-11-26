@@ -8,7 +8,7 @@ const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided no
 
 const PlantTableRow = ({plant, thumbnail}) => {
 console.log("plant:",plant)
-const {availability, stock, upc} = plant;
+const {stock, upc} = plant;
   //console.log("upc(s):",upc)
   return (
     <>
