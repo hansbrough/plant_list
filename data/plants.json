@@ -49,7 +49,7 @@
     "aka": ["Matthew’s Agave", "Mateo’s Agave"],
     "overview": "The Agave bracteosa var. Mateo is upright growing to about 2 feet tall and wide with solitary rosettes. The spineless leaves take on a beautiful light green to green color with a pale band running down the center. A great drought tolerant choice for gardens with a coastal influence. This is one of the few safe agaves for pets and children.",
     "price": {"one_ga": 8.00, "two_ga": 16,"five_ga": 20,"seven_ga": 35,"ten_ga": 50,"fifteen_ga":69},
-    "availability": {"one_ga": "sold_out", "two_ga":"06/15/2023","seven_ga":"06/15/2023","five_ga": "sold_out", "seven_ga":"06/15/2023", "ten_ga":"06/15/2023", "fifteen_ga":"04/15/2023"},
+    "availability": {"one_ga": "sold_out", "two_ga":"06/15/2023","seven_ga":"06/15/2023","five_ga": "sold_out", "ten_ga":"06/15/2023", "fifteen_ga":"04/15/2023"},
     "stock": {"one_ga":0,"two_ga":8,"five_ga":0,"seven_ga":2, "ten_ga":2,"fifteen_ga":1},
     "genus": "agave",
     "upc": {"four_in":"","two_ga":"810181310214","two_ga":"810181310214","seven_ga":"","ten_ga": "810181310207","fifteen_ga":"810181310191"}
@@ -70,9 +70,9 @@
     "slug": "agave-desmettiana-variegata",
     "aka": ["Variegated Smooth Agave"],
     "overview": "Bright golden yellow edges on arching, fleshy leaves creates an elegant urn-like form that is a sensational focal point for the landscape or a large container. Foliage has tiny, marginal thorns.",
-    "price": {"two_ga": 18, "five_ga": 20, "seven_ga":35},
+    "price": {"one_ga":8,"two_ga": 14, "five_ga": 23, "seven_ga":35},
     "availability": {"two_ga": "10/15/2024", "five_ga":"10/15/2022", "seven_ga":"sold_out"},
-    "stock": {"two_ga":2, "five_ga":2, "seven_ga":0},
+    "stock": {"one_ga":20,"two_ga":2, "five_ga":2, "seven_ga":0},
     "genus": "agave",
     "upc": {"one_ga":"810181310306"}
   },
@@ -105,7 +105,7 @@
     "overview": "A very large and attractive century plant that can grow to 8 feet tall by 10 feet wide. It is usually seen as a single large open rosette with broad powdery bluish-gray large leaves that undulate and bend gracefully.",
     "price": {"two_ga": 14},
     "availability": {"two_ga": "05/15/2023"},
-    "stock": {"two_ga":1},
+    "stock": {"two_ga":0},
     "genus": "agave",
     "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
@@ -239,7 +239,7 @@
     "availability": {"one_ga": "sold_out","five_ga": "09/15/2022"},
     "stock": {"one_ga":0,"five_ga":3},
     "genus": "agave",
-    "upc": {"four_in":"","two_ga":"","five_ga": "810181310603"}
+    "upc": {"five_ga": "810181310603"}
   },
   {
     "title": "Aloe africana",
@@ -251,7 +251,7 @@
     "availability": {"one_ga": "04/15/2024", "two_ga": "sold_out","five_ga": "sold_out", "seven_ga": "05/15/2023"},
     "stock": {"one_ga":6,"five_ga":0,"seven_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","one_ga":"810181310863"}
+    "upc": {"one_ga":"810181310863"}
   },
   {
     "title": "Aloe acutissima",
@@ -305,13 +305,24 @@
     "title": "Aloe dawei",
     "slug": "aloe-dawei",
     "aka": ["Dawe’s Aloe"],
-    "overview": "Aloe dawei (Dawe’s Aloe) from Uganda has clumping, upright clusters of elongated succulent stems that elongate to 3-4+ feet tall and green, fleshy leaves form rosettes about 2 feet across with closely-spaced reddish-brown serrated teeth along the margins.",
+    "overview": "From Uganda, this Aloe has clumping, upright clusters of elongated succulent stems that elongate to 3-4+ feet tall and green, fleshy leaves form rosettes about 2 feet across with closely-spaced reddish-brown serrated teeth along the margins.",
     "resource_link": "http://www.gardenaloes.com/aloe-dawei",
     "price": {"four_in": 3.75,"two_ga": 12, "five_ga": 23, "seven_ga": 35},
     "availability": {"two_in":"05/15/2024","two_ga":"sold_out", "five_ga":"04/15/2023", "seven_ga":"05/15/2023"},
     "stock": {"four_in":72,"two_ga":0,"five_ga":48,"seven_ga":1,"ten_ga":2},
     "genus": "aloe",
     "upc": {"four_in":"810181311259","two_ga":"810181311235","five_ga": "810181311228","seven_ga":"810181311211","ten_ga":"810181311204"}
+  },
+  {
+    "title": "Aloe dawei 'Yellow'",
+    "slug": "aloe-dawei-yellow",
+    "aka": ["Dawe’s Aloe"],
+    "overview": "From Uganda, this yellow flowered Aloe has clumping, upright clusters of elongated succulent stems that elongate to 3-4+ feet tall and green, fleshy leaves form rosettes about 2 feet across with closely-spaced reddish-brown serrated teeth along the margins.",
+    "price": {"two_ga": 14},
+    "availability": {"two_ga":"04/15/2023"},
+    "stock": {"two_ga":6},
+    "genus": "aloe",
+    "upc": {"two_ga":"810181311198"}
   },
   {
     "title": "Aloe dorotheae 'HBG'",
@@ -391,11 +402,11 @@
     "aka": ["French Aloe","Fransaalwyn","Garaa"],
     "overview": "Aloe pluridens, also known as the French Aloe, is a very attractive, slender tree aloe which bears gracefully backwards-bending leaves in large spiraled rosettes from South Africa. This aloe is well suited to coastal gardens, is usually single-stemmed and tall with specimens in habitat occasionally reaching 15 feet or more.",
     "resource_link": "http://www.gardenaloes.com/aloe-pluridens",
-    "price": {"one_ga":9,"five_ga": 20,"ten_ga":60},
+    "price": {"one_ga":9,"five_ga": 20,"ten_ga":75},
     "availability": {"one_ga":"01/15/2024","five_ga": "03/15/2021","ten_ga":"5/15/2022"},
-    "stock": {"one_ga":5,"five_ga":1,"ten_ga":2},
+    "stock": {"one_ga":5,"five_ga":0,"ten_ga":2},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"one_ga":"810181311907","two_ga":"810181311914","fifteen_ga": "810181311891"}
   },
   {
     "title": "Aloe broomii",
@@ -414,22 +425,22 @@
     "slug": "aloe-plicatilis",
     "aka": ["Fan Aloe","Kumara disticha"],
     "overview": "Succulent shrub with gray colored stems that terminate with a fan-like cluster arrangement of flat 12 inch long slightly upcurved blue-gray round-tipped leaves. Old plants are typically 3-6 feet.",
-    "price": {"twenty_ga": 200},
+    "price": {"four_in":9,"twenty_ga": 200},
     "availability": {"twenty_ga":"4/15/23"},
-    "stock": {"twenty_ga":1},
+    "stock": {"four_in":32,"twenty_ga":1},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181311877","one_ga":"810181311853","two_ga":"810181311860","five_ga": "810181311884"}
   },
   {
     "title": "Aloe pretoriensis hybrid",
     "slug": "aloe-pretoriensis-x",
     "aka": ["Pretoria Aloe"],
     "overview": "Aloe pretoriensis is a medium-sized, rosette-forming, single stem, blue-green aloe from South Africa that unlike most aloes has thin fleshy leaves. Grows slowly on a trunk to as tall as 3 feet. In the late fall into winter a magnificent branching inflorescence with bright red flowers reaches up to 6 feet!",
-    "price": {"one_ga": 8, "two_ga": 16,"five_ga":26},
+    "price": {"one_ga": 8, "two_ga": 16,"five_ga":25,"ten_ga":50},
     "availability": {"one_ga":"sold_out", "two_ga":"sold_out","five_ga":"04/15/2024"},
-    "stock": {"one_ga":0,"two_ga":0,"five_ga":24},
+    "stock": {"one_ga":0,"two_ga":0,"five_ga":8,"ten_ga":1},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"five_ga":"810181311938","ten_ga":"810181311921"}
   },
   {
     "title": "Aloe petricola",
@@ -437,11 +448,11 @@
     "aka": ["Stone Aloe","Rock Aloe"],
     "overview": "Aloe petricola is solitary, stemless, growing to 2 feet high (60 cm) and up to 3 feet (90 cm) wide which is native to the east transvaal in South Africa. This Aloe has thick, stiff, non-bending pale blue-green leaves with sharp, widely spaced small reddish marginal teeth  and an overall ball-like, rounded form.",
     "resource_link": "http://www.gardenaloes.com/aloe-petricola",
-    "price": {"one_ga": 8, "two_ga": 16},
+    "price": {"one_ga": 9, "two_ga": 16},
     "availability": {"one_ga":"10/15/23", "two_ga":"8/15/23"},
-    "stock": {"one_ga":14, "two_ga":2},
+    "stock": {"one_ga":0, "two_ga":2},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"two_ga":"810181311846"}
   },
   {
     "title": "Aloe speciosa",
@@ -449,11 +460,11 @@
     "aka": ["Tilt Head Aloe", "Aloe hexapetala"],
     "overview": "Aloe speciosa is a generally single-stemmed, tall succulent growing up to 10 feet (3 m) that carries its massive rosettes of leaves at a tilt off to one side. The Tilt-head Aloe is a handsome tree-like succulent having decorative blue-green leaves with deep pink to pale red, serrated leaf margins, and dense cylindrical flower heads of red buds, opening greenish white in spring-summer.",
     "resource_link": "http://www.gardenaloes.com/aloe-speciosa",
-    "price": {"four_in":6,"one_ga": 10,"fifteen_ga":95},
+    "price": {"four_in":5.5,"one_ga": 10,"two_ga":15,"fifteen_ga":125},
     "availability": {"four_in":"04/15/2024","one_ga": "sold_out","fifteen_ga": "05/15/2022"},
-    "stock": {"four_in":32,"one_ga":0,"fifteen_ga":1},
+    "stock": {"four_in":48,"one_ga":0,"two_ga":24,"fifteen_ga":1},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312133","two_ga":"810181312119","one_ga": "810181312126","fifteen_ga":"810181312102"}
   },
   {
     "title": "Aloe striata",
@@ -461,11 +472,22 @@
     "aka": ["Coral Aloe"],
     "overview": "A small, beautiful, stemless South African Aloe which grows up to 18 inches (45 cm) tall and up to 2 feet (60 cm) wide, with rosettes of a few flat, broad, pale gray-green leaves.",
     "resource_link": "http://www.gardenaloes.com/aloe-striata",
-    "price": {"two_in":1.75,"four_in":4.75,"one_ga": 9,"seven_ga":34},
+    "price": {"two_in":1.25,"four_in":3.75,"one_ga": 9,"five_ga":25,"seven_ga":34},
     "availability": {"two_in":"02/15/2024","four_in":"02/15/2024","one_ga": "02/15/2024","seven_ga": "sold_out"},
-    "stock": {"two_in":200,"four_in":72,"one_ga":140,"seven_ga":0},
+    "stock": {"two_in":500,"four_in":72,"one_ga":30,"five_ga":100,"seven_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"two_in":"810181312157","four_in":"810181312164","one_ga":"810181312171","five_ga": "810181312188"}
+  },
+  {
+    "title": "Aloe striatula",
+    "slug": "aloe-striatula",
+    "aka": [],
+    "overview": "A shrubby and sprawling species reaching up to 6 feet in height and width, thrives in mountainous regions, making it one of South Africa's hardier aloes. Its dark green, recurved leaves are adorned with small white teeth along the margins and distinct longitudinal stripes. it forms colonies with rosettes of bright green leaves, growing upright and sometimes reaching the entire length of the stem. The plant produces brilliant yellow inflorescences in late spring to summer. Aloe striatula is resilient, tolerating frost down to 15°F and requiring full sun and well-drained soil.",
+    "price": {"five_ga":25},
+    "availability": {"five_ga": "04/15/2024"},
+    "stock": {"five_ga":3},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312195","five_ga": "810181312201"}
   },
   {
     "title": "Aloe arborescens x ferox 'Tangerine'",
@@ -483,9 +505,9 @@
     "slug": "aloe-arborescens-variegated",
     "aka": [ "Gilded Candelabra Aloe","Striped African Torch Aloe"],
     "overview": "A popular cultivar of Aloe arborescens which tends to be slower growing and smaller in size. Grows long arching rosettes, forming thick, large leaves, slightly recurved at the ends and display a variegated strip pattern. It grows up to 10 feet (3 m) tall given favorable conditions.",
-    "price": {"one_ga": 8, "two_ga": 14, "five_ga": 20},
+    "price": {"four_in":4,"one_ga": 9, "two_ga": 14, "five_ga": 20},
     "availability": {"one_ga": "04/15/2024", "two_ga": "03/15/2024","five_ga": "01/15/2024"},
-    "stock": {"one_ga":5, "two_ga":0,"five_ga":0},
+    "stock": {"four_in":13,"one_ga":18, "two_ga":0,"five_ga":0},
     "genus": "aloe",
     "upc": {"four_in":"810181310894","one_ga":"810181310887"}
   },
@@ -495,11 +517,22 @@
     "aka": ["Coast Aloe", "Dune Aloe"],
     "overview": "Aloe thraskii is wonderful feature plant that is tall and robust, with enormous olive green leaves that are recurved back to the trunk, sometimes even touching the skirt of old, dried leaves around the trunk. This unbranched tree-like Aloe grows to 10 feet with deeply concave (U-shaped in cross section) pale olive-green leaves that have small reddish-brown marginal teeth. Also known as the Dune Aloe this fast-growing, South African, un-branched succulent plant, develops a very large and beautiful rosette.",
     "resource_link": "http://www.gardenaloes.com/aloe-thraskii",
-    "price": {"two_in":1.90,"one_ga":8,"two_ga":14,"five_ga":20,"seven_ga":45,"fifteen_ga":74},
+    "price": {"two_in":1.50,"one_ga":8,"two_ga":14,"five_ga":25,"seven_ga":45,"fifteen_ga":74},
     "availability": {"two_in":"3/15/2024", "one_ga": "10/15/2023","two_ga": "03/15/2023","five_ga": "10/15/2023","seven_ga":"10/15/2023","fifteen_ga":"sold_out"},
-    "stock": {"two_in":50, "one_ga":13,"two_ga":10,"five_ga":13,"seven_ga":3,"fifteen_ga":0},
+    "stock": {"two_in":0,"four_in":84, "one_ga":3,"two_ga":10,"five_ga":34,"seven_ga":3,"fifteen_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312225","one_ga":"810181312232","two_ga":"810181312249","five_ga": "810181312256","seven_ga":"810181312263","fifteen_ga":"810181312270"}
+  },
+  {
+    "title": "Aloe thraskii x ferox",
+    "slug": "aloe-thraskii-ferox",
+    "aka": [],
+    "overview": "An interesting cross between Aloe thraskii and Aloe ferox. So far the cross has yielded a version that seems to have kept some of the graceful form of A. thraskii while also inheriting some of the A. ferox drought tolerance and thorniness.",
+    "price": {"four_in":5,"two_ga":14,"five_ga":25,"seven_ga":50},
+    "availability": {"one_ga": "sold_out","two_ga": "04/15/2025","seven_ga":"4/15/2024"},
+    "stock": {"four_in":12, "two_ga":0,"five_ga":0,"seven_ga":1},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312287","two_ga":"810181312294","five_ga": "810181312300","seven_ga":"810181312317"}
   },
   {
     "title": "Aloe vanbalenii",
@@ -507,11 +540,11 @@
     "aka": ["Van Balen's Aloe"],
     "overview": "Commonly grown, Aloe vanbalenii is one of the most beautiful and distinctive aloes, with its long, twisted and recurved leaves resembling an octopus. This striking Aloe is a medium to large sized South African species that stays relatively low to the ground and forms clumps of stemless rosettes about 3 feet wide.",
     "resource_link": "http://www.gardenaloes.com/aloe-vanbalenii",
-    "price": {"four_in":5.75,"two_ga":22,"ten_ga": 65},
+    "price": {"four_in":4.75,"two_ga":15,"ten_ga": 65},
     "availability": {"four_in":"2/15/2024","two_ga":"2/15/2024","ten_ga": "sold_out"},
-    "stock": {"four_in":16,"two_ga":11,"ten_ga":0},
+    "stock": {"four_in":32,"one_ga":24,"two_ga":30,"ten_ga":0},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312409","one_ga":"810181312416","two_ga":"810181312423"}
   },
   {
     "title": "Aloe vaombe",
@@ -519,11 +552,11 @@
     "aka": ["Malagasy Tree Aloe"],
     "overview": "Aloe vaombe, the 'Malagasy Tree Aloe' is one of the most beautiful large tree aloes, making a stunning centerpiece specimen for a garden. It is a large unbranched tree aloe to 12 feet tall or more with large solitary rosettes up to 5 feet across of recurved, pale green leaves that have whitish teeth. Mature plants produce spectacular orange-red flowers in the winter.",
     "resource_link": "http://www.gardenaloes.com/aloe-vaombe/",
-    "price": {"two_ga": 16,"five_ga": 20,"seven_ga":50,"fifteen_ga": 84},
+    "price": {"four_in":5,"two_ga": 16,"five_ga": 20,"seven_ga":50,"fifteen_ga": 84},
     "availability": {"two_ga": "sold_out","five_ga": "sold_out","seven_ga":"06/15/2023","fifteen_ga": "03/15/2022"},
-    "stock": {"two_ga":0,"five_ga":0,"seven_ga":2,"fifteen_ga":4},
+    "stock": {"four_in":0,"two_ga":0,"five_ga":0,"seven_ga":1,"fifteen_ga":4},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181312454","seven_ga":"810181312447","fifteen_ga": "810181312430"}
   },
   {
     "title": "Aloe Vaotsanda x divaricata 'Candy Corn'",
@@ -643,9 +676,42 @@
     "overview": "In a nod to one of Agave xylonacantha's most striking features it used to be named after the teeth of the Great White Shark! This Agave is also unique in that it forms relatively few of it's convoluted, sword-shaped leaves when compared to other agaves. It produces a basal rosette of up to 6 ft in diameter and 3 to 4 ft in height. Monocarpic flowering stalks can reach a height of 11 feet. It is a close relative of Agave lophantha.",
     "price": {"four_in":3.50,"one_ga":9,"five_ga":24},
     "availability": {"four_in":"02/15/2024"},
-    "stock": {"four_in":32,"one_ga":72,"five_ga":1},
+    "stock": {"four_in":16,"one_ga":72,"five_ga":1},
     "genus": "agave",
     "upc": {"four_in":"810181310641","one_ga":"810181310634","five_ga": "810181310658"}
+  },
+  {
+    "title": "Aloe albiflora",
+    "slug": "aloe-albiflora",
+    "aka": ["White-flowered Aloe"],
+    "overview": "A petite, stemless succulent forming small clusters. Its narrow, dark green leaves, marked with white spots and fringed with tiny teeth, create an eye-catching texture. In favorable conditions, it blooms year-round, with bell-shaped, translucent white flowers tinged with pink.",
+    "price": {"one_ga":8},
+    "availability": {"four_in":"012/15/2024"},
+    "stock": {"one_ga":38},
+    "genus": "aloe",
+    "upc": {"one_ga":"810181310870"}
+  },
+  {
+    "title": "Aloe bakeri",
+    "slug": "aloe-bakeri",
+    "aka": ["White-flowered Aloe"],
+    "overview": "A petite, stemless succulent forming small clusters. Its narrow, dark green leaves, marked with white spots and fringed with tiny teeth, create an eye-catching texture. In favorable conditions, it blooms year-round, with bell-shaped, translucent white flowers tinged with pink.",
+    "price": {"one_ga":8},
+    "availability": {"one_ga":"012/15/2024"},
+    "stock": {"one_ga":28},
+    "genus": "aloe",
+    "upc": {"one_ga":"810181310870"}
+  },
+  {
+    "title": "Aloe brevifolia",
+    "slug": "aloe-brevifolia",
+    "aka": ["Short-leaved Aloe"],
+    "overview": "A compact size of 12-18 inches in height and width makes this plant an ideal choice for rock gardens or low-maintenance landscapes. Its spiky, succulent leaves bring texture to dry spots and slopes, requiring minimal water once established. This aloe's rosette form offers a natural border along pathways, and its adaptability makes it suitable for both xeriscape designs and container arrangements.",
+    "price": {"one_ga":8},
+    "availability": {"one_ga":"012/15/2024"},
+    "stock": {"one_ga":12},
+    "genus": "aloe",
+    "upc": {"one_ga":"810181310962"}
   },
   {
     "title": "Aloe comptonii",
@@ -681,6 +747,369 @@
     "upc": {"four_in":"810181311747","one_ga":"810181311730"}
   },
   {
+    "title": "Aloe 'Fairy Pink'",
+    "slug": "aloe-fairy-pink",
+    "aka": [],
+    "overview": "A small, stemless clumping aloe from Leo Thamm's breeding program in Johannesburg, South Africa. It grows upright rosettes of pale green leaves, nearly 1 foot tall. During late summer through fall into winter, it produces inflorescences with delicate white flowers lightly blushed apricot-pink. This compact succulent forms dense clusters with delicate fleshy green leaves arranged in a spiral pattern. It blooms from late summer to fall",
+    "price": {"four_in":4.50,"one_ga":9},
+    "availability": {"four_in":"sold_out"},
+    "stock": {"four_in":0,"one_ga":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311341","one_ga":"810181311334"}
+  },
+  {
+    "title": "Aloe 'Lavender'",
+    "slug": "aloe-lavender",
+    "aka": [],
+    "overview": "Small-sized Aloe hybrid with cherry red flowers. Perfect for use in patio pots where it's intricate leaf patterns can be appreciated.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"08/15/2024"},
+    "stock": {"four_in":70},
+    "genus": "aloe",
+    "upc": {"four_in":"810181310764"}
+  },
+  {
+    "title": "Aloe 'Piranha'",
+    "slug": "aloe-piranha",
+    "aka": [],
+    "overview": "A part of the innovative 'Fish Series' aloes, its small size and captivating features make it ideal for both patios and offices.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"08/15/2024"},
+    "stock": {"four_in":56},
+    "genus": "aloe",
+    "upc": {"four_in":"810181310825"}
+  },
+  {
+    "title": "Aloe 'Cha Cha'",
+    "slug": "aloe-cha-cha",
+    "aka": [],
+    "overview": "A smaller, clumping aloe with spotted leaves which makes a great plant for the window sill.",
+    "price": {"four_in":4.5},
+    "availability": {"four_in":"08/15/2024"},
+    "stock": {"four_in":68},
+    "genus": "aloe",
+    "upc": {"four_in":"810181310702"}
+  },
+  {
+    "title": "Aloe deltoideodonta 'Sparkler'",
+    "slug": "aloe-deltoideodonta-sparkler",
+    "aka": ["Kelly's Sparkler Aloe"],
+    "overview": "A compact, attractive hybrid featuring broad bronze-green leaves with small white spots and soft white teeth along the edges. This aloe typically grows less than 1 foot in height and width, forming a short, squat rosette heavily marked with white spots. It produces a 12 to 18-inch tall inflorescence with few branches, bearing slender pink flowers tipped in white.",
+    "price": {"four_in":4.5},
+    "availability": {"four_in":"08/15/2024"},
+    "stock": {"four_in":64},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311266"}
+  },
+  {
+    "title": "Aloe 'Pink Blush'",
+    "slug": "aloe-pink-blush",
+    "aka": [],
+    "overview": "A decorative dwarf aloe hybrid that grows up to 1 foot tall and 8-12 inches wide. With its textured, dark green and light green leaves with raised pink ridges, it adds an eye-catching touch to any garden. This hybrid is drought-tolerant, blooming with orange flowers from late winter to spring. It can be planted in full sun to light shade in a well-drained soil and irrigated occasionally to regularly. Ideal for garden containers or as a summer accent, it is best to bring it indoors to overwinter in colder climates. This Kelly Griffin hybrid is known for its excellent color and being in constant bloom.",
+    "price": {"one_ga":9},
+    "availability": {"four_in":"08/15/2024"},
+    "stock": {"one_ga":10},
+    "genus": "aloe",
+    "upc": {"one_ga":"810181310818"}
+  },
+  {
+    "title": "Aloe elgonica",
+    "slug": "aloe-elgonica",
+    "aka": [],
+    "overview": "Originating from the Trans-Nzoia District of Kenya, is a captivating clump-forming plant boasting rosettes up to almost 2 feet across. This suckering aloe presents a range of heights, from low-growing when deprived of water to reaching up to 3-4 feet tall with adequate protection and watering, with stems branching from the base to form dense clumps. Its thick, glossy leaves exhibit a charming pink blush upon emergence and feature prominent broad teeth along the margins.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"10/15/2024"},
+    "stock": {"four_in":68},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311327"}
+  },
+  {
+    "title": "Aloe dichotoma",
+    "slug": "aloe-dichotoma",
+    "aka": ["Quiver tree"],
+    "overview": "Stands out as one of the largest Aloes, forming an incredibly tough tree with elegantly tapered branches adorned with succulent rosettes of aloe leaves. Found in arid habitats in Namibia and South Africa, it may reach over 80 years of age and towering heights of approximately 7 meters",
+    "price": {"four_in":12.75},
+    "availability": {"four_in":"10/15/2024"},
+    "stock": {"four_in":18},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311273"}
+  },
+  {
+    "title": "Aloe distans",
+    "slug": "aloe-distans",
+    "aka": ["Golden Tooth Aloe","Jeweled Aloe"],
+    "overview": "A sprawling aloe indigenous to South Africa's west coast. Growing in dense clusters, its stems can reach up to 3 meters as they spread along the ground or climb over rocks. Starting in the middle of summer and lasting throughout the fall, it produces dense capitate heads of coral tubular flowers.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"10/15/2024"},
+    "stock": {"four_in":20},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311280"}
+  },
+  {
+    "title": "Aloe 'Guido'",
+    "slug": "aloe-guido",
+    "aka": [],
+    "overview": "Aloe with pale green rosettes adorned with creamy white stippling and fringed edges. In the summer through fall, striking red-orange flower spikes emerge.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"10/15/2024"},
+    "stock": {"four_in":44},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311501"}
+  },
+  {
+    "title": "Aloe ortholopha hybrid",
+    "slug": "aloe-ortholopha-hybrid",
+    "aka": [],
+    "overview": "Originates from Zimbabwe where is grows in open grasslands at around 5,000 ft. This open hybrid may be a cross with Aloe excelsa. These specimens have grown quickly, appear to be single stemmed, and have thick, broad leaves making up what will likely become a large rosette. None have grown large enough to flower yet.",
+    "price": {"five_ga":25},
+    "availability": {"five_ga":"07/15/2024"},
+    "stock": {"five_ga":8},
+    "genus": "aloe",
+    "upc": {"five_ga":"810181311822"}
+  },
+  {
+    "title": "Aloe reitzii",
+    "slug": "aloe-reitzii",
+    "aka": [],
+    "overview": "A stemless species native to South Africa's grassland area of Mpumalanga, presents a striking appearance with a single rosette standing up to 3 feet tall. Its robust stature is complemented by long, relatively broad silvery blue-green leaves adorned with reddish teeth along the margins. Sun-loving and slow-growing, it takes 5-10 years to reach flowering maturity. During summer, this aloe produces cylindrical racemes of dark red to orange-red flowers",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"10/15/2024"},
+    "stock": {"four_in":32},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311945"}
+  },
+  {
+    "title": "Aloe rooikappie",
+    "slug": "aloe-rooikappie",
+    "aka": [],
+    "overview": "A smaller to mid-size, quickly clumping aloe that grows to less than 1 foot tall with many densely-clustered rosettes of green, spotted leaves that arch outward then slightly down near the tips and produce 2 foot tall branched, flat-topped inflorescences of orange flowers.",
+    "price": {"four_in":4.75,"one_ga":9,"two_ga":14,"five_ga":25},
+    "availability": {"four_in":"06/15/2024","two_ga":"06/15/2024"},
+    "stock": {"four_in":12,"one_ga":0,"two_ga":70,"five_ga":1},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311976","one_ga":"","two_ga":"810181311969 ","five_ga":"810181311952"}
+  },
+  {
+    "title": "Aloe 'Safari Orange'",
+    "slug": "aloe-safari-orange",
+    "aka": [],
+    "overview": "A mid-sized clustering aloe, features upwardly inclined gray-green leaves reaching around 3 feet in height and slightly wider spread. As winter approaches, it unveils numerous unbranched inflorescences with brilliant orange, narrow flowers. Resilient against temperatures of 20-30°F",
+    "price": {"four_in":4.75,"one_ga":9,"three_ga":19.75},
+    "availability": {"four_in":"sold_out","one_ga":"06/15/2024","three_ga":"03/15/2025"},
+    "stock": {"four_in":0,"one_ga":43,"three_ga":24},
+    "genus": "aloe",
+    "upc": {"four_in":"","one_ga":"810181312010","three_ga":"","five_ga":"810181312027"}
+  },
+  {
+    "title": "Aloe 'Safari Rose'",
+    "slug": "aloe-safari-rose",
+    "aka": ["Safari Rose Aloe","Aloe hybrid 'Safari Rose' PP28002"],
+    "overview": "A compact succulent valued for its heat and drought tolerance. It features rose-pink flowers from summer to mid-winter, adding vibrancy to any landscape. This versatile plant is deer resistant and offers year-round interest. 'Safari Rose' Aloe forms an upright, spreading clump with succulent green leaves, soft teeth, and grey-red tips, reaching 12 to 18 inches in height and spreading up to 40 inches.",
+    "price": {"four_in":4.75,"one_ga":9,"two_ga":14},
+    "availability": {"four_in":"06/15/2024"},
+    "stock": {"four_in":66,"one_ga":0,"two_ga":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312034","one_ga":"810181312041"}
+  },
+  {
+    "title": "Aloe tororoana",
+    "slug": "aloe-tororoana",
+    "aka": ["Tororo Rock Aloe"],
+    "overview": "A petite clustering aloe which reaches about a foot in height. Its light blue-green leaves, adorned with white spots underneath, form open rosettes with prominent teeth along the edges. Freely flowering from early fall to winter, it produces glossy, red-orange blossoms on slender, upright racemes up to 18 inches tall. Originates from the Tororo district in southeastern Uganda.",
+    "price": {"four_in":4.75,"one_ga":9,"two_ga":14},
+    "availability": {"four_in":"sold_out"},
+    "stock": {"four_in":0,"one_ga":6,"two_ga":1},
+    "genus": "aloe",
+    "upc": {"one_ga":"810181312386","two_ga":"810181312393"}
+  },
+  {
+    "title": "Aloe tomentosa",
+    "slug": "aloe-tomentosa",
+    "aka": [],
+    "overview": "An unusual and attractive plant native to the mountains of Yemen. It features a stemless, solitary rosette of pale green leaves up to 2 feet tall and 4 feet wide. The plant produces tall, multi-branched flower spikes with pyramidal clusters of wool-covered, sea-green blooms in summer, attracting hummingbirds and bees.",
+    "price": {"four_in":4.75,"one_ga":9,"two_ga":14,"ten_ga":60},
+    "availability": {"four_in":"sold_out"},
+    "stock": {"four_in":67,"one_ga":0,"two_ga":0,"ten_ga":4},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312324","one_ga":"810181312331","two_ga":"810181312348","five_ga":"810181312355","ten_ga":"810181312362"}
+  },
+  {
+    "title": "Aloe 'Delta Lights'",
+    "slug": "aloe-delta-lights",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312522"}
+  },
+  {
+    "title": "Aloe 'Christmas Carol'",
+    "slug": "aloe-christmas-carol",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312539"}
+  },
+  {
+    "title": "Aloe 'Samson'",
+    "slug": "aloe-samson",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312546"}
+  },
+  {
+    "title": "Aloe 'Blue Elf'",
+    "slug": "aloe-blue-elf",
+    "aka": [],
+    "overview": "A vigorous, tight-clumping aloe, reaching 18 inches tall by 2 feet wide, with narrow upright gray-blue leaves and spikes of orange flowers mostly appearing from early winter to early spring. This stem-less, dwarf aloe forms dense rosettes with toothed margins, growing tightly together in an upright habit. Moderate stress from sun and drought brings on a rosy flush, while extreme temperatures may result in reddish-tinged foliage tips. Speculated to be a cross between Aloe parvula and Aloe arborescens. Hardy to temperatures as low as 25°F. Ideal for container planting or as a foreground addition in gardens.",
+    "price": {"one_ga":8.5},
+    "availability": {"one_ga":"12/15/2024"},
+    "stock": {"one_ga":24},
+    "genus": "aloe",
+    "upc": {"four_in":"810181310672","one_ga":"810181310665"}
+  },
+  {
+    "title": "Aloe 'Dwarf White'",
+    "slug": "aloe-dwarf-white",
+    "aka": ["Aloe 'Japanese Hybrid'"],
+    "overview": "An ornamental small succulent originating from South Africa. It forms rosettes of narrow, recurved gray leaves with yellow-edged margins adorned with small, prominent recurved teeth, typically reaching a height and width of less than 1 foot. During mid-fall through early winter, it produces unbranched spikes of cream flowers on 1-foot tall stems. ",
+    "price": {"four_in":4,"one_ga":9},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"one_ga":88},
+    "genus": "aloe",
+    "upc": {"one_ga":"810181310733"}
+  },
+  {
+    "title": "Aloe chabaudii 'Orange Burst'",
+    "slug": "aloe-chabaudii-orange-burst",
+    "aka": ["Orange Burst Dwala Aloe"],
+    "overview": "A native to Rhodesia.  It forms clusters of rosettes with bluish-green leaves that can turn pink in full sun. In mid-winter, it produces pyramid-shaped panicles bearing pale orange tubular flowers, adding vibrant color to the landscape. Hardy in USDA zones 9 to 11, it withstands temperatures from 25°F to 30°F.",
+    "price": {"four_in":4,"one_ga":9,"three_ga":19.75},
+    "availability": {"three_ga":"4/15/2025"},
+    "stock": {"four_in":0,"one_ga":0,"three_ga":20},
+    "genus": "aloe",
+    "upc": {"four_in":"810181311075","one_ga":"810181311068","three_ga":""}
+  },
+  {
+    "title": "Aloe spectabilis",
+    "slug": "aloe-spectabilis",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312553"}
+  },
+  {
+    "title": "Aloe branddraaiensis",
+    "slug": "aloe-branddraaiensis",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312577"}
+  },
+  {
+    "title": "Aloe saponaria",
+    "slug": "aloe-saponaria",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312584"}
+  },
+  {
+    "title": "Aloe suprafoliata",
+    "slug": "aloe-suprafoliata",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312591"}
+  },
+  {
+    "title": "Aloe sinkatana",
+    "slug": "aloe-sinkatana",
+    "aka": [],
+    "overview": "",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"6/15/2025"},
+    "stock": {"four_in":0},
+    "genus": "aloe",
+    "upc": {"four_in":"810181312560"}
+  },
+  {
+    "title": "Agave chazaroi",
+    "slug": "agave-chazaroi",
+    "aka": [],
+    "overview": "Agave chazaroi is a striking, solitary agave species native to the Tequila region of Jalisco, Mexico, known for its glossy green, broad leaves with reddish-brown margins and a nearly spineless appearance at maturity. This agave forms open rosettes 3-5 feet tall and 4-7 feet wide, with young leaves displaying wavy edges and small basal spines that fade as the plant matures. Mature leaves are paler, firmer, and retain a prominent dark brown terminal spine. Native to elevations of 3,300 feet in semi-arid conditions, it thrives in mild climates with minimal winter extremes. Hardy to 30-32°F, it suits USDA zones 9-11.",
+    "price": {"four_in":4.75},
+    "availability": {"four_in":"12/01/2024"},
+    "stock": {"four_in":72},
+    "genus": "agave",
+    "upc": {"four_in":"","one_ga":""}
+  },
+  {
+    "title": "Furcraea bedinghausii",
+    "slug": "furcraea-bedinghausii",
+    "aka": ["Bedinghaus' Dracaena","Mexican Starburst"],
+    "overview": "A large, perennial succulent from central Mexico, closely related to Agaves and Yuccas. This monocarpic species forms a tall trunk with a crown of soft, pliable bluish-grey-green leaves that can reach up to 4 feet in length. The plant typically grows up to 12 to 16 feet tall, with a width of 4 to 6 feet. It produces a conical flower spike that can rise 12 to 25 feet above the foliage, bearing greenish-white flowers before dying and leaving behind numerous bulbils for propagation.",
+    "price": {"six_in":5.5,"one_ga":9},
+    "availability": {"six_in":"12/01/2024"},
+    "stock": {"six_in":50,"one_ga":0},
+    "genus": "furcraea",
+    "upc": {"six_in":"810181312690","one_ga":"810181312706"}
+  },
+  {
+    "title": "Furcraea macdougalii",
+    "slug": "furcraea-macdougalii",
+    "aka": ["MacDougall's Century Plant"],
+    "overview": "A towering succulent native to southern Mexico, notable for its long life cycle and dramatic form. Belonging to the Agavaceae family, it produces a single bloom after 25–40 years, then dies, leaving behind bulbils for propagation. This plant forms a dense rosette of blue-green leaves, reaching up to 10 feet in length, with hooked spines along the edges and an upright, architectural appearance. It can grow an unbranched trunk of up to 20 feet in its natural habitat, although it usually achieves heights of 8–10 feet in cultivation, with a width of 6–8 feet. Flowering is rare but spectacular, with a 20-foot spike covered in greenish-white or creamy-white, bell-shaped flowers. Native to dry thorn forests of Oaxaca, Mexico",
+    "price": {"six_in":5.5},
+    "availability": {"six_in":"12/01/2024"},
+    "stock": {"six_in":50,"one_ga":0,"five_ga":0},
+    "genus": "furcraea",
+    "upc": {"six_in":"810181312713","one_ga":"810181312720","five_ga":"810181312737"}
+  },
+  {
+    "title": "Gasteria acinacifolia",
+    "slug": "gasteria-acinacifolia",
+    "aka": ["Dune Gasteria","Coast Ox-tongue"],
+    "overview": "Native to the Eastern Cape Province of South Africa. Resembles Aloe species and is prized for its ease of care and attractive appearance. Characterized by rosettes of triangular leaves with dense white spots, the plant's thick, tapering leaves resemble a scimitar. Prefers bright, indirect light and well-draining soil, tolerating temperatures between 16°C – 25°C (60°F – 77°F). Pendant orange flowers bloom from winter to spring",
+    "price": {"one_ga":9},
+    "availability": {"one_ga":"12/15/2024"},
+    "stock": {"one_ga":24},
+    "genus": "gasteria",
+    "upc": {"one_ga":"810181312751"}
+  },
+  {
+    "title": "Graptopetalum paraguayense",
+    "slug": "graptopetalum-paraguayense",
+    "aka": [],
+    "overview": "Commonly known as ghost plant or mother-of-pearl plant, is a succulent species native to Tamaulipas, Mexico, belonging to the jade plant family, Crassulaceae. It features fleshy, opalescent leaves arranged in rosettes, which can turn pinkish-yellow in hot, dry conditions or blue-gray in partial shade.",
+    "price": {"four_in":1.25},
+    "availability": {"four_in":"8/15/2024"},
+    "stock": {"four_in":32},
+    "genus": "graptopetalum",
+    "upc": {"four_in":"810181312782"}
+  },
+  {
     "title": "Mangave 'Macho Mocha'",
     "slug": "mangave-macho-mocha",
     "aka": [],
@@ -703,6 +1132,17 @@
     "upc": {"one_ga":"810181312805","two_ga":"810181312812"}
   },
   {
+    "title": "Myrtillocactus geometrizans 'San Bartolo'",
+    "slug": "myrtillocactus-geometrizans-san-bartolo",
+    "aka": [],
+    "overview": "A columnar cactus which with time forms a thick candelabrum-like structure, tall and broad up to 15ft. Native to central and southern Mexico, this plant will prosper in temperate, Mediterranean-like climates. Delicate, creamy white flowers attract pollinators and eventually yield blueberry-type of fruit called bilberry, that is edible.",
+    "price": {"one_ga":12,"two_ga":20},
+    "availability": {"one_ga": "04/15/2023","two_ga": "04/15/2023"},
+    "stock": {"one_ga":3,"two_ga":4},
+    "genus": "myrtillocactus",
+    "upc": {"one_ga":"810181312836","two_ga":"810181312843"}
+  },
+  {
     "title": "Hesperaloe parviflora",
     "slug": "hesperaloe-parviflora",
     "aka": ["Red Yucca", "Coral Yucca", "Hummingbird Yucca"],
@@ -723,6 +1163,28 @@
     "stock": {"five_ga":0},
     "genus": "Kalanchoe",
     "upc": {"four_in":"","two_ga":"","five_ga": ""}
+  },
+  {
+    "title": "Opuntia microdasys 'Albispina'",
+    "slug": "opuntia-microdasys-albispina",
+    "aka": ["Bunny Ears"],
+    "overview": "A low-maintenance cactus which can grow up to 2 feet tall and 5 feet wide. Cute pads that are shaped like rabbit ears.",
+    "price": {"four_in": 1.25},
+    "availability": {"four_in": "04/15/2023"},
+    "stock": {"four_in":8},
+    "genus": "opuntia",
+    "upc": {"four_in":"810181312881"}
+  },
+  {
+    "title": "Opuntia microdasys 'Gold'",
+    "slug": "opuntia-microdasys-gold",
+    "aka": ["Golden Bunny Ears"],
+    "overview": "A low-maintenance cactus which can grow up to 2 feet tall and 5 feet wide. Cute pads that are shaped like rabbit ears.",
+    "price": {"four_in": 1.25},
+    "availability": {"four_in": "04/15/2023"},
+    "stock": {"four_in":6},
+    "genus": "opuntia",
+    "upc": {"four_in":"810181312898"}
   },
   {
     "title": "Trichocereus spachianus",
