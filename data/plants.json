@@ -52,7 +52,7 @@
     "availability": {"one_ga": "sold_out", "two_ga":"06/15/2023","seven_ga":"06/15/2023","five_ga": "sold_out", "ten_ga":"06/15/2023", "fifteen_ga":"04/15/2023"},
     "stock": {"one_ga":0,"two_ga":8,"five_ga":0,"seven_ga":2, "ten_ga":2,"fifteen_ga":1},
     "genus": "agave",
-    "upc": {"four_in":"","two_ga":"810181310214","two_ga":"810181310214","seven_ga":"","ten_ga": "810181310207","fifteen_ga":"810181310191"}
+    "upc": {"four_in":"","two_ga":"810181310214","two_ga":"810181310214","seven_ga":"810181313024","ten_ga": "810181310207","fifteen_ga":"810181310191"}
   },
   {
     "title": "Agave chiapensis",
@@ -72,9 +72,9 @@
     "overview": "Bright golden yellow edges on arching, fleshy leaves creates an elegant urn-like form that is a sensational focal point for the landscape or a large container. Foliage has tiny, marginal thorns.",
     "price": {"one_ga":8,"two_ga": 14, "five_ga": 23, "seven_ga":35,"twenty_ga":100},
     "availability": {"two_ga": "10/15/2024", "five_ga":"10/15/2022", "seven_ga":"sold_out"},
-    "stock": {"one_ga":56,"two_ga":2, "five_ga":2, "seven_ga":0,"twenty_ga":1},
+    "stock": {"one_ga":56,"two_ga":2, "five_ga":0, "seven_ga":0,"twenty_ga":0},
     "genus": "agave",
-    "upc": {"one_ga":"810181310306"}
+    "upc": {"one_ga":"810181310306","two_ga":"810181313055","five_ga":"810181313062","twenty_ga":"810181313079"}
   },
   {
     "title": "Agave ellemeetiana 'Satina'",
@@ -96,7 +96,7 @@
     "availability": {"one_ga": "10/15/2023", "two_ga": "10/15/2023", "five_ga": "sold_out", "seven_ga": "02/15/2021","fifteen_ga":"05/15/2022"},
     "stock": {"one_ga":10,"two_ga":18,"five_ga":2,"seven_ga":2,"fifteen_ga":0},
     "genus": "agave",
-    "upc": {"one_ga":"810181310351","two_ga":"810181310368","five_ga": "810181310375"}
+    "upc": {"one_ga":"810181310351","two_ga":"810181310368","five_ga": "810181310375","seven_ga":"810181313086"}
   },
   {
     "title": "Agave franzosinii",
@@ -184,7 +184,7 @@
     "availability": {"one_ga": "sold_out", "two_ga": "sold_out","five_ga": "10/15/2023"},
     "stock": {"four_in":216,"one_ga":0,"two_ga":0,"five_ga":22},
     "genus": "agave",
-    "upc": {"four_in":"","one_ga":"810181310016","five_ga": "810181310023"}
+    "upc": {"four_in":"810181313017","one_ga":"810181310016","five_ga": "810181310023"}
   },
   {
     "title": "Agave 'Red Margin'",
@@ -272,7 +272,7 @@
     "resource_link": "http://www.gardenaloes.com/aloe-acutissima",
     "price": {"one_ga": 8,"two_ga": 14},
     "availability": {"one_ga": "sold_out","two_ga":"10/15/2023"},
-    "stock": {"one_ga":0,"two_ga":3},
+    "stock": {"one_ga":0,"two_ga":0},
     "genus": "aloe",
     "upc": {"four_in":"","two_ga":"","five_ga": ""}
   },
@@ -298,7 +298,7 @@
     "availability": {"two_ga": "11/15/2022", "five_ga": "11/15/2022", "ten_ga": "11/15/2022","fifteen_ga":"11/15/2023"},
     "stock": {"two_ga":2, "five_ga":2, "ten_ga":0,"fifteen_ga":6},
     "genus": "aloe",
-    "upc": {"two_ga":"810181311044","five_ga": "", "ten_ga":"","fifteen_ga":"810181311037"}
+    "upc": {"two_ga":"810181311044","five_ga":"810181313130", "ten_ga":"","fifteen_ga":"810181311037"}
   },
   {
     "title": "Aloe camperi 'Cornuta'",
@@ -429,7 +429,7 @@
     "availability": {"one_ga":"01/15/2024","five_ga": "03/15/2021","ten_ga":"5/15/2022"},
     "stock": {"one_ga":5,"five_ga":0,"ten_ga":2},
     "genus": "aloe",
-    "upc": {"one_ga":"810181311907","two_ga":"810181311914","fifteen_ga": "810181311891"}
+    "upc": {"one_ga":"810181311907","two_ga":"810181311914","ten_ga":"810181313178","fifteen_ga": "810181311891"}
   },
   {
     "title": "Aloe broomii",
@@ -441,7 +441,7 @@
     "availability": {"three_in": "sold_out","four_in": "04/15/2023"},
     "stock": {"three_in":0,"four_in":3},
     "genus": "aloe",
-    "upc": {"four_in":"","two_ga":"","five_ga": ""}
+    "upc": {"four_in":"810181313123","two_ga":"","five_ga": ""}
   },
   {
     "title": "Aloe plicatilis",
@@ -452,7 +452,7 @@
     "availability": {"twenty_ga":"4/15/23"},
     "stock": {"four_in":32,"twenty_ga":1},
     "genus": "aloe",
-    "upc": {"four_in":"810181311877","one_ga":"810181311853","two_ga":"810181311860","five_ga": "810181311884"}
+    "upc": {"four_in":"810181311877","one_ga":"810181311853","two_ga":"810181311860","five_ga": "810181311884","twenty_ga":"810181313161"}
   },
   {
     "title": "Aloe pretoriensis hybrid",
@@ -463,7 +463,7 @@
     "availability": {"one_ga":"sold_out", "two_ga":"sold_out","five_ga":"04/15/2024"},
     "stock": {"one_ga":0,"two_ga":0,"five_ga":13,"seven_ga":1,"ten_ga":1},
     "genus": "aloe",
-    "upc": {"five_ga":"810181311938","seven_ga":"","ten_ga":"810181311921"}
+    "upc": {"five_ga":"810181311938","seven_ga":"810181313185","ten_ga":"810181311921"}
   },
   {
     "title": "Aloe petricola",
@@ -646,7 +646,7 @@
     "availability": {"four_in":"09/15/2023","one_ga": "02/15/2024","three_ga": "02/15/2025"},
     "stock": {"four_in":500,"one_ga":150,"three_ga":120},
     "genus": "agave",
-    "upc": {"four_in":"810181310245","one_ga":"810181310238","three_ga": ""}
+    "upc": {"four_in":"810181310245","one_ga":"810181310238","three_ga": "810181313031"}
   },
   {
     "title": "Agave celsii albicans x attenuata 'Blue Haze'",
@@ -921,7 +921,7 @@
     "availability": {"five_ga":"07/15/2024"},
     "stock": {"five_ga":6,"seven_ga":4},
     "genus": "aloe",
-    "upc": {"five_ga":"810181311822"}
+    "upc": {"five_ga":"810181311822","seven_ga":"810181313154"}
   },
   {
     "title": "Aloe reitzii",
@@ -932,7 +932,7 @@
     "availability": {"four_in":"10/15/2024"},
     "stock": {"four_in":48},
     "genus": "aloe",
-    "upc": {"four_in":"810181311945"}
+    "upc": {"four_in":"810181311945","one_ga":"810181313208"}
   },
   {
     "title": "Aloe rooikappie",
@@ -965,7 +965,7 @@
     "availability": {"four_in":"sold_out","one_ga":"06/15/2024","three_ga":"03/15/2025"},
     "stock": {"four_in":0,"one_ga":39,"three_ga":28},
     "genus": "aloe",
-    "upc": {"four_in":"","one_ga":"810181312010","three_ga":"","five_ga":"810181312027"}
+    "upc": {"four_in":"","one_ga":"810181312010","three_ga":"810181313109","five_ga":"810181312027"}
   },
   {
     "title": "Aloe 'Safari Rose'",
@@ -1042,7 +1042,7 @@
     "availability": {"one_ga":"12/15/2024"},
     "stock": {"one_ga":20,"two_ga":8},
     "genus": "aloe",
-    "upc": {"four_in":"810181310672","one_ga":"810181310665"}
+    "upc": {"four_in":"810181310672","one_ga":"810181310665","two_ga":"810181313093"}
   },
   {
     "title": "Aloe 'Dwarf White'",
@@ -1064,7 +1064,7 @@
     "availability": {"three_ga":"4/15/2025"},
     "stock": {"four_in":0,"one_ga":0,"three_ga":20},
     "genus": "aloe",
-    "upc": {"four_in":"810181311075","one_ga":"810181311068","three_ga":""}
+    "upc": {"four_in":"810181311075","one_ga":"810181311068","three_ga":"810181313147"}
   },
   {
     "title": "Aloe spectabilis",
@@ -1130,7 +1130,7 @@
     "availability": {"four_in":"12/01/2024"},
     "stock": {"four_in":72},
     "genus": "agave",
-    "upc": {"four_in":"","one_ga":""}
+    "upc": {"four_in":"810181313048","one_ga":""}
   },
   {
     "title": "Euphorbia resinifera",
@@ -1218,7 +1218,7 @@
     "availability": {"one_ga": "12/15/2024"},
     "stock": {"one_ga":50},
     "genus": "xMangave",
-    "upc": {"one_ga":""}
+    "upc": {"one_ga":"810181313192"}
   },
   {
     "title": "Mangave 'Macho Mocha'",

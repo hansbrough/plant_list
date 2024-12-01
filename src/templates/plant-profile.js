@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { Link, graphql, navigate } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -102,6 +102,7 @@ const Plant = ({ data, pageContext }) => {
       />
 
       <article>
+        <p className="navigate-back" onClick={() => navigate(-1)}><a><span>&#8592;</span> Back</a></p>
         <section className="plant-heading-group">
           {data.plantHeroThumbnail.edges && data.plantHeroThumbnail.edges[0] &&
             <Img

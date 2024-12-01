@@ -90,6 +90,11 @@
   border: none;
 }
 
+.availability-grid tr:hover {
+  background-color: var(--tr-hover-background);
+  cursor: pointer;
+}
+
 /*-- layout --*/
 header h1 {
   font-family: "Krona One", sans-serif;
@@ -122,6 +127,11 @@ header nav a:hover {
 .layout-content {
   padding: 1rem 0 0 1rem;
   max-width: 960px;
+}
+
+/*-- navigation --*/
+.navigate-back {
+  cursor: pointer;
 }
 
 /*-- index page --*/
@@ -192,7 +202,7 @@ blockquote {
 }
 
 .plant-thumbnail {
-  margin-right: 1rem;
+  margin-top: .25rem;
 }
 
 .plant-title {
