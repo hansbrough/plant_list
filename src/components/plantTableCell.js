@@ -1,5 +1,6 @@
 import React from "react"
 
+//Legacy.. not used
 const PlantTableCell = ({size, plant, nowDate}) => {
 
   const monthDiff = (dateFrom, dateTo) => {

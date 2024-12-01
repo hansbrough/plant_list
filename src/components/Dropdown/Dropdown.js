@@ -12,7 +12,7 @@ const Dropdown = (props) => {
         <select
           id={id}
           name={id}
-          onChange={(e) => handleChange(id, e.target.value)}
+          onBlur={(e) => handleChange(id, e.target.value)}
         >
           {optionList.map((option) => (
             <option

@@ -4,14 +4,14 @@
 
 import React from "react";
 import { Link, graphql } from "gatsby";
-import Img from "gatsby-image";
+//import Img from "gatsby-image";
 /*--Constants--*/
-import PlantSizeConstants from "../constants/PlantSizes";
+//import PlantSizeConstants from "../constants/PlantSizes";
 /*--Components--*/
 import Layout from "../components/layout";
-import AvailabilityLegend from "../components/availabilityLegend";
 import SEO from "../components/seo";
-import PlantTableCell from "../components/plantTableCell";
+//import PlantTableCell from "../components/plantTableCell";
+import PlantTableRow from "../components/plantTableRow";
 import PlantTableHeader from "../components/plantTableHeader";
 import PlantFilters from "../components/plantFilters";
 /*--Style--*/
@@ -25,7 +25,7 @@ export const query = graphql`
       edges {
         node {
           childImageSharp {
-            fixed(height:50, width:50) {
+            fixed(height:30, width:30) {
               ...GatsbyImageSharpFixed
             }
           }
@@ -36,9 +36,16 @@ export const query = graphql`
   `
 
 const plantsFilteredByGenus = ({ data, pageContext={} }) => {
-  const nowDate = new Date();
+  //const nowDate = new Date();
   const {genus_name:genusName} = pageContext;
-  const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided not to display these.
+  //const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided not to display these.
+
+  // const getTitle = (size, availability) => {
+  //   if(size && availability) {
+  //     return availability[size] && `Available ${availability[size]}`;
+  //   }
+  //   return null;
+  // }
 
   return (
     <Layout pageName="plant-listing">
@@ -53,32 +60,17 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
       </p>
       <p>Looking for retail plants? Visit our retail site: <a href="https://dryoasisplants.com" target="_blank" rel="noreferrer">dryoasisplants.com</a></p>
 
-      <AvailabilityLegend />
       <PlantFilters genusName={genusName} />
       <table className="availability-grid">
         <PlantTableHeader showThumbnail={true}/>
         <tbody className="available">
-        {pageContext.edges && pageContext.edges.map(edge => {
+        {pageContext.edges && pageContext.edges.map((edge, idx) => {
           const plant = edge.node
-
           // find the hero image for the current plant node.
           const thumbnail = data.plantHeroes && data.plantHeroes.edges.find(thumbnail => thumbnail.node.childImageSharp.fixed.src.includes(plant.slug))
+
           return (
-            <tr key={`${plant.slug}-row`}>
-              <td>
-                {thumbnail && <Img
-                  className="plant-thumbnail"
-                  imgStyle={{borderRadius:`50%`}}
-                  fixed={thumbnail.node.childImageSharp.fixed}
-                  title={plant.title}
-                  alt={plant.title}
-                  />}
-              </td>
-              <td><Link to={`/${plant.slug}`}>{plant.title}</Link></td>
-              {Object.keys(PlantSizeConstants).filter(size => !excludedSizeKeys.includes(size)).map((size) =>
-                <PlantTableCell key={`${plant.slug}-${size}`} plant={plant} size={size} nowDate={nowDate} />
-              )}
-            </tr>
+            <PlantTableRow key={`${plant.slug}-${idx}`} plant={plant} thumbnail={thumbnail} />
           )
         })}
         </tbody>

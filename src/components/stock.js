@@ -57,6 +57,7 @@ export default function stockTable() {
                   eight_in
                   one_ga
                   two_ga
+                  three_ga
                   five_ga
                   seven_ga
                   ten_ga
@@ -72,6 +73,7 @@ export default function stockTable() {
                   eight_in
                   one_ga
                   two_ga
+                  three_ga
                   five_ga
                   seven_ga
                   ten_ga
@@ -87,6 +89,7 @@ export default function stockTable() {
                   eight_in
                   one_ga
                   two_ga
+                  three_ga
                   five_ga
                   seven_ga
                   ten_ga
@@ -101,7 +104,7 @@ export default function stockTable() {
 
       render={data => (
         <table>
-          <PlantTableHeader showPlantTotal={true} />
+          <PlantTableHeader showPlantTotal={false} showUpc={false} showFullStockInfo={true}/>
           <tbody className="stock">
           {data && data.allPlantsJson.edges.map(edge => {
             const plant = edge.node;
@@ -125,6 +128,7 @@ export default function stockTable() {
               <td>{`${getSizeTotal(data.allPlantsJson.edges,'eight_in')}`}</td>
               <td>{`${getSizeTotal(data.allPlantsJson.edges,'one_ga')}`}</td>
               <td>{`${getSizeTotal(data.allPlantsJson.edges,'two_ga')}`}</td>
+              <td>{`${getSizeTotal(data.allPlantsJson.edges,'three_ga')}`}</td>
               <td>{`${getSizeTotal(data.allPlantsJson.edges,'five_ga')}`}</td>
               <td>{`${getSizeTotal(data.allPlantsJson.edges,'seven_ga')}`}</td>
               <td>{`${getSizeTotal(data.allPlantsJson.edges,'ten_ga')}`}</td>

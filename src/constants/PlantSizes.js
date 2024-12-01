@@ -7,6 +7,7 @@ const plantSizes = {
   'eight_in':'8"',
   'one_ga':'1g',
   'two_ga':'2g',
+  'three_ga':'3g',
   'five_ga':'5g',
   'seven_ga':'7g',
   'ten_ga':'10g',
