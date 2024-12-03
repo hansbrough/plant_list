@@ -4,13 +4,12 @@
 
 import React from "react";
 import { Link, graphql } from "gatsby";
-//import Img from "gatsby-image";
+import { useIdentityContext } from "react-netlify-identity-widget";
 /*--Constants--*/
-//import PlantSizeConstants from "../constants/PlantSizes";
+
 /*--Components--*/
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-//import PlantTableCell from "../components/plantTableCell";
 import PlantTableRow from "../components/plantTableRow";
 import PlantTableHeader from "../components/plantTableHeader";
 import PlantFilters from "../components/plantFilters";
@@ -35,17 +34,15 @@ export const query = graphql`
   }
   `
 
-const plantsFilteredByGenus = ({ data, pageContext={} }) => {
+const PlantsFilteredByGenus = ({ data, pageContext={} }) => {
   //const nowDate = new Date();
+  const identity = useIdentityContext();
+  const roles = (identity && identity?.user?.app_metadata?.roles);
+  const isWholesaleCustomer = roles?.includes('nursery');//used to restrict "trades people" and others from seeing the wholesale prices
+  //const isTradesCustomer = roles?.includes('trades');
+  //const hasNoRoll = !roles?.length;
+  //const isLoggedIn = identity && identity.isLoggedIn;
   const {genus_name:genusName} = pageContext;
-  //const excludedSizeKeys = ['plug','three_in','eight_in','twenty_ga'];//decided not to display these.
-
-  // const getTitle = (size, availability) => {
-  //   if(size && availability) {
-  //     return availability[size] && `Available ${availability[size]}`;
-  //   }
-  //   return null;
-  // }
 
   return (
     <Layout pageName="plant-listing">
@@ -62,7 +59,7 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
 
       <PlantFilters genusName={genusName} />
       <table className="availability-grid">
-        <PlantTableHeader showThumbnail={true}/>
+        <PlantTableHeader showThumbnail={true} isWholesaleCustomer={isWholesaleCustomer} />
         <tbody className="available">
         {pageContext.edges && pageContext.edges.map((edge, idx) => {
           const plant = edge.node
@@ -70,7 +67,7 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
           const thumbnail = data.plantHeroes && data.plantHeroes.edges.find(thumbnail => thumbnail.node.childImageSharp.fixed.src.includes(plant.slug))
 
           return (
-            <PlantTableRow key={`${plant.slug}-${idx}`} plant={plant} thumbnail={thumbnail} />
+            <PlantTableRow key={`${plant.slug}-${idx}`} plant={plant} thumbnail={thumbnail} isWholesaleCustomer={isWholesaleCustomer} />
           )
         })}
         </tbody>
@@ -79,4 +76,4 @@ const plantsFilteredByGenus = ({ data, pageContext={} }) => {
   )
 }
 
-export default plantsFilteredByGenus
+export default PlantsFilteredByGenus
