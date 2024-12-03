@@ -6,8 +6,14 @@ import PlantSizeConstants from "../constants/PlantSizes";
 
 const excludedSizeKeys = ['plug','three_in','eight_in'];//decided not to display these.
 
-const PlantTableRow = ({plant, thumbnail}) => {
-const {stock, upc} = plant;
+const PlantTableRow = (
+  {
+    plant,
+    thumbnail,
+    isWholesaleCustomer=false
+  }
+) => {
+const {price, stock, upc} = plant;
 
   return (
     <>
@@ -28,6 +34,9 @@ const {stock, upc} = plant;
             <td><Link to={`/${plant.slug}`}>{`${plant.title} ${PlantSizeConstants[size]}`}</Link></td>
             <td>{upc && upc[size]}</td>
             <td>{stock && stock[size]}</td>
+            {isWholesaleCustomer && price && price[size] &&
+              <td>{`$${price[size].toFixed(2)}`}</td>
+            }
           </tr>
         )
       } else {
