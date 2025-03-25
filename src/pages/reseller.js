@@ -114,8 +114,11 @@ const ResllerPage = ({data}) => {
           <Link to="/delivery" >Delivery and Pickup Information</Link>
         </p>
 
-            <h2>Order</h2>
-            <p>List the plants, their sizes and quanties in the order and we will send an invoice for you to verify.</p>
+            <h2>Order Options</h2>
+            <h3>Text:</h3>
+            <p>Send your order of plants, sizes and quanties to 650-218-4172 and we will confirm via text.</p>
+            <h3>Form:</h3>
+            <p>Use the form to list the plants, their sizes and quanties in the order and we will send an invoice for you to verify.</p>
             <form
                 onSubmit={(e) => handleSubmit(e)}
                 name="order"
@@ -159,7 +162,7 @@ const ResllerPage = ({data}) => {
                   submit
                 </Button>
             </form>
-            
+
         {hasNoRoll &&
           (
             <p>
