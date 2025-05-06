@@ -688,7 +688,7 @@
     "overview": "A new agave from Rancho Tissue Technologies cultured after being chosen from thousands seedlings. Impressive imprints appear on the back of each leaf.&nbsp; Each leaf has multicolor tips. Truly a showstopper. Mid-sized, Fast grower.",
     "price": {"four_in":4.5},
     "availability": {"four_in":"09/15/2024"},
-    "stock": {"four_in"48},
+    "stock": {"four_in":48},
     "genus": "agave",
     "upc": {"four_in":"810181310580"}
   },
@@ -974,7 +974,7 @@
     "overview": "A clumping succulent native to the mountains of Yemen and Saudi Arabia, renowned for its adaptability to arid climates and striking aesthetic qualities. It forms 2-foot-wide rosettes with thick, arching blue-green leaves that develop vibrant red and purple hues under sun exposure and drought stress. Mature clumps can grow up to 6 feet wide and 3 feet tall. Hardy to 20–25°F, it endures light frosts, though blooms are more sensitive.",
     "price": {"four_in":4.5},
     "availability": {"four_in":"12/15/2024"},
-    "stock": {"four_in"56},
+    "stock": {"four_in":56},
     "genus": "aloe",
     "upc": {"four_in":"810181311990"}
   },
@@ -1271,7 +1271,7 @@
     "overview": "A columnar cactus which with time forms a thick candelabrum-like structure, tall and broad up to 15ft. Native to central and southern Mexico, this plant will prosper in temperate, Mediterranean-like climates. Delicate, creamy white flowers attract pollinators and eventually yield blueberry-type of fruit called bilberry, that is edible.",
     "price": {"one_ga":16,"two_ga":24},
     "availability": {"one_ga": "04/15/2023","two_ga": "04/15/2023"},
-    "stock": {"one_ga"4,"two_ga":2},
+    "stock": {"one_ga":4,"two_ga":2},
     "genus": "myrtillocactus",
     "upc": {"one_ga":"810181312836","two_ga":"810181312843"}
   },
