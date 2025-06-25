@@ -575,7 +575,7 @@
     "resource_link": "http://www.gardenaloes.com/aloe-thraskii",
     "price": {"two_in":1.50,"four_in":4.00,"one_ga":8,"two_ga":14,"three_ga":19.75,"five_ga":25,"seven_ga":48,"fifteen_ga":74},
     "availability": {"two_in":"3/15/2024", "one_ga": "10/15/2023","two_ga": "03/15/2023","five_ga": "10/15/2023","seven_ga":"10/15/2023","fifteen_ga":"sold_out"},
-    "stock": {"two_in":0,"four_in":96, "one_ga":0,"two_ga"0,"three_ga":10,"five_ga":34,"seven_ga":0,"fifteen_ga":0},
+    "stock": {"two_in":0,"four_in":96, "one_ga":0,"two_ga":0,"three_ga":10,"five_ga":34,"seven_ga":0,"fifteen_ga":0},
     "genus": "aloe",
     "upc": {"four_in":"810181312225","one_ga":"810181312232","two_ga":"810181312249","five_ga": "810181312256","seven_ga":"810181312263","fifteen_ga":"810181312270"}
   },
